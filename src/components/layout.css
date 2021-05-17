@@ -595,3 +595,448 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+.tl-wrapper main{
+  transition: all .5s;
+  opacity: 0;
+  transform: translateY(0px);
+}
+
+.tl-wrapper-status--entered main{
+  transition: all .5s;
+  opacity: 1;
+  transition-delay: .2s;
+
+}
+
+.tl-wrapper main .delay-1{
+  transition-delay: 1s;
+  transform: translateY(500px);
+  transition: all .5s;
+}
+
+.tl-wrapper-status--entered main .delay-1{
+
+  transform: translateY(0px);
+  transition: all .5s;
+  transition-delay: 1s;
+}
+
+.rounded img{
+  border-radius: 50px;
+}
+
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.herotitle{
+  color: #2f2f2f;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  font-family: "UntitledSans-Regular";
+  font-weight: normal;
+  font-size: 140px;
+  text-align: center;
+}
+
+
+
+.ht1{
+  display: block;
+  font-family: "General-Grotesque", sans-serif;
+  font-weight: normal;
+  font-size: 130px;
+}
+
+.ht2{
+  display: block;
+  font-family: "Cambon", serif;
+  font-weight: normal;
+  font-size: 140px;
+}
+
+.header-1{
+  font-size: 8.5rem;
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  letter-spacing: -0.4rem;
+  float: left;
+}
+
+.header-2{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: -0.02rem;
+  float: left;
+}
+
+.header-2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-2.black {
+  color: #000;
+}
+
+.header-2.black a{
+  color: #000;
+  text-decoration: none;
+}
+.header-3{
+  font-family: "Cambon", serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: .9em;
+}
+
+.body{
+  font-family: "General-Grotesque", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+}
+
+.top-button-wrapper{
+  position: fixed;
+  top: 35px;
+  right: 30px;
+  width: 215px;
+  height: 80px;
+  z-index: 10;
+}
+
+.primary-button{
+  width: 214px;
+  height: 64px;
+  left: 1185px;
+  top: 72px;
+  background: #FFFEE3;
+  border-radius: 32px;
+  border: 0px;
+}
+
+
+.primary-button a{
+  font-family: "General-Grotesque", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+  color: black;
+  text-decoration: none;
+}
+
+.logo{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  float: left;
+  line-height: 1.1em;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0em;
+  float: left;
+  line-height: 1.1em;
+}
+
+.nav ul{
+  list-style: none;
+  margin-left: 0;
+}
+
+.arrow{
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  display: inline-block;
+  float: left;
+  margin-left: 1em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.body{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: black;
+  max-width: 470px;
+  letter-spacing: -0.01em;
+}
+
+p.body{
+  margin-bottom: .5rem;
+}
+
+.arrow-hover-wrapper:hover .arrow{
+  transform: rotate(90deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.text-indent{
+  text-indent: 50px;
+}
+
+.project-info{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.project-info ul{
+  list-style: none;
+  margin: 0em;
+}
+
+.nav ul li{
+  margin-bottom: 0.02em;
+}
+
+.nav a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.menu-button{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 2.2rem;
+  letter-spacing:-0.05em;
+  float: right;
+}
+
+
+.header{
+  padding: 1rem 0rem 0rem;
+  height: 54px;
+  background: white;
+}
+
+
+.intro{
+  font-family: "NoiGrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.nav-bar-wrapper ul{
+list-style: none;
+text-align: right;
+}
+
+.nav-bar-wrapper li{
+  display: inline-block;
+  margin: 0rem .5rem;
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  }
+
+  .nav-bar-wrapper li a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .project-link{
+    display: inline-block;
+    font-family: "General-Grotesque", sans-serif;
+    font-weight: normal;
+    font-size: .9rem;
+  }
+
+  .project-title-wrapper{
+    position: absolute;
+    top: 1em;
+    left: 2em;
+  }
+
+
+  .burger{
+    position: fixed;
+    top: 2em;
+  }
+
+  .menu{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 20em;
+    left: 0;
+  }
+
+  nav ul{
+    list-style: none;
+    margin-top: 0rem;
+    margin-left: 0;
+  }
+
+  nav ul li{
+    display: block;
+    margin-bottom: 1rem;
+    float: left;
+    clear: both;
+  }
+
+  .pb2{
+    padding-bottom: 2em;
+  }
+
+  .pb1{
+    padding-bottom: 1em;
+  }
+
+  .pt5{
+    padding-top: 5em;
+  }
+
+  .big{
+    font-size: 10rem;
+    letter-spacing: -0.05em;
+  }
+
+.hover-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.hover-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 3px;
+    height: 1px;
+    background: #000;
+    transition: width .3s;
+}
+
+.hover-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.arrow-hover-wrapper:hover{
+  cursor: pointer;
+}
+
+.arrow-hover-wrapper:hover .hover-link::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.project-into{
+  position: absolute;
+  bottom: 3rem;
+  display: inline-block;
+  margin: 0rem;
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: .8rem;
+  letter-spacing: 0em;
+  left: 15px;
+  color: black;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.big-link{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 8rem;
+  color: black;
+  line-height: 1.1em;
+  text-decoration: none;
+  text-align: left;
+  float: left;
+}
+
+.project-into li{
+  margin-bottom: 0rem;
+}
+
+.project-into ul{
+  list-style: none;
+  margin: 0em;
+
+}
+
+footer{
+  border-top: 1px solid black;
+
+}
+
+footer .body{
+  color: black;
+}
+
+.white{
+  color: black;
+}
+
+
+.header-3{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+footer ul{
+  color: black;
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0em;
+  list-style: none;
+  margin: 2rem 0em 0 0;
+}
+
+footer ul li a{
+  color: black;
+  text-decoration: none;
+}  
+
+  /* .cursor {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fefefe;
+    border-radius: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+  }
+  
+  html, body {
+    cursor: none;
+    background-color: #121212;
+  } */
+

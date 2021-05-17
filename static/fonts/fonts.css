@@ -1,0 +1,41 @@
+
+
+  @font-face {
+    font-family: "UntitledSans-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url("UntitledSans-Regular.woff") format("woff");
+  }
+
+
+  @font-face {
+    font-family: "UntitledSans-Light";
+    font-weight: normal;
+    font-style: normal;
+    src: url("UntitledSans-Light.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Financier-Light";
+    font-weight: normal;
+    font-style: normal;
+    src: url("FinancierDisplay-Light.woff") format("woff");
+  }
+
+  /* @font-face {
+    font-family: 'Cambon';
+    src: url('Cambon-Light.woff2') format('woff2'),
+        url('Cambon-Light.woff') format('woff');
+        font-weight: normal;
+    font-style: normal;
+
+} */
+
+@font-face {
+  font-family: 'NoiGrotesk';
+  src: url('NoiGrotesk-Regular.woff2') format('woff2'),
+      url('NoiGrotesk-Regular.woff') format('woff');
+      font-weight: normal;
+  font-style: normal;
+
+}

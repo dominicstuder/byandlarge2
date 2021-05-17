@@ -1,7 +1,11 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+// exports.shouldUpdateScroll = () => {
+//     return false;
+//   };
 
-// You can delete this file if you're not using it
+// const transitionDelay = 250
+
+// exports.shouldUpdateScroll = () => false
+
+// exports.onRouteUpdate = () =>
+//   window.setTimeout(() => window.scrollTo(0, 0), transitionDelay)
+
