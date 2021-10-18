@@ -90,7 +90,7 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-document.getElementById("root")
+// document.getElementById("root")
 
 export default Layout
 
