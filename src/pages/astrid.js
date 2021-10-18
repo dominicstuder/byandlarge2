@@ -12,9 +12,9 @@ import A1 from "../components/a1-img"
 import A2 from "../components/a2-img"
 import A3 from "../components/a3-img"
 import A4 from "../components/a4-img"
-import Image4 from "../components/image4"
-import Image6 from "../components/image6"
-
+import A5 from "../components/a5-img"
+import A6 from "../components/a6-img"
+import A7 from "../components/a7-img"
 
 const Astrid = () => (
   <Layout>
@@ -24,54 +24,51 @@ const Astrid = () => (
             position: 'relative',
             marginTop: '10rem',
         }} >
-          <Col sm={12}>
-          <h2 className="header-1 black text-center">Astrid Dispensary</h2>
-          </Col>
-          
-          <Col sm={12} className="delay-1 pb1" style={{
-              position: 'relative',
-              marginTop: '10rem',
-          }}>
-              <A1></A1>
-          </Col> 
           <Col sm={6}>
-            <div className="project-info">
-              <p className="body text-">Scope</p>
-              <p className="body">
+          <h2 className="header-1 black copy-delay-1">Astrid</h2>
+          </Col>
+          <Col sm={2}>
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">Scope</p>
+              <p className="scope-list">
                 <ul>
                   <li>Strategy</li>
                   <li>Brand Identity</li>
-                  <li>Graphic Design</li>
+                  <li>Campaign Design</li>
                   <li>Digital Design</li>
-                  <li>Developmemnt</li>
+                  <li>Website Development</li>
                 </ul>
               </p>
             </div>
-            <div className="project-info">
-              <p className="body text-">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-              <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </Col> 
+          <Col sm={2}>
+            <div className="project-info copy-delay-3">
+              <p className="body small-title">Year</p>
+              <p className="scope-list">
+                <ul>
+                  <li>2021</li>
+                </ul>
+              </p>
             </div>
           </Col> 
-          <Col sm={6} className="pb1">
-            <A2></A2>
-          </Col> 
-          {/* <Col sm={6} className="pb1">
-            <div className="project-info">
-              <p className="body text-">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-              <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </Col>  */}
+          <Col sm={12} className="delay-3" style={{
+              position: 'relative',
+              marginTop: '10rem',
+              marginBottom: '1rem',
+          }}>
+            <BGIMG></BGIMG>
+            </Col>
           <Col sm={12} className="pb1">
               <A3></A3>
           </Col> 
           <Col sm={12} className="pb1">
-          <A4></A4>
+              <A4></A4>
           </Col> 
           <Col sm={12} className="pb1">
-              <Image6></Image6>
+            <A5></A5>
           </Col> 
-          <Col sm={6} className="pb1">
-              <Image4></Image4>
+          <Col sm={12} className="pb1">
+          <A6></A6>
           </Col> 
       </Row>
    </Container>

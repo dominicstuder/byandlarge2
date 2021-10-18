@@ -30,123 +30,56 @@ const Layout = ({ children }) => {
   return (
     <>
     <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> 
-  
-    
+    <span class="circle"></span>
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 2000,
+          maxWidth: 5000,
           padding: `0rem`,
         }}
       >
   
         <main>{children}</main>
-
         <footer style={{
           marginTop: `10rem`,
           paddingTop: '4rem',
-          paddingBottom: '4rem',
+          paddingBottom: '2rem',
         }}>
         <Container fluid >
           <Row justify="start" style={{
             position: 'relative',
           }}>
-            <Col sm={3}><div style={{
-           color: 'white',
-          }}className="header-3">Index</div>
-              <ul>
-                <li>
-                By and Large Studio</li>
-              </ul>
-            </Col>
+        <Col sm={4}><div style={{
+         
+            }}className=" uppercase">
+
+                  By and Large Studio
+                  </div>
+              </Col>
+              <Col sm={2}><div style={{
+         
+        }}className=" uppercase">
+
+              2021
+              </div>
+          </Col>
+          <Col sm={2}><div style={{
+         
+        }}className=" uppercase">
+
+              IG
+              </div>
+          </Col>
           <Col sm={3}><div style={{
-           color: 'white',
-          }}className="header-3">Index</div>
-              <ul>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
+         
+        }}className=" uppercase">
 
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >About</TransitionLink></li>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >Work</TransitionLink></li>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >Information</TransitionLink></li>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >Work</TransitionLink></li>
-              </ul>
-            </Col>
-            <Col sm={3}><div style={{
-           color: 'white',
-          }}className="header-3">Contact</div>
-              <ul>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >email@byandlarge.studio</TransitionLink></li>
-                <li>0410 819 455</li>
-              </ul>
-            </Col>
-            <Col sm={3}><div style={{
-           color: 'white',
-          }}className="header-3">Social</div>
-              <ul>
-                <li><TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >Instagram</TransitionLink></li>
-                
-              </ul>
-            </Col>
-            </Row>
+              Contact
+              </div>
+          </Col>
+          </Row>
         </Container>
+
         </footer>
       </div>
     </>

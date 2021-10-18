@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         custom:{
-          families: ["FinancierDisplay-Light", "UntitledSans-Regular", "UntitledSans-Light"],
+          families: ["UntitledSans-Regular", "UntitledSans-Light"],
           urls: ["/fonts/fonts.css"],
         },
       },

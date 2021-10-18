@@ -9,7 +9,7 @@ const BackgroundSection = ({ className }) => (
       query {
         desktop: file(relativePath: { eq: "i1.jpg" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920) {
+            fluid(quality: 90, maxWidth: 2500) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -34,7 +34,7 @@ const BackgroundSection = ({ className }) => (
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
-  background-position: bottom center;
+  background-position: center center;
   background-repeat: repeat-y;
   background-size: cover;
   height: 100vh;

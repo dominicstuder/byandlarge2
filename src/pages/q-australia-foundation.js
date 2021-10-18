@@ -38,13 +38,13 @@ const QAus = () => (
             <div className="project-info">
               <p className="body text-">Scope</p>
               <p className="body">
-                <ul>
+                {/* <ul>
                   <li>Strategy</li>
                   <li>Brand Identity</li>
                   <li>Graphic Design</li>
                   <li>Digital Design</li>
                   <li>Developmemnt</li>
-                </ul>
+                </ul> */}
               </p>
             </div>
             <div className="project-info">

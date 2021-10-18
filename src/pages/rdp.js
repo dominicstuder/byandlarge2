@@ -18,7 +18,7 @@ const Rdp = () => (
             position: 'relative',
             marginTop: '10rem',
         }} >
-                    <Col sm={10}>
+        <Col sm={8}>
           <h2 className="header-1 black">RDP</h2>
           </Col>
           <Col sm={2}>

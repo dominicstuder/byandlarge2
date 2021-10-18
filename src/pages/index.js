@@ -1,571 +1,126 @@
-import React, { useState} from "react"
+import React, { useState, useEffect} from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Waypoint } from 'react-waypoint';
 import BGIMG from "../components/backgroundimage1"
 import BGIMG2 from "../components/backgroundimage2"
 import BGIMG3 from "../components/backgroundimage3"
 import BGIMG4 from "../components/backgroundimage4"
 import BGIMG5 from "../components/backgroundimage5"
 import BGIMG6 from "../components/backgroundimage6"
+import BGIMG7 from "../components/backgroundimage7"
 // import IMG4 from "../components/image4"
 // import IMG5 from "../components/image5"
 // import IMG6 from "../components/image6"
-// import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 import { Container, Row, Col } from 'react-grid-system';
-import Arrow from "../assets/arrow.svg";
+import Arrow from "../assets/arrow-small.svg";
 // import ArrowWhite from "../assets/arrowwhite.svg";
 // import styled from 'styled-components';
 import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 // import posed from 'react-pose';
-
-
-
-
-
+import clip from '../assets/video-test-4.mp4'; 
+// import Poster from '../assets/bg.png';  
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
   return (
     <Layout style={{
-      backgroundColor: '#FBF5EB',
+      backgroundColor: '#F2E4CC',
     }}>
       <SEO title="Home" />
-      {/* <BGIMG3></BGIMG3> */}
       <Container fluid>
-      <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10em',
-        }}>
-          <Col sm={6}> <h2 className="header-2 black">An independant design studio, focusing on branding, design and digital, by and large.</h2>
-          </Col>
-        </Row>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '20em',
-        }}>
-          <Col sm={12}> <h2 className="header-2 black big">Recent Projects</h2>
-          </Col>
-        </Row>
+        <Row justify="between" style={{
+            position: 'relative',
+          }}>
+            <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
+            position: 'relative',
+            marginTop: '3em',
+          }}> <h2 
+          className="intro-copy delay-1">A brand, design and development studio</h2>
+            </Col>
+          </Row>
       </Container>
-      <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-      
-        className="arrow-hover-wrapper"
-          >
-          <Col sm={8}>
-          <TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-            <BGIMG></BGIMG>
-            </TransitionLink>
+      <Container fluid style={{
+            position: 'relative',
+            marginTop: '0em',
+          }} className="section-2">
+      <Row justify="between" style={{
+            position: 'relative',
+            height: '80vh'
+          }}>
+            <Col sm={4} md={4} lg={4} xl={4} xxl={4} style={{
+            position: 'relative',
+            marginTop: '5em',
+          }}  className="delay-2">
+            <p className="body-copy">We focus on working with clients who are purpose driven and socially aware. We help clients to bring their ideas to life and support them in supporting others. </p>
+            <div className="primary-button"><AniLink
+                    cover  to="/work" bg="linear-gradient(to right, white, #F8D271)"
+                    direction="left"
+                    duration={1.5}
+                  ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
           </Col>
-          <Col sm={4}>
-            
-              <h2 className="header-2 black hover-link">
-              <TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-                Astrid Dispensary</TransitionLink></h2>
-              <Arrow className="arrow"></Arrow>
-              <div className="project-into">
-                  <ul>
-                    <li>Brand Identity</li>
-                    <li>Collateral Design</li>
-                    <li>Website Design</li>
-                  </ul>
-              </div>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-      
-        className="arrow-hover-wrapper"
-          >
-          <Col sm={8}>
-          <TransitionLink
-                  to="/q-australia-foundation"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-            <BGIMG5></BGIMG5>
-            </TransitionLink>
-          </Col>
-          <Col sm={4}>
-            
-              <h2 className="header-2 black hover-link">
-              <TransitionLink
-                  to="/q-australia-foundation"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-                Q Australia Foundation</TransitionLink></h2>
-              <Arrow className="arrow"></Arrow>
-              <div className="project-into">
-                  <ul>
-                    <li>Website Design</li>
-                    <li>Website Development</li>
-                  </ul>
-              </div>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-      
-        className="arrow-hover-wrapper"
-          >
-          <Col sm={8}>
-          <TransitionLink
-                  to="/drive-change"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-            <BGIMG6></BGIMG6>
-            </TransitionLink>
-          </Col>
-          <Col sm={4}>
-            
-              <h2 className="header-2 black hover-link">
-              <TransitionLink
-                  to="/drive-change"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-                Drive Change</TransitionLink></h2>
-              <Arrow className="arrow"></Arrow>
-              <div className="project-into">
-                  <ul>
-                    <li>Campaign Design</li>
-                    <li>Website Design</li>
-                    <li>Website Development</li>
-                  </ul>
-              </div>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-      
-        className="arrow-hover-wrapper"
-          // data-sal-duration="500"
-          // data-sal="slide-up"
-          // data-sal-delay="200"
-          // data-sal-easing="ease-in"
-          >
-          <Col sm={8}>
-          <TransitionLink
-                  to="/rdp"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-            <BGIMG4></BGIMG4>
-            </TransitionLink>
-          </Col>
-          <Col sm={4}>
-            
-              <h2 className="header-2 black hover-link">
-              <TransitionLink
-                  to="/rdp"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-                RDP</TransitionLink></h2>
-              <Arrow className="arrow"></Arrow>
-              <div className="project-into">
-                  <ul>
-                    <li>Brand Identity</li>
-                    <li>Collateral Design</li>
-                    <li>Website Design</li>
-                  </ul>
-              </div>
-          </Col>
-        </Row>
-      </Container>
+          <Col sm={8} md={8} lg={8} xl={8} xxl={8} style={{
+            position: 'relative',
+            marginTop: '5em',
+          }}>
      
-      <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-      
-        className="arrow-hover-wrapper"
-          // data-sal-duration="500"
-          // data-sal="slide-up"
-          // data-sal-delay="200"
-          // data-sal-easing="ease-in"
-          >
-          <Col sm={8}>
-          <TransitionLink
-                  to="/musk"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-            <BGIMG3></BGIMG3>
-            </TransitionLink>
+          <div className="video-wrapper delay-3" style={{
+                    marginTop: '0em',
+                  }}>
+              <video autoPlay loop muted className="background-video">
+                      <source src={clip} type='video/mp4' />
+              </video>
+            </div>
+    
           </Col>
-          <Col sm={4}>
-            
-              <h2 className="header-2 black hover-link">
-              <TransitionLink
-                  to="/musk"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                >
-                Musk</TransitionLink></h2>
-              <Arrow className="arrow"></Arrow>
-              <div className="project-into">
-                  <ul>
-                    <li>Brand Identity</li>
-                    <li>Collateral Design</li>
-                    <li>Website Design</li>
-                  </ul>
-              </div>
-          </Col>
-        </Row>
+      </Row>
       </Container>
-     
-        {/* <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-     >
-        <Col sm={4}>
-            <div className="arrow-hover-wrapper">
-              <h2 className="header-2 black">
-              <TransitionLink
-                  to="/astrid"
-                  exit={{
-                    length: 2
-                  }}
-                  entry={{
-                    length: 2
-                  }}
-                >
-                  Astrid Dispensary</TransitionLink>
-              </h2>
-              <Arrow className="arrow"></Arrow>
+      <Container fluid style={{
+            position: 'relative',
+            marginTop: '15em',
+          }}>
+      <Row justify="between" style={{
+            position: 'relative',
+          }}>
+            <Col sm={12} md={8} lg={8} xl={8} xxl={8} style={{
+            position: 'relative'
+          }}>
+            <div className="very-big-title">
+              Read more
             </div>
+            <div className="very-big-link">
+            <TransitionLink
+                    to="/work"
+                    exit={{
+                      length: 1,
 
-          </Col>
-          </Row> */}
-          {/* <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-     ><Col sm={4}>
-     <div className="arrow-hover-wrapper pt5">
-       
-       <TransitionLink
-           to="/astrid"
-           exit={{
-             length: 2
-           }}
-           entry={{
-             length: 2
-           }}
-         >
-          <h2 className="header-2 black">Astrid Dispensary</h2> </TransitionLink>
-
-       <Arrow className="arrow"></Arrow>
-     </div>
-
-   </Col>
-          <Col sm={5} data-sal-duration="300"
-          data-sal="slide-up"
-          data-sal-delay="0"
-          data-sal-easing="ease-in" className="rounded">
-            <IMG6></IMG6>
-          </Col>
-        </Row>
-        <Row justify="end" style={{
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          width: '100%',
-        }}>
-          <Col sm={4} className="rounded" style={{
-                 marginTop: '10rem',
-                }}data-sal-duration="300"
-                data-sal="slide-left"
-                data-sal-delay="200"
-                data-sal-easing="ease-in">
-            <IMG4></IMG4>
-          </Col>
-   
-        </Row>
-        <Row justify="start" style={{
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          width: '100%',
-        }}>
-          <Col sm={2}></Col>
-          <Col sm={3} className="rounded" style={{
-                 marginTop: '15rem',
-                }}
-                data-sal-duration="500"
-          data-sal="slide-right"
-          data-sal-delay="200"
-          data-sal-easing="ease-in">
-            <IMG5></IMG5>
-          </Col>
-          <Col sm={1}>
-            </Col>
-        </Row> */}
-
-          {/* <Col sm={3}>
-            <IMG5></IMG5>
-          </Col> */}
-
-          {/* <Col sm={3}
-          > <h2 className="header-2 black"><AniLink fade to="/musk/">Musk</AniLink></h2>
-          </Col>
-          <Col sm={1}>
-            <Arrow className="arrow"></Arrow>
-          </Col> */}
-
-
-      {/* <Container fluid>
-        <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}>
-          <Col sm={3}><h2 className="header-2 black"><AniLink fade to="/astrid/">Astrid Dispensary</AniLink></h2>
-          </Col>
-          <Col sm={6}
-            data-sal="slide-up"
-            data-sal-delay="0"
-            data-sal-easing="ease"
-          >
-
-            <BGIMG></BGIMG>
-
-          </Col>
-          <Col sm={1}>
-            <Arrow className="arrow"></Arrow>
-          </Col>
-
-        </Row>
-      </Container> */}
-
-      {/* <Container fluid>
-        <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-          data-sal-duration="500"
-          data-sal="slide-up"
-          data-sal-delay="200"
-            data-sal-easing="ease-in">
-              <div style={{
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          width: '100%',
-          zIndex: '1',
-        }}>
-           <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '1rem',
-        }}>
-
-
-
-            <Col sm={8 
-            }
-            data-sal-duration="200"
-            data-sal="slide-up"
-            data-sal-delay="1000"
-              data-sal-easing="ease-in"
-            >
-            
-              <div className="arrow-hover-wrapper">
-                <h2 className="header-2"><AniLink fade to="/astrid/">Astrid</AniLink></h2>
-                <ArrowWhite className="arrow"></ArrowWhite>
+                    }}
+                    entry={{
+                      length: 1,
+                      appearAfter: 1,
+                    }}
+                  >Studio</TransitionLink>
               </div>
-            </Col>
-            </Row>
-            </div>
-          <Col sm={12}
+              <div className="very-big-link">
+            <TransitionLink
+                    to="/work"
+                    exit={{
+                      length: 1,
 
-          >
-            <BGIMG></BGIMG2>
-          </Col>
-          
-        </Row>
-      </Container> */}
-
-      {/* <Container fluid>
-        <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}
-          data-sal-duration="500"
-          data-sal="slide-up"
-          data-sal-delay="200"
-            data-sal-easing="ease-in">
-              <div style={{
-          position: 'absolute',
-          top: '0',
-          left: '0',
-          width: '100%',
-          zIndex: '1',
-        }}>
-           <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '1rem',
-        }}>
-
-
-
-            <Col sm={8 
-            }
-            data-sal-duration="200"
-            data-sal="slide-up"
-            data-sal-delay="1000"
-              data-sal-easing="ease-in"
-            >
-            
-              <div className="arrow-hover-wrapper">
-                <h2 className="header-2"><AniLink fade to="/astrid/">Musk</AniLink></h2>
-                <ArrowWhite className="arrow"></ArrowWhite>
+                    }}
+                    entry={{
+                      length: 1,
+                      appearAfter: 1,
+                    }}
+                  >Work</TransitionLink>
               </div>
-            </Col>
-            </Row>
-            </div>
-          <Col sm={12}
-
-          >
-            <BGIMG2></BGIMG2>
-          </Col>
-          
-        </Row>
-      </Container> */}
-        <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}>
-          <Col sm={12} >
-            
-          <TransitionLink
-                  to="/work"
-                  exit={{
-                    length: 2,
-
-                  }}
-                  entry={{
-                    length: 1,
-                    appearAfter: 1,
-                  }}
-                  className="big-link hover-link"
-                >
-                View all projects <Arrow className="arrow"></Arrow></TransitionLink>
-             
-          </Col>
-
-        </Row>
-        </Container>
-      <Container fluid>
-        <Row justify="center" style={{
-          position: 'relative',
-          marginTop: '10rem',
-        }}>
-          <Col sm={4}><h2 className="header-2 black">Approach</h2>
-          <p className="body" style={{
-          float: 'left',
-        }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
-          </Col>
-          <Col sm={4}><h2 className="header-2 black">Approach</h2>
-          <p className="body" style={{
-          float: 'left',
-        }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
-          </Col>
-          <Col sm={4}><h2 className="header-2 black">Approach</h2>
-          <p className="body" style={{
-          float: 'left',
-        }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
           </Col>
           </Row>
         </Container>
+  
     </Layout>
   )
 }
