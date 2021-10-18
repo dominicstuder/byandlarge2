@@ -74,80 +74,20 @@ const Header = ({ siteTitle }) => {
   return (
   // <header className="header">
   <header className={scroll ? "header bg-black" : "header bg-none"}>
-     {/* <SettingsIcon /> */}
-          {/* <StyledMenu open={open} setOpen={setOpen}>
-              <div style={{
-                  position: 'relative',
-                  width: '100%',
-                  height: '100%',
-                }}>
-                   <Container fluid>
-                    <Row justify="start">
-                    <Col  sm={6} 
-                            className="body fadein"              
-                            data-sal-duration="200"
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-easing="ease-in"
-                            once= "false"
-                          >
-                        <Col  sm={10} >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                        </Col>
-                    </Col>
-                      <Col  sm={3} >
-                        <ul>
-                        <li   
-                            className="body fadein"              
-                            data-sal-duration="200"
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-easing="ease-in"
-                            open={open} onClick={() => setOpen(!open)}
-                            >Close
-                            
-                        </li>
-                          <li   
-                            className="body fadein"              
-                            data-sal-duration="200"
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-easing="ease-in"><AniLink fade to="/contact">About</AniLink>
-                            
-                        </li>
-                        <li   
-                            className="body fadein"              
-                            data-sal-duration="200"
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-easing="ease-in"><AniLink fade to="/work">Work</AniLink>
-                        </li>
-                        <li   
-                            className="body fadein"              
-                            data-sal-duration="200"
-                            data-sal="slide-up"
-                            data-sal-delay="300"
-                            data-sal-easing="ease-in"><AniLink fade to="/contact">Info</AniLink>
-                        </li>
-                        </ul>
-                        </Col>
-                        </Row>
-                      </Container>
-                </div>
-          </StyledMenu> */}
-
       <Container fluid>
       <Row>
-        <Col  sm={6} ><div className="logo delay-1"><AniLink
-                    cover  to="/" bg="linear-gradient(to right, white, white)"
-                    direction="right"
-                    duration={1.5}
-                  >By and Large Studio</AniLink></div></Col>
-      
-       {/* <Col  sm={3} ><div className="menu-button">
-            <Burger open={open} onClick={() => setOpen(!open)}>Menu</Burger>
-          </div></Col> */}
-          <Col  sm={6} >
+        <Col xs={12} sm={12} md={6} >
+            <div className="logo delay-1">
+              <AniLink
+                  cover  to="/" bg="linear-gradient(to right, white, white)"
+                  direction="right"
+                  duration={1.5}
+                >By and Large Studio
+              </AniLink>
+            </div>
+        </Col>
+
+          <Col xs={12} sm={12} md={6}>
             {/* <div className="contact"><button className="material-bubble"><AniLink fade to="/contact" >Contact</AniLink></button></div> */}
             <nav className="menu delay-2">
               <div className="menu-item"><AniLink
