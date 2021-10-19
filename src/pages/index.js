@@ -44,27 +44,30 @@ const IndexPage = () => {
           </Row>
       </Container>
       <Container fluid style={{
-            position: 'relative',
-            marginTop: '0em',
-          }} className="section-2">
+            position: 'relative'
+          }} className="section-2 mt15 sm-mt-0">
             <Row justify="between" style={{
                   position: 'relative',
                 }} className="video-section">
-                  <Col sm={12} md={4} lg={4} xl={4} xxl={4} style={{
+                  <Col  md={4} lg={4} xl={4} xxl={4}  style={{
                   position: 'relative'
-                }}  className="delay-2 sm-mt-2">
-                  <p className="body-copy">We focus on working with clients who are purpose driven and socially aware. We help clients to bring their ideas to life and support them in supporting others. </p>
+                }}  className="delay-2 sm-mt-2 copy-block">
+                  <p className="body-copy">We work with clients who are purpose driven and socially focused.
+                      We use strategic thinking and design to create well crafted and thought out solutions. 
+                      We work within brand identity, design and development to build full suite solutions for our clients.
+                      </p>
                   <div className="primary-button"><AniLink
                           cover  to="/work" bg="linear-gradient(to right, white, #F8D271)"
                           direction="left"
                           duration={1.5}
                         ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
                 </Col>
-                <Col sm={12} md={8} lg={8} xl={8} xxl={8} style={{
+                <Col md={8} lg={8} xl={8} xxl={8}  style={{
                   position: 'relative'
                 }}
                 className="sm-mt-0 mt-5">
           
+        
                 <div className="video-wrapper delay-3" style={{
                           marginTop: '0em',
                         }}>
