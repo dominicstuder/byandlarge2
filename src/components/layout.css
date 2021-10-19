@@ -731,13 +731,6 @@ pre tt:after {
   margin-right: 1em !important;
 }
 
-.sm-mt-2{
-  margin-top: 2em !important;
-}
-
-.sm-mt-0{
-  margin-top: 0em !important;
-}
 
 
 
@@ -900,7 +893,7 @@ header{
 .intro-copy{
   font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
-  font-size: 7rem;
+  font-size: 10rem;
   line-height: 1.2em;
   color: #1E1E1E;;
   letter-spacing: -0.1rem;
@@ -1130,6 +1123,7 @@ body.preloader_active .logo{
   float: right;
   width: 75%;
   text-align: right;
+  margin-top: 5px;
 }
 
 .menu-item {
@@ -1141,7 +1135,27 @@ body.preloader_active .logo{
   color: #1E1E1E;;
   text-decoration: none;
   font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
-  font-size: .8rem;
+  font-size: 1.2rem;
+  padding: .5em 1em;
+  border: 1px solid black;
+  border-radius: 50px;
+  transition: .2s all ease-in-out ;
+}
+
+.menu-item a:hover{
+  background: #FFF849;
+  border: 1px solid #FFF849;
+  transition: .2s ease-in-out all;
+}
+
+.menu-item.contact-button a {
+  background: black;
+  color: white;
+}
+
+.menu-item.contact-button a:hover {
+  background: #FFF849;
+  color: black;
 }
 
 .very-big-title{
@@ -1980,6 +1994,12 @@ body.preloader_ready #preloader {
   }
 
 
+@media screen and (max-width: 1200px) {
+  .intro-copy{
+    font-size: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .intro-copy{
       font-size: 3.5rem;
@@ -2084,4 +2104,12 @@ body.preloader_ready #preloader {
       transform: translateX(400%);
     }
   }
+  .sm-mt-2{
+    margin-top: 2em !important;
+  }
+  
+  .sm-mt-0{
+    margin-top: 0em !important;
+  }
+  
 }

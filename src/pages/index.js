@@ -49,20 +49,7 @@ const IndexPage = () => {
             <Row justify="between" style={{
                   position: 'relative',
                 }} className="video-section">
-                  <Col  md={4} lg={4} xl={4} xxl={4}  style={{
-                  position: 'relative'
-                }}  className="delay-2 sm-mt-2 copy-block">
-                  <p className="body-copy">We work with clients who are purpose driven and socially focused.
-                      We use strategic thinking and design to create well crafted and thought out solutions. 
-                      We work within brand identity, design and development to build full suite solutions for our clients.
-                      </p>
-                  <div className="primary-button"><AniLink
-                          cover  to="/work" bg="linear-gradient(to right, white, #F8D271)"
-                          direction="left"
-                          duration={1.5}
-                        ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
-                </Col>
-                <Col md={8} lg={8} xl={8} xxl={8}  style={{
+                  <Col md={8} lg={8} xl={8} xxl={8}  style={{
                   position: 'relative'
                 }}
                 className="sm-mt-0 mt-5">
@@ -77,6 +64,20 @@ const IndexPage = () => {
                   </div>
           
                 </Col>
+                  <Col  md={4} lg={4} xl={4} xxl={4}  style={{
+                  position: 'relative'
+                }}  className="delay-2 sm-mt-2 copy-block mt15">
+                  <p className="body-copy">We work with clients who are purpose driven and socially focused.
+                      We use strategic thinking and design to create well crafted and thought out solutions. 
+                      We work within brand identity, design and development to build full suite solutions for our clients.
+                      </p>
+                  <div className="primary-button"><AniLink
+                          cover  to="/work" bg="linear-gradient(to right, white, #F8D271)"
+                          direction="left"
+                          duration={1.5}
+                        ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
+                </Col>
+                
             </Row>
       </Container>
       <Container fluid style={{
@@ -86,7 +87,7 @@ const IndexPage = () => {
       <Row justify="between" style={{
             position: 'relative',
           }}>
-            <Col sm={12} md={8} lg={8} xl={8} xxl={8} style={{
+            <Col sm={12} md={8} lg={8} xl={8} xxl={6} style={{
             position: 'relative'
           }}>
             <div className="very-big-title">

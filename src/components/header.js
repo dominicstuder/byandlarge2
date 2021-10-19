@@ -100,7 +100,7 @@ const Header = ({ siteTitle }) => {
                     direction="left"
                     duration={1.5}
                   >Studio</AniLink></div>
-                <div className="menu-item"><AniLink
+                <div className="menu-item contact-button"><AniLink
                     cover  to="/contact" bg="linear-gradient(to right, white, white)"
                     direction="left"
                     duration={1.5}
