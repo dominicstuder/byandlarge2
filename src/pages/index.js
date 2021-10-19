@@ -41,11 +41,12 @@ const IndexPage = () => {
           }}> <h2 
           className="intro-copy delay-1">A brand, design and development studio</h2>
             </Col>
+          
           </Row>
       </Container>
       <Container fluid style={{
             position: 'relative'
-          }} className="section-2 mt15 sm-mt-4">
+          }} className="section-2 mt15 sm-mt-10">
             <Row justify="between" style={{
                   position: 'relative',
                 }} className="video-section">
@@ -55,7 +56,7 @@ const IndexPage = () => {
                 className="sm-mt-0 mt-5 video-container">
           
         
-                <div className="video-wrapper delay-3" style={{
+                <div className="video-wrapper delay-2" style={{
                           marginTop: '0em',
                         }}>
                     <video autoPlay loop muted className="background-video">
@@ -66,7 +67,7 @@ const IndexPage = () => {
                 </Col>
                   <Col  md={4} lg={4} xl={4} xxl={4}  style={{
                   position: 'relative'
-                }}  className="delay-2 sm-mt-2 copy-block mt15">
+                }}  className="delay-3 sm-mt-2 copy-block mt15">
                   <p className="body-copy">We work with clients who are purpose driven and socially focused.
                       We use strategic thinking and design to create well crafted and thought out solutions. 
                       We work within brand identity, design and development to build full suite solutions for our clients.
@@ -81,9 +82,8 @@ const IndexPage = () => {
             </Row>
       </Container>
       <Container fluid style={{
-            position: 'relative',
-            marginTop: '15em',
-          }}>
+            position: 'relative'
+          }} className="mt15 sm-mt-20">
       <Row justify="between" style={{
             position: 'relative',
           }}>
