@@ -2022,21 +2022,21 @@ body.preloader_ready #preloader {
   }
   #preloader .big-text.two{
     width: 1000px;
-    left: -60%;
+    left: -500%;
     position: absolute;
     top: 33%;
     height: 33vh;
   }
   #preloader .big-text{
     width: 1000px;
-    left: -30%;
+    left: -300%;
     position: absolute;
     top: 0;
     height: 33vh;
   }
   #preloader .big-text.three{
     width: 1000px;
-    left: -60%;
+    left: -200%;
     position: absolute;
     top: 66%;
     height: 33vh;
