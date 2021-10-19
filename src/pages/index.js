@@ -45,14 +45,14 @@ const IndexPage = () => {
       </Container>
       <Container fluid style={{
             position: 'relative'
-          }} className="section-2 mt15 sm-mt-0">
+          }} className="section-2 mt15 sm-mt-4">
             <Row justify="between" style={{
                   position: 'relative',
                 }} className="video-section">
                   <Col md={8} lg={8} xl={8} xxl={8}  style={{
                   position: 'relative'
                 }}
-                className="sm-mt-0 mt-5">
+                className="sm-mt-0 mt-5 video-container">
           
         
                 <div className="video-wrapper delay-3" style={{
@@ -72,7 +72,7 @@ const IndexPage = () => {
                       We work within brand identity, design and development to build full suite solutions for our clients.
                       </p>
                   <div className="primary-button"><AniLink
-                          cover  to="/work" bg="linear-gradient(to right, white, #F8D271)"
+                          cover  to="/work" bg="#1E1E1E"
                           direction="left"
                           duration={1.5}
                         ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
@@ -94,30 +94,20 @@ const IndexPage = () => {
               Read more
             </div>
             <div className="very-big-link">
-            <TransitionLink
-                    to="/work"
-                    exit={{
-                      length: 1,
-
-                    }}
-                    entry={{
-                      length: 1,
-                      appearAfter: 1,
-                    }}
-                  >Studio</TransitionLink>
+            <AniLink
+                cover  to="/studio" bg="#1E1E1E"
+                direction="left"
+                duration={1.5}
+                delay={1}
+              >
+                  Studio</AniLink>
               </div>
               <div className="very-big-link">
-            <TransitionLink
-                    to="/work"
-                    exit={{
-                      length: 1,
-
-                    }}
-                    entry={{
-                      length: 1,
-                      appearAfter: 1,
-                    }}
-                  >Work</TransitionLink>
+              <AniLink
+                cover  to="/work"bg="#1E1E1E"
+                direction="left"
+                duration={1.5}
+              >Work</AniLink>
               </div>
           </Col>
           </Row>

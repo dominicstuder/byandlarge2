@@ -48,10 +48,8 @@ const Obie = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-3 pb1" style={{
+          <Col sm={12} className="delay-3 pb1 mt5 sm-mt-2" style={{
               position: 'relative',
-              marginTop: '10rem',
-              marginBottom: '1rem',
           }}>
               <BGIMG6></BGIMG6>
           </Col> 

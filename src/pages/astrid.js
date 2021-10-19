@@ -51,10 +51,8 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-3" style={{
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
-              marginTop: '10rem',
-              marginBottom: '1rem',
           }}>
             <BGIMG></BGIMG>
             </Col>

@@ -998,7 +998,7 @@ body.preloader_active .logo{
   font-size: 2.5rem;
   color: rgb(30, 30, 30);
   float: left;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
 }
 
 .header-2 a{
@@ -1121,7 +1121,7 @@ body.preloader_active .logo{
 
 .menu{
   float: right;
-  width: 75%;
+  width: 100%;
   text-align: right;
   margin-top: 5px;
 }
@@ -1993,28 +1993,35 @@ body.preloader_ready #preloader {
     animation-delay: 1.1s;
   }
 
+@media screen and (max-width: 1600px) {
 
+}
 @media screen and (max-width: 1200px) {
   .intro-copy{
     font-size: 7rem;
   }
 }
-
+@media screen and (max-width: 992px) {
+  .menu-item a{
+    padding: .3em .7em;
+  }
+} 
 @media screen and (max-width: 768px) {
-    .intro-copy{
-      font-size: 3.5rem;
-    }
-    .logo{
-      font-size: 1.5rem;
-      height: 28px;
-    }
-    .menu{
-      float: left;
-      width: 100%;
-      text-align: left;
-      margin-top: 1em;
-    }
-    .menu-item {
+  .intro-copy{
+    font-size: 3.5rem;
+  }
+  .logo{
+    font-size: 2rem;
+    height: 28px;
+    width: 100%;
+  }
+  .menu{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-top: 2em;
+  }
+  .menu-item {
       margin-right: 1rem;
       margin-left: 0rem;
   }
@@ -2025,7 +2032,8 @@ body.preloader_ready #preloader {
     font-size: 3rem;
   }
   .very-big-link{
-    height: 100px;
+    height: 160px;
+    padding-top: 50px;
   }
   .very-big-link a{
     font-size: 5rem;;
@@ -2033,6 +2041,9 @@ body.preloader_ready #preloader {
   .video-wrapper{
     height: 55vh;
     width: 94%;
+  }
+  .video-container{
+    height: 55vh;
   }
   .primary-button {
     margin-top: 2em;
@@ -2045,21 +2056,21 @@ body.preloader_ready #preloader {
     left: -500%;
     position: absolute;
     top: 33%;
-    height: 33vh;
+    height: 30vh;
   }
   #preloader .big-text{
     width: 1000px;
     left: -300%;
     position: absolute;
     top: 0;
-    height: 33vh;
+    height: 30vh;
   }
   #preloader .big-text.three{
     width: 1000px;
     left: -200%;
     position: absolute;
     top: 66%;
-    height: 33vh;
+    height: 30vh;
     display: block;
   }
 
@@ -2111,5 +2122,23 @@ body.preloader_ready #preloader {
   .sm-mt-0{
     margin-top: 0em !important;
   }
-  
+  .sm-mt-4{
+    margin-top: 4em !important;
+  }
+  .border-50::before{
+    border-radius: 25px;
+  }
+  .project-wrapper .title-wrapper .arrow{
+    right: 0px;
+  }
+  .project-wrapper .header-2{
+    width: 90%;
+  }
+  .header-1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
 }

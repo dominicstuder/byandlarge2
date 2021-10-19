@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => {
         <Col xs={12} sm={12} md={6} >
             <div className="logo delay-1">
               <AniLink
-                  cover  to="/" bg="linear-gradient(to right, white, white)"
+                  cover  to="/" bg="#1E1E1E"
                   direction="right"
                   duration={1.5}
                 >By and Large Studio
@@ -91,17 +91,17 @@ const Header = ({ siteTitle }) => {
             {/* <div className="contact"><button className="material-bubble"><AniLink fade to="/contact" >Contact</AniLink></button></div> */}
             <nav className="menu delay-2">
               <div className="menu-item"><AniLink
-                    cover  to="/work" bg="linear-gradient(to right, white, white)"
+                    cover  to="/work" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >Work</AniLink></div>
                 <div className="menu-item"><AniLink
-                    cover  to="/studio" bg="linear-gradient(to right, white, white)"
+                    cover  to="/studio" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >Studio</AniLink></div>
                 <div className="menu-item contact-button"><AniLink
-                    cover  to="/contact" bg="linear-gradient(to right, white, white)"
+                    cover  to="/contact" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >Contact</AniLink></div>

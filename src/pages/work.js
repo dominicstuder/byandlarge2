@@ -25,20 +25,20 @@ const Work = () => (
             position: 'relative',
             marginTop: '2rem',
           }}>
-             <Col sm={8}>
+             <Col sm={12} lg={12} xl={8} >
              <h2  data-sal-duration="500"
           data-sal="fade"
           data-sal-easing="ease-in" 
           className="intro-copy delay-2">Work</h2>
               </Col>
-          <Col sm={8} className="arrow-hover-wrapper delay-3"
+          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-3"
               data-sal-duration="500"
               data-sal="slide-up"
               data-sal-delay="100"
               data-sal-easing="ease-in"
           >
          <AniLink
-                    cover  to="/astrid" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/astrid" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
@@ -56,7 +56,7 @@ const Work = () => (
               >
                   <h2 className="header-2 hover-link">
                   <AniLink
-                    cover  to="/astrid" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/astrid" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
@@ -100,7 +100,7 @@ const Work = () => (
           >
             
             <AniLink
-                    cover  to="/obie" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/obie" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
@@ -112,7 +112,7 @@ const Work = () => (
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
                       <AniLink
-                    cover  to="/obie" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/obie" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
@@ -131,7 +131,7 @@ const Work = () => (
               data-sal-delay="100"
               data-sal-easing="ease-in">
           <AniLink
-                    cover  to="/drive-change" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/drive-change" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
@@ -142,7 +142,7 @@ const Work = () => (
                       <div className="title-wrapper">
               <h2 className="header-2 hover-link">
               <AniLink
-                    cover  to="/drive-change" bg="linear-gradient(to right, white, #F8D271)"
+                    cover  to="/drive-change" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >
