@@ -39,7 +39,7 @@ const IndexPage = () => {
             position: 'relative',
             marginTop: '3em',
           }}> <h2 
-          className="intro-copy delay-1">A brand and design studio</h2>
+          className="intro-copy delay-1">A brand, design and development studio</h2>
             </Col>
           
           </Row>
