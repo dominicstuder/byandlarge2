@@ -2008,7 +2008,7 @@ body.preloader_ready #preloader {
 } 
 @media screen and (max-width: 768px) {
   .intro-copy{
-    font-size: 3.5rem;
+    font-size: 4.8rem;
   }
   .logo{
     height: 28px;
@@ -2123,6 +2123,9 @@ body.preloader_ready #preloader {
   }
   .sm-mt-4{
     margin-top: 4em !important;
+  }
+  .sm-mt-6{
+    margin-top: 6em !important;
   }
   .sm-mt-10{
     margin-top: 10em !important;

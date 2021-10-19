@@ -39,14 +39,14 @@ const IndexPage = () => {
             position: 'relative',
             marginTop: '3em',
           }}> <h2 
-          className="intro-copy delay-1">A brand, design and development studio</h2>
+          className="intro-copy delay-1">A brand and design studio</h2>
             </Col>
           
           </Row>
       </Container>
       <Container fluid style={{
             position: 'relative'
-          }} className="section-2 mt15 sm-mt-10">
+          }} className="section-2 mt15 sm-mt-6">
             <Row justify="between" style={{
                   position: 'relative',
                 }} className="video-section">
