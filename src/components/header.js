@@ -4,7 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-grid-system';
 import styled from 'styled-components';
-import TransitionLink from "gatsby-plugin-transition-link"
+// import TransitionLink from "gatsby-plugin-transition-link"
 // import { SettingsIcon } from './icons/settings';
 const StyledMenu = styled.nav`
   

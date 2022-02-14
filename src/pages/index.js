@@ -3,6 +3,7 @@ import React, { useState, useEffect} from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 import { Waypoint } from 'react-waypoint';
 import BGIMG from "../components/backgroundimage1"
 import BGIMG2 from "../components/backgroundimage2"
@@ -11,13 +12,13 @@ import BGIMG4 from "../components/backgroundimage4"
 import BGIMG5 from "../components/backgroundimage5"
 import BGIMG6 from "../components/backgroundimage6"
 import BGIMG7 from "../components/backgroundimage7"
-// import IMG4 from "../components/image4"
+import IMG4 from "../components/image4"
 // import IMG5 from "../components/image5"
 // import IMG6 from "../components/image6"
 
 import { Container, Row, Col } from 'react-grid-system';
-import Arrow from "../assets/arrow-small.svg";
-// import ArrowWhite from "../assets/arrowwhite.svg";
+import Arrow from "../assets/arrow.svg";
+import ArrowWhite from "../assets/arrow-small-white.svg";
 // import styled from 'styled-components';
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
@@ -37,53 +38,216 @@ const IndexPage = () => {
           }}>
             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
             position: 'relative',
-            marginTop: '3em',
-          }}> <h2 
-          className="intro-copy delay-1">A brand, design and development studio</h2>
+          }}> <h1 
+          className="intro-copy delay-1">A strategy, design and technology studio</h1>
             </Col>
           
           </Row>
       </Container>
       <Container fluid style={{
-            position: 'relative'
-          }} className="section-2 mt15 sm-mt-6">
+            position: 'relative', marginTop: '10em',
+          }} className="">
             <Row justify="between" style={{
-                  position: 'relative',
+                 
                 }} className="video-section">
-                  <Col md={8} lg={8} xl={8} xxl={8}  style={{
-                  position: 'relative'
-                }}
-                className="sm-mt-0 mt-5 video-container">
+                  <Col md={8} lg={12} xl={12} xxl={12}  style={{
+                    position: 'relative'
+                  }}
+                  className="video-container">
           
         
-                <div className="video-wrapper delay-2" style={{
-                          marginTop: '0em',
+                  <div className="video-wrapper delay-2" style={{
+                        
                         }}>
                     <video autoPlay loop muted className="background-video">
                             <source src={clip} type='video/mp4' />
                     </video>
                   </div>
-          
                 </Col>
-                  <Col  md={4} lg={4} xl={4} xxl={4}  style={{
+              </Row>
+            </Container>
+        <Container fluid style={{
+            position: 'relative', marginTop: '2em',
+          }} className="section-2">
+              <Row style={{paddingTop: '1em',
                   position: 'relative'
-                }}  className="delay-3 sm-mt-2 copy-block mt15">
-                  <p className="body-copy">We work with clients who are purpose driven and socially focused.
-                      We use strategic thinking and design to create well crafted and thought out solutions. 
-                      We work within brand identity, design and development to build full suite solutions for our clients.
+                }}>
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="">
+                  <h3 className="small-body-copy">Purpose</h3>
+                </Col>
+                <Col  md={12} lg={6} xl={6} xxl={5}  className="delay-3 copy-block"
+                 style={{
+                  position: 'relative', paddingTop: '2em',
+                }}
+                >
+                  <h3 className="header-3">We work with clients who are purpose driven</h3>
+                </Col>
+                <Col md={12} lg={6} xl={6} xxl={6} 
+                 style={{
+                  position: 'relative', paddingBottom: '2em', paddingTop: '2em',
+                }}
+                
+                >
+                  <p className="body-copy">We work with clients who are purpose driven and focused on social good, helping to bring  ideas to life and communicate to the world.  
                       </p>
-                  <div className="primary-button"><AniLink
+                </Col>
+                <Col md={12} lg={12} xl={12} xxl={12} >
+                <div className="primary-button"><AniLink
                           cover  to="/work" bg="#1E1E1E"
                           direction="left"
                           duration={1.5}
-                        ><Arrow className="small-arrow"></Arrow><span className="link-text">View all our work</span></AniLink></div>
-                </Col>
-                
+                        ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
+                  </Col>
             </Row>
       </Container>
       <Container fluid style={{
-            position: 'relative'
-          }} className="mt15 sm-mt-20">
+            position: 'relative', marginTop: '10em',
+          }} className="section-3">
+              <Row style={{paddingTop: '1em',
+                  position: 'relative'
+                }}>
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="">
+                  <h3 className="small-body-copy">Capabilities</h3>
+                </Col>
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block"  style={{
+                  position: 'relative', paddingBottom: '2em', paddingTop: '2em',
+                }} >
+                  <h3 className="header-3">The skills and tools for a digital world</h3>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4}
+               
+                >
+                  <ul className="services-list">
+                      <li>Strategy</li>
+                      <li>Brand Strategy</li>
+                      <li>UX Strategy</li>
+                      <li>Information Architecture</li>
+                      <li>Content Strategy</li>
+                      <li>Business Model Design</li>
+                      </ul>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4} >
+                <ul className="services-list">
+                      <li>Design</li>
+                      <li>  Creative Direction</li>
+                      <li>UX/UI Design</li>
+                      <li>Prototyping</li>
+                      <li>Graphic Design</li>
+                      <li>Content Design</li>
+                      </ul>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4} >
+                <ul className="services-list">
+                      <li>Technology</li>
+                      <li>Front-end Development</li>
+                      <li>Ecommerce</li>
+                      <li>Content managment systems</li>
+
+                      </ul>
+                </Col>
+                {/* <Col md={12} lg={12} xl={12} xxl={12} >
+                <div className="primary-button"><AniLink
+                          cover  to="/work" bg="#1E1E1E"
+                          direction="left"
+                          duration={1.5}
+                        ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
+                  </Col> */}
+            </Row>
+      </Container>
+      <Container fluid style={{
+            position: 'relative', marginTop: '10em'
+          }} className=" ">
+            <Row justify="between" style={{
+              position: 'relative',
+            }}>
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">
+                  <h3 className="small-body-copy">Recent work</h3>
+                </Col>
+              {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">
+                  <h3 className="header-3">Recent work</h3>
+                </Col> */}
+              </Row>
+              <div className="work-list">
+              <Row style={{
+                position: 'relative',
+              }}>
+                        <AniLink
+                          cover  to="/work" bg="#1E1E1E"
+                          direction="left"
+                          duration={1.5}
+                        ><div className="item">
+                                    {/* <div className="thumbnail"><IMG4></IMG4></div> */}
+                             <div className="video-wrapper-small" style={{
+                                
+                              }}>
+                            <video autoPlay loop muted className="background-video">
+                                    <source src={clip} type='video/mp4' />
+                            </video>
+                          </div>
+                            <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
+                              position: 'relative'
+                              }}>
+                          <div className="inner">Master Me<Arrow className="arrow"></Arrow></div>
+
+                          </Col>
+                          
+                          </div></AniLink>
+               
+            
+                
+                
+                                  
+                  <AniLink
+                    cover  to="/astrid" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+                          <div className="item">
+                          <div className="video-wrapper-small" style={{
+                                
+                              }}>
+                            <video autoPlay loop muted className="background-video">
+                                    <source src={clip} type='video/mp4' />
+                            </video>
+                          </div>
+                            <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
+                              position: 'relative'
+                              }}>
+                          <div className="inner">Astrid<Arrow className="arrow"></Arrow></div>
+                          </Col>
+                          </div>
+                  </AniLink>
+                                  
+                  <AniLink
+                    cover  to="/drive-change" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+                          <div className="item">
+                          <div className="video-wrapper-small" style={{
+                                
+                              }}>
+                            <video autoPlay loop muted className="background-video">
+                                    <source src={clip} type='video/mp4' />
+                            </video>
+                          </div>
+                            <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
+                              position: 'relative'
+                              }}>
+                          <div className="inner">Drive change<Arrow className="arrow"></Arrow></div>
+                          </Col>
+                          </div>
+                  </AniLink>
+                  </Row>         
+                  </div>
+
+
+                  
+       
+        </Container>
+      {/* <Container fluid style={{
+            position: 'relative', marginTop: '5em'
+          }} className=" ">
       <Row justify="between" style={{
             position: 'relative',
           }}>
@@ -111,7 +275,7 @@ const IndexPage = () => {
               </div>
           </Col>
           </Row>
-        </Container>
+        </Container> */}
   
     </Layout>
   )

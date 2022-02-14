@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from 'react-grid-system';
 import Header from "./header"
 import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./layout.css"
 // import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -35,28 +36,33 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 5000,
-          padding: `0rem`,
+          padding: `0em`,
         }}
       >
   
         <main>{children}</main>
         <footer style={{
-          marginTop: `10rem`,
-          paddingTop: '4rem',
-          paddingBottom: '2rem',
+          marginTop: `3em`,
+          paddingTop: '4em',
+          paddingBottom: '2em',
         }}>
         <Container fluid >
           <Row justify="start" style={{
             position: 'relative',
           }}>
-        <Col sm={4}><div style={{
+        <Col sm={6}><div style={{
          
             }}className=" uppercase">
 
-                  By and Large Studio
+                <AniLink
+                  cover  to="/" bg="#1E1E1E"
+                  direction="right"
+                  duration={1.5}
+                >By and Large Studio
+              </AniLink>
                   </div>
               </Col>
-              <Col sm={2}><div style={{
+              {/* <Col sm={2}><div style={{
          
         }}className=" uppercase">
 
@@ -69,15 +75,47 @@ const Layout = ({ children }) => {
 
               IG
               </div>
-          </Col>
-          <Col sm={3}><div style={{
+          </Col> */}
+          <Col sm={6}><div style={{
          
-        }}className=" uppercase">
+        }}className="uppercase">
 
-              Contact
+                    <div className="menu-item contact-button"><AniLink
+                    cover  to="/contact" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >Contact</AniLink></div>
               </div>
           </Col>
           </Row>
+          <Row justify="start" style={{
+            position: 'relative', 
+            paddingTop: '1em',
+          }}>
+             <Col sm={6}><div style={{
+            
+            }}className="small-copy">
+
+                      By and Large Studio is on the traditional country of the Awabakal and Worimi peoples. We recognize and respect their cultural heritage, beliefs and continuing relationship with the land.<br></br>
+                      <span className="copyright">&#169; 2022</span>
+                  </div>
+              </Col>
+                {/* <Col sm={4}>
+                <div style={{
+              
+            }}className="small-copy">
+
+              2022 
+              </div>           
+              </Col> */}
+            {/* <Col sm={2}><div style={{
+            
+          }}className="small-copy">
+              Instagram <br></br>
+              Contact
+            </div>
+            </Col> */}
+            </Row>
         </Container>
 
         </footer>

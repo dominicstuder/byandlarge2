@@ -22,11 +22,22 @@ const Astrid = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '10rem',
+            marginTop: '2rem',
         }} >
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
           </Col>
+          <Col sm={2}>
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">Scope</p>
+              <p className="scope-list">
+                <ul>
+                  <li>Health Care</li>
+                  <li>Medical Cannabis</li>
+                </ul>
+              </p>
+            </div>
+          </Col> 
           <Col sm={2}>
             <div className="project-info copy-delay-2">
               <p className="body small-title">Scope</p>
@@ -51,14 +62,42 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
+          <Col sm={6}>
+          <p className="body black copy-delay-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          
+          </p>
+          </Col>
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
             <BGIMG></BGIMG>
             </Col>
+          <div className="project-info-wrapper">
+            <Col sm={8}>
+          <h3 className="header-2">Lorem ipsum dolor sit amet</h3>
+
+          <div className="project-info">
+              <p className="body ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+              <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </Col>
+          </div>
           <Col sm={12} className="pb1">
               <A3></A3>
           </Col> 
+          <div className="project-info-wrapper">
+
+            <Col sm={7}>
+          <h3 className="header-3">Lorem ipsum dolor sit amet</h3>
+          </Col>
+          <Col sm={5}>
+          <p className="body black copy-delay-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          
+          </p>
+          </Col>
+          </div>
           <Col sm={12} className="pb1">
               <A4></A4>
           </Col> 
