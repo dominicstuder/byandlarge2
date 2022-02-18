@@ -44,9 +44,7 @@ const IndexPage = () => {
           
           </Row>
       </Container>
-      <Container fluid style={{
-            position: 'relative', marginTop: '10em',
-          }} className="">
+      <Container fluid className="video-container">
             <Row justify="between" style={{
                  
                 }} className="video-section">

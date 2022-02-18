@@ -1097,6 +1097,10 @@ body.preloader_active .logo{
   animation-delay: 5s;
 }
 
+.video-container{
+  position: relative;
+  margin-top: 10em;
+}
 
 .intro-copy.black{
   color: #1E1E1E;;
@@ -2187,6 +2191,10 @@ body.preloader_ready #preloader {
     font-size: 3.5rem;
     margin-top: 1em;
   }
+  .video-container{
+    margin-top: 3em;
+    position: relative;
+  }
   .logo{
     height: 28px;
     width: 100%;
@@ -2196,6 +2204,7 @@ body.preloader_ready #preloader {
     width: 100%;
     text-align: left;
     margin-top: 2em;
+    display: none;
   }
   .menu-item {
       margin-right: 1rem;
