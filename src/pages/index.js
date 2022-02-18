@@ -74,9 +74,6 @@ const IndexPage = () => {
                   <h3 className="small-body-copy">Purpose</h3>
                 </Col>
                 <Col  md={12} lg={6} xl={6} xxl={5}  className="delay-3 copy-block"
-                 style={{
-                  position: 'relative', paddingTop: '2em',
-                }}
                 >
                   <h3 className="header-3">We work with clients who are purpose driven</h3>
                 </Col>
@@ -98,9 +95,7 @@ const IndexPage = () => {
                   </Col>
             </Row>
       </Container>
-      <Container fluid style={{
-            position: 'relative', marginTop: '10em',
-          }} className="section-3">
+      <Container fluid className="section-3">
               <Row style={{paddingTop: '1em',
                   position: 'relative'
                 }}>
@@ -152,13 +147,12 @@ const IndexPage = () => {
                   </Col> */}
             </Row>
       </Container>
-      <Container fluid style={{
-            position: 'relative', marginTop: '10em'
-          }} className=" ">
+      <Container fluid className="section-4">
             <Row justify="between" style={{
+              paddingTop: '1em',
               position: 'relative',
             }}>
-                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3">
                   <h3 className="small-body-copy">Recent work</h3>
                 </Col>
               {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">

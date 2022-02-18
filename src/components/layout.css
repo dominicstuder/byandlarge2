@@ -948,12 +948,17 @@ header{
   animation-direction: normal;
 } */
 
+
+.work-list{
+  margin-top: 2em;
+}
+
 .work-list .item{
   border-bottom: 1px solid #00000014;
 }
 
 .work-list a:nth-child(1){
-  border-top: 1px solid #00000014;
+
 }
 
 
@@ -1069,14 +1074,22 @@ body.preloader_active .section-2{
   opacity: 0;
 }
 
+.copy-block{
+  padding-top: 2em;
+  position: relative;
+}
 
 .loaded .section-2{
   animation: fadein 2s forwards;
   animation-delay: 5.3s;
 }
 
-.section-2, .section-3{
+.section-2, .section-3, .section-4{
   border-top: 1px solid #00000014;
+}
+
+.section-3, .section-4{
+  margin-top: 10em;
 }
 
 body.preloader_active .menu{
@@ -1097,9 +1110,28 @@ body.preloader_active .logo{
   animation-delay: 5s;
 }
 
+
+.menu.two{
+    font-family: ABCDiatypeSemi-Mono-Regular, sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+    line-height: 1.1em;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+}
+
+.menu.two a{
+  text-decoration: none;
+  color: #1e1e1e;
+} 
+
 .video-container{
   position: relative;
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 .intro-copy.black{
@@ -1168,6 +1200,7 @@ body.preloader_active .logo{
   letter-spacing: -0.02em;
   font-weight: normal;
   max-width: 700px;
+  margin-bottom: 0em;
 }
 
 ul.services-list{
@@ -1758,7 +1791,10 @@ footer a{
   text-decoration: none;
 }
 .copyright{
-  color: white;
+  color: #322917;
+  margin-top: 1em;
+  position: relative;
+  display: block;
 }
 
   /* &:active
@@ -2192,7 +2228,7 @@ body.preloader_ready #preloader {
     margin-top: 1em;
   }
   .video-container{
-    margin-top: 3em;
+    margin-top: 1em;
     position: relative;
   }
   .logo{
@@ -2227,8 +2263,12 @@ body.preloader_ready #preloader {
     height: 55vh;
   }
   .video-container{
-    height: 55vh;
+
   }
+  .section-3, .section-4{
+    margin-top: 2em;
+  }
+  
   .primary-button {
     margin-top: 2em;
   }
@@ -2236,10 +2276,17 @@ body.preloader_ready #preloader {
     /* height: 0vh; */
   }
   .work-list a .item{
-    font-size: 4rem;
+    font-size: 3rem;
   }
-
-
+  .work-list .item .arrow{
+    top: -16px;
+  }
+  .copy-block{
+    padding-top: 0em;
+  }
+  .work-list a .item .inner:hover{
+    transform: translateX(0px);
+  }
   #preloader .big-text.two{
     width: 1000px;
     left: -500%;
@@ -2335,7 +2382,9 @@ body.preloader_ready #preloader {
   .header-1 {
     font-size: 4rem;
   }
-
+  .menu.two{
+    justify-content: start;
+  }
 }
 
 @media screen and (max-width: 576px) {

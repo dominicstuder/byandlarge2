@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `3em`,
           paddingTop: '4em',
-          paddingBottom: '2em',
+          paddingBottom: '.5em',
         }}>
         <Container fluid >
           <Row justify="start" style={{
@@ -80,7 +80,7 @@ const Layout = ({ children }) => {
          
         }}className="uppercase">
 
-                    <div className="menu-item contact-button"><AniLink
+                    <div className=""><AniLink
                     cover  to="/contact" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}

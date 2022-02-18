@@ -89,7 +89,7 @@ const Header = ({ siteTitle }) => {
 
           <Col xs={12} sm={12} md={6}>
             {/* <div className="contact"><button className="material-bubble"><AniLink fade to="/contact" >Contact</AniLink></button></div> */}
-            <nav className="menu delay-2">
+            {/* <nav className="menu delay-2">
               <div className="menu-item"><AniLink
                     cover  to="/work" bg="#1E1E1E"
                     direction="left"
@@ -101,6 +101,23 @@ const Header = ({ siteTitle }) => {
                     duration={1.5}
                   >Studio</AniLink></div>
                 <div className="menu-item contact-button"><AniLink
+                    cover  to="/contact" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >Contact</AniLink></div>
+            </nav> */}
+            <nav className="menu two delay-2">
+              <div className=""><AniLink
+                    cover  to="/work" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >Work</AniLink></div>
+                <div className=""><AniLink
+                    cover  to="/studio" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >Studio</AniLink></div>
+                <div className=""><AniLink
                     cover  to="/contact" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
