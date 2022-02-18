@@ -78,26 +78,26 @@ const Layout = ({ children }) => {
             position: 'relative', 
             paddingTop: '1em',
           }}>
-            <Col sm={3}><div style={{
+            <Col  xs={6} sm={6} md={3}><div style={{
             
           }}className="small-copy">
                 Based in Newcastle, Australia. <br></br>Working worldwide. 
                 </div>
             </Col>
-             <Col sm={3}><div style={{
+             <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy">
                   mail@byandlarge.studio
                   </div>
               </Col>
               
-            <Col sm={3}><div style={{
+            <Col xs={6} md={3}><div style={{
             
           }}className="small-copy">
                 Instagram 
                 </div>
             </Col>
-             <Col sm={3}><div style={{
+             <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy">
                       <span className="copyright">&#169; 2022 By and Large Studio</span>

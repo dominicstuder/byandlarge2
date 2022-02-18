@@ -27,7 +27,7 @@ const Astrid = () => (
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
           </Col>
-          <Col sm={3} md={3} lg={3} xl={2} xxl={2} >
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Industry</p>
               <p className="scope-list">
@@ -44,7 +44,7 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={3} md={3} lg={3} xl={2} xxl={2} >
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Scope</p>
               <p className="scope-list">
