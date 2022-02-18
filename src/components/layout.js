@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
           paddingBottom: '.5em',
         }}>
         <Container fluid >
-          <Row justify="start" style={{
+          {/* <Row justify="start" style={{
             position: 'relative',
           }}>
         <Col sm={6}><div style={{
@@ -62,20 +62,6 @@ const Layout = ({ children }) => {
               </AniLink>
                   </div>
               </Col>
-              {/* <Col sm={2}><div style={{
-         
-        }}className=" uppercase">
-
-              2021
-              </div>
-          </Col>
-          <Col sm={2}><div style={{
-         
-        }}className=" uppercase">
-
-              IG
-              </div>
-          </Col> */}
           <Col sm={6}><div style={{
          
         }}className="uppercase">
@@ -87,34 +73,49 @@ const Layout = ({ children }) => {
                   >Contact</AniLink></div>
               </div>
           </Col>
-          </Row>
-          <Row justify="start" style={{
+          </Row> */}
+           <Row justify="start" style={{
             position: 'relative', 
             paddingTop: '1em',
           }}>
-             <Col sm={6}><div style={{
-            
-            }}className="small-copy">
-
-                      By and Large Studio is on the traditional country of the Awabakal and Worimi peoples. We recognize and respect their cultural heritage, beliefs and continuing relationship with the land.<br></br>
-                      <span className="copyright">&#169; 2022</span>
-                  </div>
-              </Col>
-                {/* <Col sm={4}>
-                <div style={{
-              
-            }}className="small-copy">
-
-              2022 
-              </div>           
-              </Col> */}
-            {/* <Col sm={2}><div style={{
+            <Col sm={3}><div style={{
             
           }}className="small-copy">
-              Instagram <br></br>
-              Contact
-            </div>
-            </Col> */}
+                Based in Newcastle, Australia. <br></br>Working worldwide. 
+                </div>
+            </Col>
+             <Col sm={3}><div style={{
+            
+            }}className="small-copy">
+                  mail@byandlarge.studio
+                  </div>
+              </Col>
+              
+            <Col sm={3}><div style={{
+            
+          }}className="small-copy">
+                Instagram 
+                </div>
+            </Col>
+             <Col sm={3}><div style={{
+            
+            }}className="small-copy">
+                      <span className="copyright">&#169; 2022 By and Large Studio</span>
+                  </div>
+              </Col>
+              </Row>
+              <Row justify="start" style={{
+            position: 'relative', 
+            paddingTop: '2em',
+          }}>
+              <Col sm={6}><div style={{
+            
+          }}className="small-copy">
+
+                    By and Large Studio is on the traditional country of the Awabakal and Worimi peoples. We recognize and respect their cultural heritage, beliefs and continuing relationship with the land.<br></br>
+                   
+                </div>
+            </Col>
             </Row>
         </Container>
 

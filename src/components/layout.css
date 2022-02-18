@@ -1114,7 +1114,7 @@ body.preloader_active .logo{
 .menu.two{
     font-family: ABCDiatypeSemi-Mono-Regular, sans-serif;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     line-height: 1.1em;
     text-transform: uppercase;
@@ -1793,12 +1793,7 @@ footer a{
   color: black;
   text-decoration: none;
 }
-.copyright{
-  color: #322917;
-  margin-top: 1em;
-  position: relative;
-  display: block;
-}
+
 
   /* &:active
     transform: translateY(3px)
@@ -2394,6 +2389,17 @@ body.preloader_ready #preloader {
   }
   .project-info{
     margin-top: 0em;
+  }
+  .work-list a .item:hover .video-wrapper-small{
+    opacity: 0;
+    transform: none;
+  }
+  .work-list .item .arrow{
+    width: 15px;
+    height: 15px;
+  }
+  footer .small-copy{
+    padding-bottom: .5em;
   }
 }
 
