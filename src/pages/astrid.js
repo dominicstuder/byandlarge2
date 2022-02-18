@@ -27,18 +27,24 @@ const Astrid = () => (
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
           </Col>
-          <Col sm={2}>
+          <Col sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
-              <p className="body small-title">Scope</p>
+              <p className="body small-title">Industry</p>
               <p className="scope-list">
                 <ul>
                   <li>Health Care</li>
                   <li>Medical Cannabis</li>
                 </ul>
               </p>
+              <p className="body small-title">Year</p>
+              <p className="scope-list">
+                <ul>
+                  <li>2021</li>
+                </ul>
+              </p>
             </div>
           </Col> 
-          <Col sm={2}>
+          <Col sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Scope</p>
               <p className="scope-list">
@@ -52,7 +58,7 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={2}>
+          {/* <Col sm={2}>
             <div className="project-info copy-delay-3">
               <p className="body small-title">Year</p>
               <p className="scope-list">
@@ -61,7 +67,7 @@ const Astrid = () => (
                 </ul>
               </p>
             </div>
-          </Col> 
+          </Col>  */}
           <Col sm={6}>
           <p className="body black copy-delay-1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
@@ -71,7 +77,9 @@ const Astrid = () => (
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
-            <BGIMG></BGIMG>
+             <div className="work-page-image-wrapper">
+              <BGIMG></BGIMG>
+            </div>
             </Col>
           <div className="project-info-wrapper">
             <Col sm={8}>

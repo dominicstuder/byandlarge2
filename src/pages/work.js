@@ -15,12 +15,6 @@ const Work = () => (
   <Layout>
     <Seo Title="Work" />
     <Container fluid>
-        <Row justify="start" style={{
-          position: 'relative',
-          marginTop: '5rem',
-          marginBottom: '5rem',
-          }}>
-        </Row>
         <Row justify="end" style={{
             position: 'relative',
             marginTop: '2rem',
@@ -42,7 +36,7 @@ const Work = () => (
                     direction="left"
                     duration={1.5}
                   >
-            <div style={{borderRadius:'25px',}}>
+            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG className="border-50"></BGIMG>
             </div>
             </AniLink>
@@ -104,8 +98,9 @@ const Work = () => (
                     direction="left"
                     duration={1.5}
                   >
-            
+           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG6 className="border-50"></BGIMG6>
+            </div>
             </AniLink>
                         
             <div className="project-wrapper">
@@ -135,7 +130,9 @@ const Work = () => (
                     direction="left"
                     duration={1.5}
                   >
-            <BGIMG7 className="border-50"></BGIMG7>
+            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+              <BGIMG7 className="border-50"></BGIMG7>
+            </div>
             </AniLink>
 
             <div className="project-wrapper">

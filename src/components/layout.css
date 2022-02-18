@@ -1492,7 +1492,7 @@ p.body{
 }
 
 .project-info{
-  margin-top: 0em;
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
@@ -1668,6 +1668,9 @@ text-align: right;
     float: left;
   }
 
+  .work-page-image-wrapper{
+    height: 50vw;
+  }
 .hover-link {
     display: inline-block;
     color: rgb(95, 95, 95);
@@ -2224,8 +2227,14 @@ body.preloader_ready #preloader {
 } 
 @media screen and (max-width: 768px) {
   .intro-copy{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-top: 1em;
+  }
+  .header-3{
+    font-size: 2rem;
+  }
+  .header-2{
+    font-size: 1.5rem;
   }
   .video-container{
     margin-top: 1em;
@@ -2234,13 +2243,6 @@ body.preloader_ready #preloader {
   .logo{
     height: 28px;
     width: 100%;
-  }
-  .menu{
-    float: left;
-    width: 100%;
-    text-align: left;
-    margin-top: 2em;
-    display: none;
   }
   .menu-item {
       margin-right: 1rem;
@@ -2282,7 +2284,7 @@ body.preloader_ready #preloader {
     top: -16px;
   }
   .copy-block{
-    padding-top: 0em;
+    padding-top: 1em;
   }
   .work-list a .item .inner:hover{
     transform: translateX(0px);
@@ -2384,6 +2386,14 @@ body.preloader_ready #preloader {
   }
   .menu.two{
     justify-content: start;
+    padding-top: 1em; 
+    font-size: 1rem;;
+  }
+  .work-page-image-wrapper {
+    height: 100vw;
+  }
+  .project-info{
+    margin-top: 0em;
   }
 }
 

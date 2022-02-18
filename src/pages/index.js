@@ -102,9 +102,8 @@ const IndexPage = () => {
                 <Col  md={12} lg={12} xl={12} xxl={12}  className="">
                   <h3 className="small-body-copy">Capabilities</h3>
                 </Col>
-                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block"  style={{
-                  position: 'relative', paddingBottom: '2em', paddingTop: '2em',
-                }} >
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block"
+              >
                   <h3 className="header-3">The skills and tools for a digital world</h3>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4}
