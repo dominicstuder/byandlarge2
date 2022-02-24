@@ -94,11 +94,11 @@ const Header = ({ siteTitle }) => {
                     direction="left"
                     duration={1.5}
                   >Work</AniLink></div>
-                <div className="item-two"><AniLink
+                {/* <div className="item-two"><AniLink
                     cover  to="/studio" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
-                  >Studio</AniLink></div>
+                  >Studio</AniLink></div> */}
                 <div className="item-two"><AniLink
                     cover  to="/contact" bg="#1E1E1E"
                     direction="left"

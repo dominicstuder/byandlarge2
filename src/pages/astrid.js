@@ -86,16 +86,16 @@ const Astrid = () => (
             Astrid is a plant based medicines dispensary based in Melbourne. They focus on high level of patient care and empowering patients with knowledge. We helped build a brand that is sophisticated and stands aprat in the growing cannabis market. 
           </p>
           </Col>
-          <Col sm={8} className="delay-3 mt5 sm-mt-2 pb1" style={{
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
              <div className="work-page-image-wrapper">
               <BGIMG></BGIMG>
             </div>
             </Col>
-            <Col sm={3} className="mt5 small-image-top mobile-view">
+            {/* <Col sm={3} className="mt5 small-image-top mobile-view">
               <A3></A3>
-          </Col> 
+          </Col>  */}
           <div className="project-info-wrapper mt5">
             <Col sm={8}>
           <h3 className="header-2">A visual identity based on creativity and the power of the plant</h3>
