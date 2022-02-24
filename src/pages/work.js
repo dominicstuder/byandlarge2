@@ -10,6 +10,7 @@ import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG6 from "../components/backgroundimage6"
 import BGIMG7 from "../components/backgroundimage7"
+import BGIMG8 from "../components/backgroundimage8"
 
 const Work = () => (
   <Layout>
@@ -76,13 +77,43 @@ const Work = () => (
             </Col>
           </Row>
         
-          </Col> */}
-          </Row>
-          
-          <Row justify="end" style={{
-            position: 'relative',
+          </Col>
+          </Row> */}
+        <Col sm={8} className="arrow-hover-wrapper"
+            style={{
+              marginTop: '5em',
+            }}
+            data-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="ease-in"
+          >
+            
+            <AniLink
+                    cover  to="/masterme" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+            <BGIMG8 className="border-50"></BGIMG8>
+            </div>
+            </AniLink>
+                        
+            <div className="project-wrapper">
+                      <div className="title-wrapper">
+                      <h2 className="header-2 hover-link">
+                      <AniLink
+                    cover  to="/masterme" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+                         Master Me</AniLink></h2>
 
-          }}>
+                        <Arrow className="arrow"></Arrow>
+                      </div>
+                </div>
+          </Col>
+        
           <Col sm={8} className="arrow-hover-wrapper"
             style={{
               marginTop: '5em',

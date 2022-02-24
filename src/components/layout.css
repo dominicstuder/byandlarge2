@@ -1115,7 +1115,6 @@ body.preloader_active .logo{
     font-family: ABCDiatypeSemi-Mono-Regular, sans-serif;
     font-weight: normal;
     font-size: 1rem;
-
     line-height: 1.1em;
     text-transform: uppercase;
     color: #1e1e1e;
@@ -1670,7 +1669,62 @@ text-align: right;
 
   .work-page-image-wrapper{
     height: 50vw;
+    overflow: hidden;
   }
+
+  .project-image-group-wrapper{
+    float: left;
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 5em 0em;
+    justify-content: center;
+  }
+
+  .project-info-wrapper.two{
+
+  }
+
+  .small-image-top{
+    transform: translate(-20%, 10%);
+  }
+
+  .mobile-view  .gatsby-image-wrapper{
+    width: 80%;
+    margin: 0% auto;
+    max-width: 500px;
+    overflow: visible !important;
+  }
+
+  .mobile-view  .gatsby-image-wrapper img{
+    border-radius: 20px;
+    box-shadow: #00000012 -7px 8px 6px -1px;
+  }
+
+  .border-50::after{
+    transform: scale(1);
+    transition: all .5s !important;
+  }
+
+  .border-50:hover::after{
+    transform: scale(1.05);
+    transition: all .5s !important;
+  }
+
+  .border-50::before{
+    transform: scale(1);
+    transition: all .5s !important;
+  }
+
+  .border-50:hover::before{
+    transform: scale(1.05);
+    transition: all .5s !important;
+  }
+
+  .border-50{
+    transition: all .2s;
+  }
+
 .hover-link {
     display: inline-block;
     color: rgb(95, 95, 95);
@@ -2401,6 +2455,15 @@ body.preloader_ready #preloader {
   footer .small-copy{
     padding-bottom: .5em;
   }
+  .project-image-group-wrapper{
+    display: block;
+  }
+  .project-image-group-wrapper .mobile-view{
+    padding-bottom: 2em;
+  }
+  .small-image-top {
+    transform: translate(0%, -30%);
+}
 }
 
 @media screen and (max-width: 576px) {
