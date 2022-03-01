@@ -2463,7 +2463,10 @@ body.preloader_ready #preloader {
   }
   .small-image-top {
     transform: translate(0%, -30%);
-}
+  }
+  .project-info-wrapper{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 576px) {

@@ -83,7 +83,7 @@ const Astrid = () => (
           </Col>  */}
           </Row>
           <Row justify="end" style={{
-            marginTop: '13rem',
+            marginTop: '3rem',
         }}>
           <Col sm={6}>
           <p className="body black copy-delay-1">
@@ -109,9 +109,9 @@ const Astrid = () => (
                 <h3 className="header-3">The visual identity</h3>
             </Col>
             <Col sm={6}>
-                <p className="body ">We wanted to draw on elements that allude to cannabis, while avoiding the usual tropes that are used in the industry. To do this we explored a sea of green concept, using only shades of green throughout the brand. We also looked at the creative and organic aspects of cannabis, landing on found imagery of paintings of plants to communicate this feeling.  
+                <p className="body copy-delay-1">We wanted to draw on elements that allude to cannabis, while avoiding the usual tropes that are used in the industry. To do this we explored a sea of green concept, using only shades of green throughout the brand. We also looked at the creative and organic aspects of cannabis, landing on found imagery of paintings of plants to communicate this feeling.  
                 </p>
-                <p className="body text-indent">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
+                <p className="body text-indent copy-delay-1">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
             </Col>
           </div>
           <Col sm={4} className="pb1">
