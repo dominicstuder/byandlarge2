@@ -57,14 +57,14 @@ const Astrid = () => (
           </Col> 
           <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
-              <p className="body small-title">Scope</p>
+              <p className="body small-title">WHAT WE DID</p>
               <p className="scope-list">
                 <ul>
                   <li>Strategy</li>
                   <li>Visual Identity</li>
                   <li>Digital Design</li>
                   <li>Website Development</li>
-                  <li>Ecommerce</li>
+                  <li>E-commerce</li>
                   <li>Packaging and print</li>
                   <li>Signage</li>
                 </ul>
@@ -81,9 +81,17 @@ const Astrid = () => (
               </p>
             </div>
           </Col>  */}
+          </Row>
+          <Row justify="end" style={{
+            marginTop: '13rem',
+        }}>
           <Col sm={6}>
           <p className="body black copy-delay-1">
-            Astrid is a plant based medicines dispensary based in Melbourne. They focus on high level of patient care and empowering patients with knowledge. We helped build a brand that is sophisticated and stands aprat in the growing cannabis market. 
+          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          </p>
+          <p className="body black text-indent copy-delay-1 mb3">
+          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
           </p>
           </Col>
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
@@ -96,15 +104,15 @@ const Astrid = () => (
             {/* <Col sm={3} className="mt5 small-image-top mobile-view">
               <A3></A3>
           </Col>  */}
-          <div className="project-info-wrapper mt5">
-            <Col sm={8}>
-          <h3 className="header-2">A visual identity based on creativity and the power of the plant</h3>
-
-          <div className="project-info">
-              <p className="body ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-              <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </Col>
+          <div className="project-info-wrapper mt3 mb3">
+            <Col sm={6}>
+                <h3 className="header-3">The visual identity</h3>
+            </Col>
+            <Col sm={6}>
+                <p className="body ">We wanted to draw on elements that allude to cannabis, while avoiding the usual tropes that are used in the industry. To do this we explored a sea of green concept, using only shades of green throughout the brand. We also looked at the creative and organic aspects of cannabis, landing on found imagery of paintings of plants to communicate this feeling.  
+                </p>
+                <p className="body text-indent">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
+            </Col>
           </div>
           <Col sm={4} className="pb1">
               <A4></A4>
@@ -126,28 +134,36 @@ const Astrid = () => (
           <Col sm={4} className="pb1">
           <A12></A12>
           </Col> 
-          <div className="project-info-wrapper two">
+          <div className="project-info-wrapper mt3 mb3 two">
 
             <Col sm={6}>
             <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
             </Col>
             <Col sm={6}>
             <p className="body black copy-delay-1">
-                The dispensary, designed by Alte. Studio, needed to have a close ties with the identity, creating a cohesive experience for patients and customers across all touch points of the experience.
+              The dispensary space, designed by <a target="_blank" href="https://altestudio.com.au/">Alte. Studio</a>, needed to have a close relationship with the visual identity, creating a cohesive experience for patients and customers. 
+        
+            </p>
+            <p className="body text-indent">
+            Colour is used, along with proportion and material to create the connection between space and brand. 
+            Subtle use of brand assets in the space, along with signage on the exterior of the building also emphasise the visual links. 
             </p>
             </Col>
             </div>
           <Col sm={12} className="pb1">
           <A7></A7>
           </Col> 
-          <div className="project-info-wrapper">
+          <div className="project-info-wrapper mt3 mb3">
 
             <Col sm={6}>
-            <h3 className="header-3">Translating the physical experience online.</h3>
+            <h3 className="header-3">A natural and enjoyable experience online for patients</h3>
             </Col>
             <Col sm={6}>
             <p className="body black copy-delay-1">
-              
+             Early on, we identified that many patients have had potentially stressful experiences interacting with health care providers, so we wanted to create an enjoyable experience for patients when engaging with Astrid online. We did this by incorporating subtle animation, applying the brand green throughout and using consistent, gentle copy. 
+            </p>
+            <p className="body text-indent">
+              Early on, the site existed largely as an introduction to Astrid, but as the brand grows we are now rolling out e-commerce and integrated patient management tools. 
             </p>
           </Col>
           </div>
@@ -159,6 +175,7 @@ const Astrid = () => (
             <A3></A3>
             </Col> 
           </div>
+         
           <div className="project-image-group-wrapper">
             {/* <Col sm={4} className="mobile-view">
             <A8></A8>
@@ -171,14 +188,17 @@ const Astrid = () => (
             </Col> 
 
           </div>
-          {/* <div className="project-image-group-wrapper">
-          <Col sm={6}>
-            <A14></A14>
-          </Col>
-          <Col sm={6}>
-            <A15></A15>
-          </Col>
-          </div> */}
+          <div className="project-info-wrapper mt3 mb3">
+
+            <Col sm={6}>
+            <h3 className="header-3">Supporting collateral</h3>
+            </Col>
+            <Col sm={6}>
+            <p className="body black copy-delay-1">
+            We designed a range of collateral for Astrid, including stationary and packaging.
+            </p>
+            </Col>
+            </div>
           <div className="project-image-group-wrapper">
           <Col sm={6}>
             <A16></A16>
