@@ -13,6 +13,7 @@ import BGIMG7 from "../components/backgroundimage7"
 import BGIMG8 from "../components/backgroundimage8"
 import BGIMG2 from "../components/backgroundimage2"
 import BGIMG4 from "../components/backgroundimage4"
+import ArrowWhite from "../assets/arrow-small-white.svg";
 
 const Work = () => (
   <Layout>
@@ -41,6 +42,13 @@ const Work = () => (
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG className="border-50"></BGIMG>
+                    <div className="work-button"><AniLink
+                          cover  to="/astrid" bg="#1E1E1E"
+                          direction="left"
+                          duration={1.5}
+                        ><span className="link-text">View case study</span></AniLink>
+                    </div>
+               
             </div>
             </AniLink>
             <div className="project-wrapper">
@@ -98,20 +106,19 @@ const Work = () => (
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG8 className="border-50"></BGIMG8>
+                <div className="work-button"><a target="_blank" href="https://www.masterme.com.au/"><span className="link-text">View website</span></a>
+                    </div>
             </div>
             </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-                      <AniLink
-                    cover  to="/masterme" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
-                         Master Me</AniLink></h2>
+                     
+                         Master Me</h2>
 
-                        <Arrow className="arrow"></Arrow>
+                         <Arrow className="arrow"></Arrow>
+                      
                       </div>
                 </div>
           </Col>
@@ -126,25 +133,19 @@ const Work = () => (
             data-sal-easing="ease-in"
           >
             
-            <AniLink
-                    cover  to="/obie" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
+           
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG6 className="border-50"></BGIMG6>
+                   <div className="work-button"><span className="link-text">Case study coming soon</span>
+                    </div>
             </div>
-            </AniLink>
+     
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-                      <AniLink
-                    cover  to="/obie" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
-                         Obie</AniLink></h2>
+          
+                         Obie</h2>
 
                         <Arrow className="arrow"></Arrow>
                       </div>
@@ -165,6 +166,12 @@ const Work = () => (
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG7 className="border-50"></BGIMG7>
+              <div className="work-button"><AniLink
+                          cover  to="/drive-change" bg="#1E1E1E"
+                          direction="left"
+                          duration={1.5}
+                        ><span className="link-text">View case study</span></AniLink>
+                    </div>
             </div>
             </AniLink>
 
@@ -193,27 +200,19 @@ const Work = () => (
             data-sal-easing="ease-in"
           >
             
-            <AniLink
-                    cover  to="/masterme" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
+  
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG2 className="border-50"></BGIMG2>
             </div>
-            </AniLink>
+      
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-                      <AniLink
-                    cover  to="/masterme" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
-                         Musk</AniLink></h2>
+                    
+         
+                         Musk</h2>
 
-                        <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
           </Col>
@@ -236,14 +235,10 @@ const Work = () => (
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-                      <AniLink
-                    cover  to="/masterme" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
-                         RDP</AniLink></h2>
+          
+                         RDP</h2>
 
-                        <Arrow className="arrow"></Arrow>
+                   
                       </div>
                 </div>
           </Col>

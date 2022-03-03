@@ -163,11 +163,11 @@ const Astrid = () => (
              Early on, we identified that many patients have had potentially stressful experiences interacting with health care providers, so we wanted to create an enjoyable experience for patients when engaging with Astrid online. We did this by incorporating subtle animation, applying the brand green throughout and using consistent, gentle copy. 
             </p>
             <p className="body text-indent">
-              Early on, the site existed largely as an introduction to Astrid, but as the brand grows we are now rolling out e-commerce and integrated patient management tools. 
+              Initially, the site existed largely as an introduction to Astrid, but as the brand grows we are now rolling out e-commerce and integrated patient management tools. 
             </p>
           </Col>
           </div>
-          <div className="project-image-group-wrapper">
+          <div className="project-image-group-wrapper pb5">
             <Col sm={4} className="mobile-view">
             <A8></A8>
             </Col> 
@@ -203,7 +203,7 @@ const Astrid = () => (
           <Col sm={6}>
             <A16></A16>
           </Col>
-          <Col sm={6}>
+          <Col sm={6} className="smt2">
             <A17></A17>
           </Col>
           </div>

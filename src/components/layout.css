@@ -918,6 +918,11 @@ header{
   max-width: 550px;
 }
 
+.small-copy .arrow{
+  float: none;
+  width: 13px;
+  height: 13px;
+}
 
 @keyframes fadein {
   0% {
@@ -980,7 +985,7 @@ header{
 }
 
 .work-list a .item:hover  .arrow{
-  margin-left: 2em;
+  margin-left: 1em;
   transition: all .2s;
   width: 40px;
   transform: rotate(90deg);
@@ -1118,15 +1123,17 @@ body.preloader_active .logo{
     line-height: 1.1em;
     text-transform: uppercase;
     color: #1e1e1e;
-    display: flex;
-    column-gap: 20px;
-    justify-content: end;
 }
 
 .menu.two a{
   text-decoration: none;
   color: #1e1e1e;
 } 
+
+.item-two{
+  float: right;
+  padding: 0 1em;
+}
 
 .video-container{
   position: relative;
@@ -1323,9 +1330,9 @@ ul.services-list li{
 }
 
 .menu{
-  float: right;
+  /* float: right;
+  text-align: right; */
   width: 100%;
-  text-align: right;
   margin-top: 5px;
 }
 
@@ -1670,14 +1677,57 @@ text-align: right;
   .work-page-image-wrapper{
     height: 50vw;
     overflow: hidden;
+    position: relative;
   }
+
+
+
+.work-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work-button{
+  font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+  color: black;
+  text-decoration: none;
+  padding: 1em 2em;
+  background: #ffffffbd;
+  background: color(display-p3 0.974 1 0);
+  border-radius: 50px;
+  width: 330px;
+  height: 70px;
+  display: block;
+  transition: .2s all;
+  text-align: center;
+  /* box-shadow: 0px 0px 14px -1px #ffffff6b; */
+}
+
+.work-button a{
+  text-align: center;
+  text-decoration: none;
+}
+.work-button:hover{
+  background: #fff;
+}
+
+.work-button .link-text{
+  position: relative;
+  top: 6px;
+  left: 0;
+}
 
   .project-image-group-wrapper{
     float: left;
     position: relative;
     width: 100%;
     display: flex;
-    padding: 5em 0em;
     justify-content: center;
   }
 
@@ -1727,7 +1777,6 @@ text-align: right;
 
 .hover-link {
     display: inline-block;
-    color: rgb(95, 95, 95);
     text-decoration: none;
 }
 

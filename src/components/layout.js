@@ -13,6 +13,7 @@ import Header from "./header"
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./layout.css"
+import Arrow from "../assets/arrow.svg";
 // import { ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -87,14 +88,19 @@ const Layout = ({ children }) => {
              <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy">
+                <a href="mailto:mail@byandlarge.studio">
                   mail@byandlarge.studio
+                  </a>
                   </div>
               </Col>
               
             <Col xs={6} md={3}><div style={{
             
           }}className="small-copy">
+             <a target="_blank" href="https://www.instagram.com/studiobyandlarge/">
                 Instagram 
+              </a>
+              <Arrow className="arrow"></Arrow>
                 </div>
             </Col>
              <Col  xs={6} sm={6} md={3}><div style={{
