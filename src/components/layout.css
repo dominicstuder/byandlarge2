@@ -1574,7 +1574,7 @@ transition: opacity .3s ;
 
 
 .video-wrapper{
-  height: 60vw;
+  height: 50vw;
   width: 100%;
   z-index: -1;
   border-radius: 20px;
@@ -2348,6 +2348,7 @@ body.preloader_ready #preloader {
   .logo{
     height: 28px;
     width: 100%;
+    font-size: 1.2rem;
   }
   .menu-item {
       margin-right: 1rem;
@@ -2523,8 +2524,8 @@ body.preloader_ready #preloader {
     display: block;
   }
   .item-two {
-    float: left;
-    padding: 0 .5em 0em 0em;
+    float: right;
+    padding: 0 0 0 0.5em;
   }
 }
 
