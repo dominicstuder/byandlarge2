@@ -37,9 +37,11 @@ const IndexPage = () => {
       <Container fluid>
         <Row justify="between" style={{
             position: 'relative',
+            paddingTop: '5em',
           }}>
             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
             position: 'relative',
+    
           }}> <h1 
           className="intro-copy delay-1">A strategy, design and technology studio</h1>
             </Col>
