@@ -21,13 +21,13 @@ const Work = () => (
     <Container fluid>
         <Row justify="end" style={{
             position: 'relative',
-            marginTop: '2rem',
+            marginTop: '5rem',
           }}>
              <Col sm={12} lg={12} xl={8} >
              <h2  data-sal-duration="500"
           data-sal="fade"
           data-sal-easing="ease-in" 
-          className="intro-copy delay-2">Work</h2>
+          className="intro-copy-work delay-2">Work</h2><span className="small-number">6</span>
               </Col>
           <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-3"
               data-sal-duration="500"
@@ -42,12 +42,12 @@ const Work = () => (
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG className="border-50"></BGIMG>
-                    <div className="work-button"><AniLink
+                    {/* <div className="work-button"><AniLink
                           cover  to="/astrid" bg="#1E1E1E"
                           direction="left"
                           duration={1.5}
                         ><span className="link-text">View case study</span></AniLink>
-                    </div>
+                    </div> */}
                
             </div>
             </AniLink>
@@ -106,8 +106,8 @@ const Work = () => (
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG8 className="border-50"></BGIMG8>
-                <div className="work-button"><a target="_blank" href="https://www.masterme.com.au/"><span className="link-text">View website</span></a>
-                    </div>
+                {/* <div className="work-button"><a target="_blank" href="https://www.masterme.com.au/"><span className="link-text">View website</span></a>
+                    </div> */}
             </div>
             </AniLink>
                         
@@ -132,21 +132,28 @@ const Work = () => (
             data-sal-delay="100"
             data-sal-easing="ease-in"
           >
-            
+              <AniLink
+                    cover  to="/obie" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
            
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG6 className="border-50"></BGIMG6>
-                   <div className="work-button"><span className="link-text">Case study coming soon</span>
-                    </div>
+       
             </div>
-     
+            </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-          
-                         Obie</h2>
-
+                      <AniLink
+                    cover  to="/obie" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+                         Obie    </AniLink></h2>
+                  
                         <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
@@ -158,7 +165,12 @@ const Work = () => (
                     data-sal-duration="500"
               data-sal="slide-up"
               data-sal-delay="100"
-              data-sal-easing="ease-in">
+              data-sal-easing="ease-in"
+              style={{
+                marginTop: '5em',
+              }}
+              >
+                
           <AniLink
                     cover  to="/drive-change" bg="#1E1E1E"
                     direction="left"
@@ -166,12 +178,12 @@ const Work = () => (
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG7 className="border-50"></BGIMG7>
-              <div className="work-button"><AniLink
+              {/* <div className="work-button"><AniLink
                           cover  to="/drive-change" bg="#1E1E1E"
                           direction="left"
                           duration={1.5}
                         ><span className="link-text">View case study</span></AniLink>
-                    </div>
+                    </div> */}
             </div>
             </AniLink>
 
@@ -199,20 +211,28 @@ const Work = () => (
             data-sal-delay="100"
             data-sal-easing="ease-in"
           >
-            
+             <AniLink
+                    cover  to="/musk" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
   
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG2 className="border-50"></BGIMG2>
             </div>
-      
+            </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-                    
+                      <AniLink
+                    cover  to="/musk" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
          
-                         Musk</h2>
-
+                         Musk </AniLink></h2>
+                     
                       </div>
                 </div>
           </Col>
@@ -226,17 +246,25 @@ const Work = () => (
             data-sal-easing="ease-in"
           >
             
-          
+            <AniLink
+                    cover  to="/rdp" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG4 className="border-50"></BGIMG4>
             </div>
-   
+            </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
-          
-                         RDP</h2>
+                      <AniLink
+                    cover  to="/musk" bg="#1E1E1E"
+                    direction="left"
+                    duration={1.5}
+                  >
+                         RDP</AniLink></h2>
 
                    
                       </div>

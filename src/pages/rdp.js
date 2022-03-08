@@ -7,7 +7,8 @@ import { Container, Row, Col } from 'react-grid-system';
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG4 from "../components/backgroundimage4"
-import IMG from "../components/image"
+import RDP2 from "../components/rdp2-img"
+import RDP3 from "../components/rdp3-img"
 
 
 const Rdp = () => (
@@ -21,16 +22,32 @@ const Rdp = () => (
         <Col sm={8}>
           <h2 className="header-1 black">RDP</h2>
           </Col>
-          <Col sm={2}>
-            <div className="project-info">
-              <p className="body text-">Scope</p>
-              <p className="body">
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">Industry</p>
+              <p className="scope-list">
                 <ul>
-                  <li>Strategy</li>
-                  <li>Brand Identity</li>
+                  <li>Interior Design</li>
+                  <li>Construction</li>
+                </ul>
+              </p>
+              <p className="body small-title">Year</p>
+              <p className="scope-list">
+                <ul>
+                  <li>2020</li>
+                </ul>
+              </p>
+            </div>
+          </Col> 
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">WHAT WE DID</p>
+              <p className="scope-list">
+                <ul>
+           
+                  <li>Visual Identity</li>
                   <li>Graphic Design</li>
                   <li>Digital Design</li>
-                  <li>Developmemnt</li>
                 </ul>
               </p>
             </div>
@@ -39,10 +56,9 @@ const Rdp = () => (
               position: 'relative',
               marginTop: '10rem',
           }}>
+              <div className="work-page-image-wrapper">
               <BGIMG4></BGIMG4>
-          </Col> 
-          <Col sm={6} className="pb1">
-          <BGIMG4></BGIMG4>
+              </div>
           </Col> 
           <Col sm={6} className="pb1">
             <div className="project-info">
@@ -51,13 +67,13 @@ const Rdp = () => (
             </div>
           </Col> 
           <Col sm={12} className="pb1">
-          <BGIMG4></BGIMG4>
+          <RDP2></RDP2>
           </Col> 
           <Col sm={12} className="pb1">
-          <BGIMG4></BGIMG4>
+          <RDP3></RDP3>
           </Col> 
           <Col sm={12} className="pb1">
-          <BGIMG4></BGIMG4>
+   
           </Col> 
       </Row>
    </Container>

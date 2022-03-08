@@ -14,12 +14,12 @@ const Contact = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '2rem',
+            marginTop: '5rem',
             minHeight: '80vh',
         }} >
           <Col sm={6}>
-          <h2 className="header-1 black copy-delay-1">Contact</h2>
-          <p className="body"> Get in touch if you would liek to talk about a potential project or work opportunities.</p>
+          <h2 className="header-2 black copy-delay-1">Contact</h2>
+          <p className="body"> Get in touch if you would like to talk about a potential project or work opportunities.</p>
           <p className="body">mail@byandlarge.studio</p>
           </Col>
         </Row>

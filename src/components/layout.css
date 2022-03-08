@@ -901,6 +901,17 @@ header{
   max-width: 1890px;
 }
 
+.intro-copy-work{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 1.2em;
+  color: #1E1E1E;
+  letter-spacing: -0.02em;
+  float: left;
+  max-width: 1890px;
+}
+
 .scope-list{
   font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
   font-weight: normal;
@@ -1145,6 +1156,7 @@ body.preloader_active .logo{
   color: #1E1E1E;;
 }
 
+
 .body.home-page{
   font-size: 2rem;
 }
@@ -1167,6 +1179,10 @@ body.preloader_active .logo{
   text-decoration: none;
 }
 
+.project-wrapper .header-2{
+  font-size: 2rem;
+}
+
 .header-2.black {
   color: #1E1E1E;;
 }
@@ -1183,8 +1199,19 @@ body.preloader_active .logo{
   letter-spacing: -0.02em;
 }
 
+.small-number{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  top: 8px;
+  left: 6px;
+  position: relative;
+}
+
 .body{
-  font-family: UntitledSans-Regular, sans-serif;
+  font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.3em;
@@ -1457,13 +1484,13 @@ body{
 .body{
   font-weight: normal;
   font-size: 1.2rem;
-  color: #1E1E1E;;
+  color: #1E1E1E;
   max-width: 470px;
   letter-spacing: -0.03em;
 }
 
 .body a{
-
+  color: #1E1E1E;
 }
 
 .border-50::before{
@@ -2107,7 +2134,7 @@ body.preloader_ready #preloader {
       justify-content: center;
       align-items: center;
       /* background-color: #F8D271; */
-      background-image: linear-gradient(#fff, #F8D271);
+      background-image: linear-gradient(#fff, #ffca41);
       z-index: 9999;
       display: flex;
       overflow: hidden;
@@ -2332,7 +2359,12 @@ body.preloader_ready #preloader {
 } 
 @media screen and (max-width: 768px) {
   .intro-copy{
-    font-size: 2.5rem;
+    font-size: 4rem;
+    margin-top: 1em;
+  }
+
+  .intro-copy-work{
+    font-size: 4rem;
     margin-top: 1em;
   }
   .header-3{
@@ -2491,6 +2523,9 @@ body.preloader_ready #preloader {
   .header-1 {
     font-size: 4rem;
   }
+  .header{
+    padding: 0.5rem 0rem 0rem;
+  }
   .menu.two{
     font-size: 1rem;;
   }
@@ -2525,7 +2560,7 @@ body.preloader_ready #preloader {
   }
   .item-two {
     float: right;
-    padding: 0 0 0 0.5em;
+    padding: 0 0 0 0.75em;
   }
 }
 

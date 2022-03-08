@@ -7,10 +7,10 @@ import { Container, Row, Col } from 'react-grid-system';
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG6 from "../components/backgroundimage6"
-import IMG from "../components/image"
-import O2 from "../components/o2-img"
-import O3 from "../components/o3-img"
-import O4 from "../components/o4-img"
+import O1 from "../components/obie1-img"
+import O2 from "../components/obie2-img"
+import O3 from "../components/obie3-img"
+import O5 from "../components/obie5-img"
 
 
 const Obie = () => (
@@ -48,12 +48,13 @@ const Obie = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-3 pb1 mt5 sm-mt-2" style={{
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
+             <div className="work-page-image-wrapper">
               <BGIMG6></BGIMG6>
-          </Col> 
-
+            </div>
+            </Col>
           <Col sm={12} style={{
               marginBottom: '2rem',
           }}>
@@ -62,20 +63,17 @@ const Obie = () => (
               <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </Col> 
-          <Col sm={12} style={{
-              marginBottom: '2rem',
-          }}>
-          <O3></O3>
+          <Col sm={6} className="pb1">
+            <O1></O1>
           </Col> 
-          <Col sm={12} style={{
-              marginBottom: '2rem',
-          }}>
-          <O4></O4>
+          <Col sm={6} className="pb1">
+            <O2></O2>
           </Col> 
-          <Col sm={12} style={{
-              marginBottom: '2rem',
-          }}>
-          <O2></O2>
+          <Col sm={12} className="pb1">
+            <O3></O3>
+          </Col> 
+          <Col sm={12} className="pb1">
+            <O5></O5>
           </Col> 
       </Row>
    </Container>

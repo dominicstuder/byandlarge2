@@ -8,13 +8,15 @@ import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG from "../components/backgroundimage8"
 import IMG from "../components/image"
-import A1 from "../components/a1-img"
-import A2 from "../components/a2-img"
-import A3 from "../components/a3-img"
-import A4 from "../components/a4-img"
-import A5 from "../components/a5-img"
-import A6 from "../components/a6-img"
-import A7 from "../components/a7-img"
+import MM2 from "../components/mm2-img"
+import MM3 from "../components/mm3-img"
+import MM4 from "../components/mm4-img"
+import MM5 from "../components/mm5-img"
+import MM6 from "../components/mm6-img"
+import MM7 from "../components/mm7-img"
+import MM8 from "../components/mm8-img"
+import MM9 from "../components/mm09-img"
+import MM10 from "../components/mm10-img"
 
 const masterme = () => (
   <Layout>
@@ -22,24 +24,28 @@ const masterme = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '2rem',
+            marginTop: '5rem',
         }} >
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Master Me</h2>
           </Col>
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+          </Row>
+          <Row justify="start" style={{
+            position: 'relative',
+    
+        }} >
+          <Col xs={6} sm={6} md={6} lg={6} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Industry</p>
               <p className="scope-list">
                 <ul>
-                  <li>Health Care</li>
-                  <li>Medical Cannabis</li>
+                  <li>Coaching</li>
                 </ul>
               </p>
               <p className="body small-title">Year</p>
               <p className="scope-list">
                 <ul>
-                  <li>2021</li>
+                  <li>2022</li>
                 </ul>
               </p>
             </div>
@@ -49,10 +55,9 @@ const masterme = () => (
               <p className="body small-title">Scope</p>
               <p className="scope-list">
                 <ul>
-                  <li>Strategy</li>
                   <li>Brand Identity</li>
-                  <li>Campaign Design</li>
                   <li>Digital Design</li>
+                  <li>Graphic Design</li>
                   <li>Website Development</li>
                 </ul>
               </p>
@@ -68,12 +73,12 @@ const masterme = () => (
               </p>
             </div>
           </Col>  */}
-          <Col sm={6}>
+          {/* <Col sm={6}>
           <p className="body black copy-delay-1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
           
           </p>
-          </Col>
+          </Col> */}
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
@@ -91,8 +96,17 @@ const masterme = () => (
             </div>
           </Col>
           </div>
+          <Col sm={6} className="pb1">
+            <MM2></MM2>
+          </Col> 
+          <Col sm={6} className="pb1">
+            <MM3></MM3>
+          </Col> 
           <Col sm={12} className="pb1">
-              <A3></A3>
+          <MM9></MM9>
+          </Col> 
+          <Col sm={12} className="pb1">
+          <MM10></MM10>
           </Col> 
           <div className="project-info-wrapper">
 
@@ -106,14 +120,20 @@ const masterme = () => (
           </p>
           </Col>
           </div>
+          {/* <Col sm={12} className="pb1">
+          <MM4></MM4>
+          </Col>  */}
           <Col sm={12} className="pb1">
-              <A4></A4>
+          <MM5></MM5>
           </Col> 
           <Col sm={12} className="pb1">
-            <A5></A5>
+          <MM6></MM6>
           </Col> 
           <Col sm={12} className="pb1">
-          <A6></A6>
+          <MM7></MM7>
+          </Col> 
+          <Col sm={12} className="pb1">
+          <MM8></MM8>
           </Col> 
       </Row>
    </Container>

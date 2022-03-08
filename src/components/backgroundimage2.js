@@ -37,7 +37,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 `
 
 export default StyledBackgroundSection
