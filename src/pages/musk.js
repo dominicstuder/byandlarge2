@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import IMG from "../components/image"
+import IMG from "../components/backgroundimage5"
 import MU1 from "../components/mu01-img"
 import MU2 from "../components/mu02-img"
 import MU3 from "../components/mu03-img"
@@ -24,21 +24,51 @@ const Musk = () => (
     <SEO title="Musk" />
     <div style={{marginTop:'10em',}}>
     <Container fluid>
-      <Row justify="start" style={{
+    <Row justify="start" style={{
             position: 'relative',
             marginTop: '10rem',
         }} >
-          <Col sm={3}>
-            <h2 className="header-2 black"><AniLink fade to="/astrid/">Musk</AniLink></h2>
-          </Col>   
-            <Col
-            className="pb1"
-            sm={12}>
-                  <IMG></IMG>
+          <Col sm={6}>
+          <h2 className="header-1 black copy-delay-1">Musk</h2>
+          </Col>
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">Industry</p>
+              <p className="scope-list">
+                <ul>
+                  <li>Hospitality</li>
+                </ul>
+              </p>
+              <p className="body small-title">Year</p>
+              <p className="scope-list">
+                <ul>
+                  <li>2019</li>
+                </ul>
+              </p>
+            </div>
+          </Col> 
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">WHAT WE DID</p>
+              <p className="scope-list">
+                <ul>
+                  <li>Strategy</li>
+                  <li>Visual Identity</li>
+                  <li>Digital Design</li>
+                </ul>
+              </p>
+            </div>
+          </Col> 
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
+              position: 'relative',
+          }}>
+             <div className="work-page-image-wrapper">
+               <IMG></IMG>
+              </div>
               </Col> 
-              <Col className="pb1" sm={12}>
+              {/* <Col className="pb1" sm={12}>
                   <MU1></MU1>
-              </Col> 
+              </Col>  */}
               <Col className="pb1" sm={12}>
                   <MU2></MU2>
               </Col> 
@@ -54,12 +84,12 @@ const Musk = () => (
               <Col className="pb1" sm={6}>
                   <MU6></MU6>
               </Col> 
-              <Col className="pb1" sm={6}>
+              {/* <Col className="pb1" sm={6}>
                   <MU7></MU7>
               </Col> 
               <Col className="pb1" sm={6}>
                   <MU8></MU8>
-              </Col>
+              </Col> */}
               <Col className="pb1" sm={6}>
                   <MU9></MU9>
               </Col> 

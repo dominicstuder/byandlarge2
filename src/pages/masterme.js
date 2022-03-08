@@ -24,17 +24,14 @@ const masterme = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '5rem',
+            marginTop: '10rem',
         }} >
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Master Me</h2>
           </Col>
-          </Row>
-          <Row justify="start" style={{
-            position: 'relative',
-    
-        }} >
-          <Col xs={6} sm={6} md={6} lg={6} xl={2} xxl={2} >
+  
+
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Industry</p>
               <p className="scope-list">
@@ -42,7 +39,7 @@ const masterme = () => (
                   <li>Coaching</li>
                 </ul>
               </p>
-              <p className="body small-title">Year</p>
+              <p className="body small-title copy-delay-2">Year</p>
               <p className="scope-list">
                 <ul>
                   <li>2022</li>
@@ -51,8 +48,8 @@ const masterme = () => (
             </div>
           </Col> 
           <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">Scope</p>
+            <div className="project-info copy-delay-3">
+              <p className="body small-title">What we did</p>
               <p className="scope-list">
                 <ul>
                   <li>Brand Identity</li>

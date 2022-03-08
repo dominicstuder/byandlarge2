@@ -27,7 +27,7 @@ const Work = () => (
              <h2  data-sal-duration="500"
           data-sal="fade"
           data-sal-easing="ease-in" 
-          className="intro-copy-work delay-2">Work</h2><span className="small-number">6</span>
+          className="intro-copy-work delay-2">Work<span className="small-number">6</span></h2>
               </Col>
           <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-3"
               data-sal-duration="500"

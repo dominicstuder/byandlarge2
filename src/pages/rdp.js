@@ -19,7 +19,7 @@ const Rdp = () => (
             position: 'relative',
             marginTop: '10rem',
         }} >
-        <Col sm={8}>
+        <Col sm={6}>
           <h2 className="header-1 black">RDP</h2>
           </Col>
           <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
@@ -52,9 +52,8 @@ const Rdp = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-1 pb1" style={{
+          <Col sm={12} className="delay-1 pb1 mt5 sm-mt-2" style={{
               position: 'relative',
-              marginTop: '10rem',
           }}>
               <div className="work-page-image-wrapper">
               <BGIMG4></BGIMG4>

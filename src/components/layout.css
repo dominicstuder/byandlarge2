@@ -1205,7 +1205,7 @@ body.preloader_active .logo{
   font-size: 1.2rem;
   line-height: 1.2em;
   letter-spacing: -0.02em;
-  top: 8px;
+  top: -52px;
   left: 6px;
   position: relative;
 }
@@ -2560,7 +2560,7 @@ body.preloader_ready #preloader {
   }
   .item-two {
     float: right;
-    padding: 0 0 0 0.75em;
+    padding: 0 0 7px 0.75em;
   }
 }
 

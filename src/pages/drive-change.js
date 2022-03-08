@@ -28,9 +28,9 @@ const DriveChange = () => (
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Drive Change</h2>
           </Col>
-          <Col sm={2}>
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
-              <p className="body small-title">Scope</p>
+              <p className="body small-title">What we did</p>
               <p className="scope-list">
                 <ul>
                   <li>Strategy</li>
@@ -42,7 +42,7 @@ const DriveChange = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={2}>
+          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-3">
               <p className="body small-title">Year</p>
               <p className="scope-list">
@@ -52,14 +52,14 @@ const DriveChange = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-1" style={{
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
-              marginTop: '10rem',
-              marginBottom: '1rem',
           }}>
   
-          {/* <BGIMG7></BGIMG7> */}
-          <D1></D1>
+            <div className="work-page-image-wrapper">
+                <BGIMG7></BGIMG7>
+            </div>
+
           </Col>
           <Col sm={6} className="delay-1" style={{
               marginBottom: '1rem',
@@ -81,6 +81,11 @@ const DriveChange = () => (
               marginBottom: '1rem',
           }}>
           <D4></D4>
+          </Col> 
+          <Col sm={12} className="delay-1" style={{
+              marginBottom: '1rem',
+          }}>
+          <D1></D1>
           </Col> 
           <Col sm={12} className="delay-1" style={{
               marginBottom: '1rem',

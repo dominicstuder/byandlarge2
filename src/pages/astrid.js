@@ -33,7 +33,7 @@ const Astrid = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '5rem',
+            marginTop: '10rem',
         }} >
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
