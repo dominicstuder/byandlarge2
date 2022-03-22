@@ -1140,7 +1140,18 @@ body.preloader_active .logo{
 .menu.two a{
   text-decoration: none;
   color: #1e1e1e;
+  background-color: #ff0;
+  padding: 10px 22px;
+  border-radius: 30px;
+  transition: .2s all;
 } 
+
+
+.menu.two a:hover{
+  background: #141414;
+  transition: .2s all;
+  color: white;
+}
 
 .item-two{
   float: right;
@@ -1483,7 +1494,7 @@ body{
 
 .body{
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #1E1E1E;
   max-width: 470px;
   letter-spacing: -0.03em;
@@ -1498,6 +1509,14 @@ body{
 }
 
 .border-50::after{
+  border-radius: 20px;
+}
+
+.border-50-no-hover::before{
+  border-radius: 20px;
+}
+
+.border-50-no-hover::after{
   border-radius: 20px;
 }
 
@@ -2359,8 +2378,8 @@ body.preloader_ready #preloader {
 } 
 @media screen and (max-width: 768px) {
   .intro-copy{
-    font-size: 4rem;
-    margin-top: 1em;
+    font-size: 2rem;
+    margin-top: 0em;
   }
 
   .intro-copy-work{
@@ -2560,7 +2579,10 @@ body.preloader_ready #preloader {
   }
   .item-two {
     float: right;
-    padding: 0 0 7px 0.75em;
+    padding: 0 0.4em;
+  }
+  .menu.two a{
+    padding: 5px 12px;
   }
 }
 

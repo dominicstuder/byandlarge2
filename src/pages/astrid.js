@@ -33,10 +33,26 @@ const Astrid = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '10rem',
-        }} >
+        }} 
+        className="mt5 sm-mt-4">
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
+          </Col>
+          <Col sm={12} className="delay-3 mt5 sm-mt-0 pb1" style={{
+              position: 'relative',
+          }}>
+             <div className="work-page-image-wrapper">
+              <BGIMG className="border-50-no-hover"></BGIMG>
+            </div>
+            </Col>
+            <Col sm={6}>
+          <p className="body black copy-delay-1">
+          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          </p>
+          <p className="body black text-indent copy-delay-1 mb3">
+          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
+          </p>
           </Col>
           <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info copy-delay-2">
@@ -85,25 +101,7 @@ const Astrid = () => (
           <Row justify="end" style={{
             marginTop: '3rem',
         }}>
-          <Col sm={6}>
-          <p className="body black copy-delay-1">
-          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
-          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
-          </p>
-          <p className="body black text-indent copy-delay-1 mb3">
-          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
-          </p>
-          </Col>
-          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
-              position: 'relative',
-          }}>
-             <div className="work-page-image-wrapper">
-              <BGIMG></BGIMG>
-            </div>
-            </Col>
-            {/* <Col sm={3} className="mt5 small-image-top mobile-view">
-              <A3></A3>
-          </Col>  */}
+
           <div className="project-info-wrapper mt3 mb3">
             <Col sm={6}>
                 <h3 className="header-3">The visual identity</h3>
@@ -200,10 +198,10 @@ const Astrid = () => (
             </Col>
             </div>
           <div className="project-image-group-wrapper">
-          <Col sm={6}>
+          <Col sm={6} className="pb1">
             <A16></A16>
           </Col>
-          <Col sm={6} className="smt2">
+          <Col sm={6} className="smt2 pb1" >
             <A17></A17>
           </Col>
           </div>
