@@ -2546,7 +2546,7 @@ body.preloader_ready #preloader {
     padding: 0.5rem 0rem 0rem;
   }
   .menu.two{
-    font-size: 1rem;;
+    font-size: .8rem;;
   }
   .work-page-image-wrapper {
     height: 100vw;
@@ -2579,10 +2579,10 @@ body.preloader_ready #preloader {
   }
   .item-two {
     float: right;
-    padding: 0 0.4em;
+    padding: 0 0.3em;
   }
   .menu.two a{
-    padding: 5px 12px;
+    padding: 5px 8px;
   }
 }
 

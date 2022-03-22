@@ -76,7 +76,7 @@ const Header = ({ siteTitle }) => {
   <header className={scroll ? "header bg-black" : "header bg-none"}>
       <Container fluid>
       <Row>
-        <Col xs={5} sm={6} md={6} >
+        <Col xs={6} sm={6} md={6} >
             <div className="logo delay-1">
               <AniLink
                   cover  to="/" bg="#1E1E1E"
@@ -87,7 +87,7 @@ const Header = ({ siteTitle }) => {
             </div>
         </Col>
 
-          <Col xs={7} sm={6} md={6}>
+          <Col xs={6} sm={6} md={6}>
             <nav className="menu two delay-2">
               <div className="item-two"><AniLink
                     cover  to="/work" bg="#1E1E1E"

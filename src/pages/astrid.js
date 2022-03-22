@@ -45,16 +45,8 @@ const Astrid = () => (
               <BGIMG className="border-50-no-hover"></BGIMG>
             </div>
             </Col>
-            <Col sm={6}>
-          <p className="body black copy-delay-1">
-          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
-          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
-          </p>
-          <p className="body black text-indent copy-delay-1 mb3">
-          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
-          </p>
-          </Col>
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+            
+          <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Industry</p>
               <p className="scope-list">
@@ -71,7 +63,7 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+          <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">WHAT WE DID</p>
               <p className="scope-list">
@@ -87,6 +79,15 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
+          <Col sm={6}>
+          <p className="body black copy-delay-1">
+          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          </p>
+          <p className="body black text-indent copy-delay-1 mb3">
+          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
+          </p>
+          </Col>
           {/* <Col sm={2}>
             <div className="project-info copy-delay-3">
               <p className="body small-title">Year</p>
