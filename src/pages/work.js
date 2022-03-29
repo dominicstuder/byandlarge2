@@ -27,7 +27,7 @@ const Work = () => (
              <h2  data-sal-duration="500"
           data-sal="fade"
           data-sal-easing="ease-in" 
-          className="intro-copy-work delay-2">Work<span className="small-number">6</span></h2>
+          className="intro-copy-work delay-2">Our Work<span className="small-number">6</span></h2>
               </Col>
           <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-3"
               data-sal-duration="500"
@@ -35,11 +35,11 @@ const Work = () => (
               data-sal-delay="100"
               data-sal-easing="ease-in"
           >
-         <AniLink
-                    cover  to="/astrid" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
-                  >
+              <AniLink
+                 to="/astrid"
+                 exit={{ length: 0.5 }}
+                 entry={{ delay: 0.5 }}
+              >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG className="border-50"></BGIMG>
                     {/* <div className="work-button"><AniLink
@@ -61,9 +61,9 @@ const Work = () => (
               >
                   <h2 className="header-2 hover-link">
                   <AniLink
-                    cover  to="/astrid" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/astrid"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
                     Astrid Dispensary</AniLink></h2>
                   <Arrow className="arrow"></Arrow>
@@ -100,9 +100,9 @@ const Work = () => (
           >
             
             <AniLink
-                    cover  to="/masterme" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                  to="/masterme"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG8 className="border-50"></BGIMG8>
@@ -133,9 +133,9 @@ const Work = () => (
             data-sal-easing="ease-in"
           >
               <AniLink
-                    cover  to="/obie" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                  to="/obie"
+                  exit={{ length: 0.5 }}
+                  entry={{ delay: 0.5 }}
                   >
            
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
@@ -148,9 +148,9 @@ const Work = () => (
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
                       <AniLink
-                    cover  to="/obie" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                     to="/obie"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
                          Obie    </AniLink></h2>
                   
@@ -172,9 +172,9 @@ const Work = () => (
               >
                 
           <AniLink
-                    cover  to="/drive-change" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/drive-change"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
               <BGIMG7 className="border-50"></BGIMG7>
@@ -191,9 +191,9 @@ const Work = () => (
                       <div className="title-wrapper">
               <h2 className="header-2 hover-link">
               <AniLink
-                    cover  to="/drive-change" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/drive-change"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
                 Drive Change</AniLink></h2>
 
@@ -212,9 +212,9 @@ const Work = () => (
             data-sal-easing="ease-in"
           >
              <AniLink
-                    cover  to="/musk" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/musk"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
   
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
@@ -226,9 +226,9 @@ const Work = () => (
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
                       <AniLink
-                    cover  to="/musk" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                   to="/musk"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
          
                          Musk </AniLink></h2>
@@ -247,9 +247,9 @@ const Work = () => (
           >
             
             <AniLink
-                    cover  to="/rdp" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/rdp"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG4 className="border-50"></BGIMG4>
@@ -260,9 +260,9 @@ const Work = () => (
                       <div className="title-wrapper">
                       <h2 className="header-2 hover-link">
                       <AniLink
-                    cover  to="/musk" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                   to="/rdp"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
                          RDP</AniLink></h2>
 

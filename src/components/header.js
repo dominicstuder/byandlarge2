@@ -76,33 +76,38 @@ const Header = ({ siteTitle }) => {
   <header className={scroll ? "header bg-black" : "header bg-none"}>
       <Container fluid>
       <Row>
-        <Col xs={6} sm={6} md={6} >
+        <Col xs={12} sm={12} md={6} >
             <div className="logo delay-1">
               <AniLink
-                  cover  to="/" bg="#1E1E1E"
-                  direction="right"
-                  duration={1.5}
+                  to="/" 
+                  exit={{ length: 0.5 }}
+                  entry={{ delay: 0.5 }}
                 >By and Large Studio
               </AniLink>
             </div>
         </Col>
 
-          <Col xs={6} sm={6} md={6}>
+          <Col xs={12} sm={12} md={6}>
             <nav className="menu two delay-2">
-              <div className="item-two"><AniLink
-                    cover  to="/work" bg="#1E1E1E"
+            <div className="item-two"><AniLink
+                    fade  to="/studio" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
-                  >Work</AniLink></div>
+                  >Studio</AniLink></div>
+              <div className="item-two"><AniLink
+                    to="/work"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >Our Work</AniLink></div>
                 {/* <div className="item-two"><AniLink
                     cover  to="/studio" bg="#1E1E1E"
                     direction="left"
                     duration={1.5}
                   >Studio</AniLink></div> */}
                 <div className="item-two"><AniLink
-                    cover  to="/contact" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/contact"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >Contact</AniLink></div>
             </nav>
             </Col>

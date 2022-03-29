@@ -28,38 +28,12 @@ const masterme = () => (
         }} >
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Master Me</h2>
+            <p className="intro-copy black copy-delay-1">
+            Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+            The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+            </p>
           </Col>
-  
-
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">Industry</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Coaching</li>
-                </ul>
-              </p>
-              <p className="body small-title copy-delay-2">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2022</li>
-                </ul>
-              </p>
-            </div>
-          </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-3">
-              <p className="body small-title">What we did</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Brand Identity</li>
-                  <li>Digital Design</li>
-                  <li>Graphic Design</li>
-                  <li>Website Development</li>
-                </ul>
-              </p>
-            </div>
-          </Col> 
+         
           {/* <Col sm={2}>
             <div className="project-info copy-delay-3">
               <p className="body small-title">Year</p>
@@ -84,14 +58,35 @@ const masterme = () => (
             </div>
             </Col>
           <div className="project-info-wrapper">
-            <Col sm={8}>
-          <h3 className="header-2">Lorem ipsum dolor sit amet</h3>
-
-          <div className="project-info">
-              <p className="body ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-              <p className="body text-indent">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </Col>
+                <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+                  <div className="project-info copy-delay-2">
+                    <p className="body small-title">Industry</p>
+                    <p className="scope-list">
+                      <ul>
+                        <li>Coaching</li>
+                      </ul>
+                    </p>
+                    <p className="body small-title copy-delay-2">Year</p>
+                    <p className="scope-list">
+                      <ul>
+                        <li>2022</li>
+                      </ul>
+                    </p>
+                  </div>
+                </Col> 
+                <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+                  <div className="project-info copy-delay-3">
+                    <p className="body small-title">What we did</p>
+                    <p className="scope-list">
+                      <ul>
+                        <li>Brand Identity</li>
+                        <li>Digital Design</li>
+                        <li>Graphic Design</li>
+                        <li>Website Development</li>
+                      </ul>
+                    </p>
+                  </div>
+                </Col> 
           </div>
           <Col sm={6} className="pb1">
             <MM2></MM2>
@@ -105,18 +100,7 @@ const masterme = () => (
           <Col sm={12} className="pb1">
           <MM10></MM10>
           </Col> 
-          <div className="project-info-wrapper">
-
-            <Col sm={7}>
-          <h3 className="header-3">Lorem ipsum dolor sit amet</h3>
-          </Col>
-          <Col sm={5}>
-          <p className="body black copy-delay-1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          
-          </p>
-          </Col>
-          </div>
+         
           {/* <Col sm={12} className="pb1">
           <MM4></MM4>
           </Col>  */}

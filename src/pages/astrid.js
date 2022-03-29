@@ -37,16 +37,29 @@ const Astrid = () => (
         className="mt5 sm-mt-4">
           <Col sm={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
+          <div>
+          <p className="intro-copy black copy-delay-1">
+          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          </p>
+          </div>
           </Col>
+         
+
+    
           <Col sm={12} className="delay-3 mt5 sm-mt-0 pb1" style={{
               position: 'relative',
           }}>
-             <div className="work-page-image-wrapper">
+             <div className="work-page-image-wrapper" 
+                  data-sal-duration="500"
+                    data-sal="slide-up"
+                    data-sal-delay="400"
+                    data-sal-easing="ease-in" >
               <BGIMG className="border-50-no-hover"></BGIMG>
             </div>
             </Col>
             
-          <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
+          {/* <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">Industry</p>
               <p className="scope-list">
@@ -62,8 +75,8 @@ const Astrid = () => (
                 </ul>
               </p>
             </div>
-          </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
+          </Col>  */}
+          <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={3} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">WHAT WE DID</p>
               <p className="scope-list">
@@ -79,7 +92,7 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          <Col sm={6}>
+          <Col sm={12} md={8}>
           <p className="body black copy-delay-1">
           Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
           The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
@@ -103,7 +116,7 @@ const Astrid = () => (
             marginTop: '3rem',
         }}>
 
-          <div className="project-info-wrapper mt3 mb3">
+          {/* <div className="project-info-wrapper mt3 mb3">
             <Col sm={6}>
                 <h3 className="header-3">The visual identity</h3>
             </Col>
@@ -112,15 +125,27 @@ const Astrid = () => (
                 </p>
                 <p className="body text-indent copy-delay-1">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
             </Col>
-          </div>
-          <Col sm={4} className="pb1">
+          </div> */}
+          <Col sm={4} className="pb1"
+          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-easing="ease-in">
               <A4></A4>
           </Col> 
 
-          <Col sm={4} className="pb1">
+          <Col sm={4} className="pb1"
+          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-easing="ease-in">
             <A10></A10>
           </Col> 
-          <Col sm={4} className="pb1">
+          <Col sm={4} className="pb1"
+          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-easing="ease-in">
             <A5></A5>
           </Col> 
          
@@ -133,7 +158,7 @@ const Astrid = () => (
           <Col sm={4} className="pb1">
           <A12></A12>
           </Col> 
-          <div className="project-info-wrapper mt3 mb3 two">
+          {/* <div className="project-info-wrapper mt3 mb3 two">
 
             <Col sm={6}>
             <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
@@ -148,11 +173,16 @@ const Astrid = () => (
             Subtle use of brand assets in the space, along with signage on the exterior of the building also emphasise the visual links. 
             </p>
             </Col>
-            </div>
-          <Col sm={12} className="pb1">
+            </div> */}
+          <Col sm={12} className="pb1"
+            data-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-in" 
+          >
           <A7></A7>
           </Col> 
-          <div className="project-info-wrapper mt3 mb3">
+         {/*  <div className="project-info-wrapper mt3 mb3">
 
             <Col sm={6}>
             <h3 className="header-3">A natural and enjoyable experience online for patients</h3>
@@ -165,13 +195,24 @@ const Astrid = () => (
               Initially, the site existed largely as an introduction to Astrid, but as the brand grows we are now rolling out e-commerce and integrated patient management tools. 
             </p>
           </Col>
-          </div>
-          <div className="project-image-group-wrapper pb5">
-            <Col sm={4} className="mobile-view">
-            <A8></A8>
-            </Col> 
-            <Col sm={4} className="mobile-view">
+          </div> */}
+          <div className="project-image-group-wrapper pt5 pb5">
+
+            <Col sm={4} className="mobile-view"
+            ata-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-in" 
+            >
             <A3></A3>
+            </Col>             
+            <Col sm={4} className="mobile-view"
+            ata-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-in" 
+            >
+            <A8></A8>
             </Col> 
           </div>
          
@@ -179,15 +220,25 @@ const Astrid = () => (
             {/* <Col sm={4} className="mobile-view">
             <A8></A8>
             </Col>  */}
-            <Col sm={4} className="mobile-view">
+            <Col sm={4} className="mobile-view"
+            ata-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-in" 
+            >
             <A13></A13>
             </Col> 
-            <Col sm={4} className="mobile-view">
+            <Col sm={4} className="mobile-view"
+            ata-sal-duration="500"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-in" 
+            >
             <A9></A9>
             </Col> 
 
           </div>
-          <div className="project-info-wrapper mt3 mb3">
+          {/* <div className="project-info-wrapper mt3 mb3">
 
             <Col sm={6}>
             <h3 className="header-3">Supporting collateral</h3>
@@ -197,9 +248,9 @@ const Astrid = () => (
             We designed a range of collateral for Astrid, including stationary and packaging.
             </p>
             </Col>
-            </div>
-          <div className="project-image-group-wrapper">
-          <Col sm={6} className="pb1">
+            </div> */}
+          <div className="project-image-group-wrapper pt5">
+          <Col sm={6} className="pb1 ">
             <A16></A16>
           </Col>
           <Col sm={6} className="smt2 pb1" >
