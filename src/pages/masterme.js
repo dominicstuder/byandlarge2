@@ -58,22 +58,7 @@ const masterme = () => (
             </div>
             </Col>
           <div className="project-info-wrapper">
-                <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-                  <div className="project-info copy-delay-2">
-                    <p className="body small-title">Industry</p>
-                    <p className="scope-list">
-                      <ul>
-                        <li>Coaching</li>
-                      </ul>
-                    </p>
-                    <p className="body small-title copy-delay-2">Year</p>
-                    <p className="scope-list">
-                      <ul>
-                        <li>2022</li>
-                      </ul>
-                    </p>
-                  </div>
-                </Col> 
+
                 <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
                   <div className="project-info copy-delay-3">
                     <p className="body small-title">What we did</p>

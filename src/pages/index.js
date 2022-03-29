@@ -145,11 +145,11 @@ const IndexPage = () => {
                 
                                   
                   <AniLink
-                    cover  to="/astrid" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/astrid"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
-                          <div className="item">
+                          <div className="item delay-2">
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
@@ -166,11 +166,11 @@ const IndexPage = () => {
                   </AniLink>
                                   
                   <AniLink
-                    cover  to="/drive-change" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/drive-change"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >
-                          <div className="item">
+                          <div className="item delay-2">
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
@@ -189,10 +189,10 @@ const IndexPage = () => {
                   </div>
 
                   <Col md={12} lg={12} xl={12} xxl={12} >
-                <div className="primary-button"><AniLink
-                          cover  to="/work" bg="#1E1E1E"
-                          direction="left"
-                          duration={1.5}
+                <div className="primary-button delay-1"><AniLink
+                          to="/work"
+                          exit={{ length: 0.5 }}
+                          entry={{ delay: 0.5 }}
                         ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
                   </Col>
                   

@@ -90,9 +90,9 @@ const Header = ({ siteTitle }) => {
           <Col xs={12} sm={12} md={6}>
             <nav className="menu two delay-2">
             <div className="item-two"><AniLink
-                    fade  to="/studio" bg="#1E1E1E"
-                    direction="left"
-                    duration={1.5}
+                    to="/studio" 
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   >Studio</AniLink></div>
               <div className="item-two"><AniLink
                     to="/work"

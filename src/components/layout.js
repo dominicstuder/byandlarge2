@@ -46,7 +46,9 @@ const Layout = ({ children }) => {
           marginTop: `3em`,
           paddingTop: '4em',
           paddingBottom: '.5em',
-        }}>
+        }}
+        className="delay-5"
+        >
         <Container fluid >
           {/* <Row justify="start" style={{
             position: 'relative',

@@ -18,9 +18,9 @@ const Contact = () => (
             minHeight: '80vh',
         }} >
           <Col sm={6}>
-          <h2 className="header-2 black copy-delay-1">Contact</h2>
-          <p className="body"> Get in touch if you would like to talk about a potential project or work opportunities.</p>
-          <p className="body">mail@byandlarge.studio</p>
+          <h2 className="header-1 black delay-1">Contact</h2>
+          <p className="body delay-2" > Get in touch if you would like to talk about a potential project or work opportunities.</p>
+          <p className="body delay-3">mail@byandlarge.studio</p>
           </Col>
         </Row>
       </Container>

@@ -89,7 +89,7 @@ const Work = () => (
         
           </Col>
           </Row> */}
-        <Col sm={8} className="arrow-hover-wrapper"
+        <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
             style={{
               marginTop: '5em',
             }}
@@ -123,7 +123,7 @@ const Work = () => (
                 </div>
           </Col>
         
-          <Col sm={8} className="arrow-hover-wrapper"
+          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
             style={{
               marginTop: '5em',
             }}
@@ -160,8 +160,8 @@ const Work = () => (
           </Col>
         
 
-          <Col sm={8}   
-          className="arrow-hover-wrapper"
+          <Col sm={12} lg={12} xl={8} 
+          className="arrow-hover-wrapper delay-1"
                     data-sal-duration="500"
               data-sal="slide-up"
               data-sal-delay="100"
@@ -202,7 +202,7 @@ const Work = () => (
  
                 </div>
           </Col>  
-          <Col sm={8} className="arrow-hover-wrapper"
+          <Col sm={12} lg={12} xl={8}className="arrow-hover-wrapper delay-1"
             style={{
               marginTop: '5em',
             }}
@@ -236,7 +236,7 @@ const Work = () => (
                       </div>
                 </div>
           </Col>
-          <Col sm={8} className="arrow-hover-wrapper"
+          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
             style={{
               marginTop: '5em',
             }}

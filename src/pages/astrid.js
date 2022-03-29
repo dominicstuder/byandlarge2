@@ -34,8 +34,8 @@ const Astrid = () => (
       <Row justify="start" style={{
             position: 'relative',
         }} 
-        className="mt5 sm-mt-4">
-          <Col sm={6}>
+        className="mt5 sm-mt-6">
+          <Col sm={12} md={6}>
           <h2 className="header-1 black copy-delay-1">Astrid</h2>
           <div>
           <p className="intro-copy black copy-delay-1">

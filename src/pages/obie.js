@@ -23,8 +23,22 @@ const Obie = () => (
         }} >
         <Col sm={6}>
           <h2 className="header-1 black delay-1">Obie</h2>
+          <div>
+          <p className="intro-copy black copy-delay-1">
+          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          </p>
+          </div>
           </Col>
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
+              position: 'relative',
+          }}>
+             <div className="work-page-image-wrapper">
+              <BGIMG6></BGIMG6>
+            </div>
+            </Col>
+            <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
             <div className="project-info delay-2">
               <p className="body small-title">What we did</p>
               <p className="scope-list">
@@ -38,23 +52,7 @@ const Obie = () => (
               </p>
             </div>
           </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info delay-3">
-              <p className="body small-title">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2021</li>
-                </ul>
-              </p>
-            </div>
-          </Col> 
-          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
-              position: 'relative',
-          }}>
-             <div className="work-page-image-wrapper">
-              <BGIMG6></BGIMG6>
-            </div>
-            </Col>
+        
           <Col sm={12} style={{
               marginBottom: '2rem',
           }}>
