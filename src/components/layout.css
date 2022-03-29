@@ -1919,7 +1919,9 @@ text-align: right;
   float: left;
 }
 
-
+.project-wrapper .arrow{
+  display: none;
+}
 
 .project-wrapper .title-wrapper{
   position: relative;
@@ -2441,7 +2443,7 @@ body.preloader_ready #preloader {
 } 
 @media screen and (max-width: 768px) {
   .intro-copy{
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 0em;
   }
 
@@ -2654,6 +2656,9 @@ body.preloader_ready #preloader {
   .menu.two a:hover{
     background: none;
     color: #1e1e1e;
+  }
+  .link-text{
+    top: 22px;
   }
 }
 
