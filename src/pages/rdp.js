@@ -35,16 +35,33 @@ const Rdp = () => (
               </div>
           </Col> 
          
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <RDP2></RDP2>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <RDP3></RDP3>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
    
           </Col> 
       </Row>
+      <Row className="mt2 page-links">
+                <Col sm={6} className="delay-1"  style={{
+                        marginBottom: '1rem',
+                    }}>
+                      
+                        <p className="body">
+                        <AniLink
+                            to="/work"
+                            exit={{ length: 0.5 }}
+                            entry={{ delay: 0.5 }}
+                          >   
+                          Back to Our Work
+                          </AniLink>
+                        </p>  
+                    
+                </Col>
+              </Row>
    </Container>
   </Layout>
 )

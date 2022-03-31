@@ -110,6 +110,38 @@ const masterme = () => (
           <MM8></MM8>
           </Col> 
       </Row>
+      <Row className="mt2 page-links">
+        <Col sm={6} className="delay-1"  style={{
+                marginBottom: '1rem',
+            }}>
+              
+                <p className="body">
+                <AniLink
+                    to="/work"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >   
+                  Back to Our Work
+                  </AniLink>
+                </p>  
+             
+        </Col>
+        <Col sm={6} className="delay-1" style={{
+                marginBottom: '1rem',
+            }}>
+                     
+              <p className="body">
+              <AniLink
+                    to="/obie"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >  
+              Next Project
+              </AniLink>
+              </p>
+          
+        </Col>
+      </Row>
    </Container>
   </Layout>
 )

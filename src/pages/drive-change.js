@@ -32,12 +32,13 @@ const DriveChange = () => (
           </p>
           </Col>
           
+        
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
   
             <div className="work-page-image-wrapper">
-                <BGIMG7></BGIMG7>
+                <BGIMG7 className="border-50-no-hover"></BGIMG7>
             </div>
 
           </Col>
@@ -87,6 +88,39 @@ const DriveChange = () => (
           <D5></D5>
           </Col> 
       </Row>
+      <Row className="mt2 page-links">
+        <Col sm={6} className="delay-1"  style={{
+                marginBottom: '1rem',
+            }}>
+              
+                <p className="body">
+                <AniLink
+                    to="/work"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >   
+                  Back to Our Work
+                  </AniLink>
+                </p>  
+             
+        </Col>
+        <Col sm={6} className="delay-1" style={{
+                marginBottom: '1rem',
+            }}>
+                     
+              <p className="body">
+              <AniLink
+                    to="/musk"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >  
+              Next Project
+              </AniLink>
+              </p>
+          
+        </Col>
+      </Row>
+    
    </Container>
   </Layout>
 )
