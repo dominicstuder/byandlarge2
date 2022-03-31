@@ -27,10 +27,9 @@ const masterme = () => (
             marginTop: '10rem',
         }} >
           <Col sm={6}>
-          <h2 className="header-1 black copy-delay-1">Master Me</h2>
-            <p className="intro-copy black copy-delay-1">
-            Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
-            The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
+          <h2 className="header-1 black delay-1">Master Me</h2>
+            <p className="intro-copy black delay-2">
+              Master Me is a coaching and mentoring course that helps creative professionals to identify and activate purposeful careers and lifestyles that align with their unique strengths and vision.
             </p>
           </Col>
          
@@ -54,12 +53,12 @@ const masterme = () => (
               position: 'relative',
           }}>
              <div className="work-page-image-wrapper">
-              <BGIMG></BGIMG>
+              <BGIMG className="border-50-no-hover"></BGIMG>
             </div>
             </Col>
           <div className="project-info-wrapper">
 
-                <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+                <Col xs={6} sm={4} md={4} lg={4} xl={4} xxl={4} >
                   <div className="project-info copy-delay-3">
                     <p className="body small-title">What we did</p>
                     <p className="scope-list">
@@ -72,33 +71,42 @@ const masterme = () => (
                     </p>
                   </div>
                 </Col> 
+                <Col sm={12} md={8}>
+                <p className="body black delay-1 pt1">
+                  Master Me had been running for 2 years and had reached a point where they had out grown their visual identity. 
+                  We came on board to create the new brand along with website and online course design.  
+                </p>
+                <p className="body black text-indent delay-1 mb3">
+                  The brand needed to resonate with creatives by being enaging and dynamic yet still being able to support the business goals.
+                </p>
+                </Col>
           </div>
-          <Col sm={6} className="pb1">
+          <Col sm={6} className="pb1 delay-1">
             <MM2></MM2>
           </Col> 
-          <Col sm={6} className="pb1">
+          <Col sm={6} className="pb1 delay-1">
             <MM3></MM3>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM9></MM9>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM10></MM10>
           </Col> 
          
           {/* <Col sm={12} className="pb1">
           <MM4></MM4>
           </Col>  */}
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM5></MM5>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM6></MM6>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM7></MM7>
           </Col> 
-          <Col sm={12} className="pb1">
+          <Col sm={12} className="pb1 delay-1">
           <MM8></MM8>
           </Col> 
       </Row>

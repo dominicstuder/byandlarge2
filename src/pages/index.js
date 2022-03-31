@@ -107,8 +107,16 @@ const IndexPage = () => {
                 <Col sm={12} md={12} lg={10} xl={10} xxl={12} style={{
             position: 'relative',
     
-          }}> <h1 
+          }}> 
+          <div 
+            data-sal="slide-up"
+            data-sal-delay="200"
+            data-sal-easing="ease"
+            data-sal-duration="500"
+            >
+          <h1 
           className="intro-copy delay-1">Some of our recent work</h1>
+          </div>
             </Col>
               {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">
                   <h3 className="header-3">Recent work</h3>
@@ -143,12 +151,18 @@ const IndexPage = () => {
              */}
                 
                 
-                                  
+            
                   <AniLink
                     to="/astrid"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
+                                    <div 
+                    data-sal="slide-up"
+                    data-sal-delay="200"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    >   
                           <div className="item delay-2">
                           <div className="video-wrapper-small" style={{
                                 
@@ -163,13 +177,21 @@ const IndexPage = () => {
                           <div className="inner">Astrid<Arrow className="arrow"></Arrow></div>
                           </Col>
                           </div>
+                          </div>
                   </AniLink>
-                                  
+            
+
                   <AniLink
                     to="/drive-change"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
-                  >
+                  >     
+                    <div 
+                    data-sal="slide-up"
+                    data-sal-delay="200"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    >   
                           <div className="item delay-2">
                           <div className="video-wrapper-small" style={{
                                 
@@ -184,10 +206,17 @@ const IndexPage = () => {
                           <div className="inner">Drive change<Arrow className="arrow"></Arrow></div>
                           </Col>
                           </div>
+                     </div>
                   </AniLink>
+              
                   </Row>         
                   </div>
-
+                  <div 
+                    data-sal="slide-up"
+                    data-sal-delay="200"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    >   
                   <Col md={12} lg={12} xl={12} xxl={12} >
                 <div className="primary-button delay-1"><AniLink
                           to="/work"
@@ -195,7 +224,7 @@ const IndexPage = () => {
                           entry={{ delay: 0.5 }}
                         ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
                   </Col>
-                  
+                  </div>
        
         </Container>
       {/* <Container fluid style={{
@@ -228,8 +257,8 @@ const IndexPage = () => {
               </div>
           </Col>
           </Row>
-        </Container> */}
-  
+        </Container>
+   */}
     </Layout>
   )
 }

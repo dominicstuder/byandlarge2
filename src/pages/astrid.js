@@ -36,10 +36,10 @@ const Astrid = () => (
         }} 
         className="mt5 sm-mt-6">
           <Col sm={12} md={6}>
-          <h2 className="header-1 black copy-delay-1">Astrid</h2>
+          <h2 className="header-1 black delay-1">Astrid</h2>
           <div>
-          <p className="intro-copy black copy-delay-1">
-          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
+          <p className="intro-copy black copy-delay-2">
+          Astrid is a unique, plant-based medicines dispensary in South Yarra, Melbourne. 
           The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
           </p>
           </div>
@@ -93,12 +93,12 @@ const Astrid = () => (
             </div>
           </Col> 
           <Col sm={12} md={8}>
-          <p className="body black copy-delay-1">
-          Astrid is an entirely unique, plant-based medicines dispensary in South Yarra, Melbourne. 
-          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
-          </p>
-          <p className="body black text-indent copy-delay-1 mb3">
+          <p className="body black delay-1 pt1">
           We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
+          We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
+          </p>
+          <p className="body black text-indent delay-1 mb3">
+          From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
           </p>
           </Col>
           {/* <Col sm={2}>

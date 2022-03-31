@@ -29,43 +29,36 @@ const Musk = () => (
             marginTop: '10rem',
         }} >
           <Col sm={6}>
-          <h2 className="header-1 black copy-delay-1">Musk</h2>
+          <h2 className="header-1 black delay-1">Musk</h2>
+            <p className="intro-copy black delay-2">
+              Musk is an artist residence, gallery and bed and breakfast in Daylesford, Voctoria. 
+              The brand speaks to the art practice of the founder and connection to the land.
+            </p>
           </Col>
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">Industry</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Hospitality</li>
-                </ul>
-              </p>
-              <p className="body small-title">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2019</li>
-                </ul>
-              </p>
-            </div>
-          </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">WHAT WE DID</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Strategy</li>
-                  <li>Visual Identity</li>
-                  <li>Digital Design</li>
-                </ul>
-              </p>
-            </div>
-          </Col> 
+         
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
           }}>
              <div className="work-page-image-wrapper">
-               <IMG></IMG>
+               <IMG className="border-50-no-hover"></IMG>
               </div>
               </Col> 
+              {/* <Col xs={12} sm={4} md={4} lg={4} xl={4} xxl={4} >
+            <div className="project-info copy-delay-2">
+              <p className="body small-title">What we did</p>
+              <p className="scope-list">
+                <ul>
+                  <li>Brand Identity</li>
+                  <li>Digital Design</li>
+                </ul>
+              </p>
+            </div>
+          </Col>  */}
+          {/* <Col xs={12} sm={8} md={8} className="pb1">
+            <div className="project-info">
+              <p className="body">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
+            </div>
+          </Col>  */}
               {/* <Col className="pb1" sm={12}>
                   <MU1></MU1>
               </Col>  */}

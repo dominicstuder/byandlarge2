@@ -819,6 +819,13 @@ pre tt:after {
   opacity: 0;
 }
 
+.tl-wrapper main .delay-2{
+  transform: translateY(20px);
+  transition: all .2s;
+  opacity: 0;
+}
+
+
 .tl-wrapper main .delay-3{
   transform: translateY(20px);
   transition: all .2s;
@@ -841,7 +848,7 @@ pre tt:after {
   opacity: 1;
   transform: translateY(0px);
   transition: all .5s;
-  transition-delay: .3s;
+  transition-delay: .1s;
 }
 
 
@@ -1018,7 +1025,7 @@ header{
 }
 
 .work-list .item{
-  border-bottom: 1px solid #00000014;
+  /* border-bottom: 1px solid #00000014; */
 }
 
 .work-list a:nth-child(1){
@@ -1216,7 +1223,6 @@ body.preloader_active .video-wrapper{
 
 .video-container{
   position: relative;
-  margin-top: 1em;
 }
 
 .intro-copy.black{
@@ -1269,11 +1275,11 @@ body.preloader_active .video-wrapper{
 .small-number{
   font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: .7rem;
   line-height: 1.2em;
   letter-spacing: -0.02em;
-  top: -52px;
-  left: 6px;
+  top: -18px;
+  left: 2px;
   position: relative;
 }
 

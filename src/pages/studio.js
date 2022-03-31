@@ -11,7 +11,7 @@ import ArrowWhite from "../assets/arrow-small-white.svg";
 
 const Studio = () => (
   <Layout>
-    <SEO title="Page Contact" />
+    <SEO title="Studio" />
     <Container fluid style={{
             position: 'relative', marginTop: '5em',
           }} className="section-2">
@@ -23,7 +23,7 @@ const Studio = () => (
                 </Col> */}
                 <Col  md={12} lg={6} xl={6} xxl={5}  className="delay-2 copy-block"
                 >
-                  <h3 className="header-3">We help to bring good ideas to life, communicating to the world.
+                  <h3 className="header-3">We work closely with our clients to bring good ideas to life.
 </h3>
                 </Col>
                 </Row>
@@ -36,7 +36,7 @@ const Studio = () => (
                 }}
                 
                 >
-                  <p className="body-copy">We aim to work with clients who are doing good in the world and adding value to people's lives. We use strategic thinking, design and technology to create full stack solutions. </p>
+                  <p className="body-copy">We are a small studio that works across brand strategy, brand identity, website design &#38; development to create complete, well thought out outcomes.</p>
                 </Col>
 
             </Row>
@@ -49,12 +49,26 @@ const Studio = () => (
                   <h3 className="small-body-copy">Capabilities</h3>
                 </Col> */}
                 <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-5 copy-block pb3"
+
               >
-                  <h3 className="header-3">The skills and tools for a digital world</h3>
+                <div 
+                  data-sal="slide-up"
+                  data-sal-delay="100"
+                  data-sal-easing="ease"
+                  data-sal-duration="500"
+                >
+                  <h3 className="header-3">What we do</h3>
+                  </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4}
                
                 >
+                      <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="100"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
                   <ul className="services-list delay-5">
                       <li>Strategy</li>
                       <li>Brand Strategy</li>
@@ -63,9 +77,18 @@ const Studio = () => (
                       <li>Content Strategy</li>
                       <li>Business Model Design</li>
                       </ul>
+                      </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4} >
-                <ul className="services-list delay-5">
+                  <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="200"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
+                <ul className="services-list delay-5"
+      
+                >
                       <li>Design</li>
                       <li>  Creative Direction</li>
                       <li>UX/UI Design</li>
@@ -73,8 +96,15 @@ const Studio = () => (
                       <li>Graphic Design</li>
                       <li>Content Design</li>
                       </ul>
+                      </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4} >
+                <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="300"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
                 <ul className="services-list delay-5">
                       <li>Technology</li>
                       <li>Front-end Development</li>
@@ -82,14 +112,15 @@ const Studio = () => (
                       <li>Content managment systems</li>
 
                       </ul>
+                      </div>
                 </Col>
-                {/* <Col md={12} lg={12} xl={12} xxl={12} >
-                <div className="primary-button"><AniLink
-                          cover  to="/work" bg="#1E1E1E"
-                          direction="left"
-                          duration={1.5}
-                        ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
-                  </Col> */}
+                <Col md={12} lg={12} xl={12} xxl={12} >
+                <div className="primary-button delay-1"><AniLink
+                          to="/contact"
+                          exit={{ length: 0.5 }}
+                          entry={{ delay: 0.5 }}
+                        ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact us</span></AniLink></div>
+                  </Col>
             </Row>
       </Container>
 

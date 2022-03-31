@@ -26,9 +26,22 @@ const DriveChange = () => (
             marginTop: '10rem',
         }} >
           <Col sm={6}>
-          <h2 className="header-1 black copy-delay-1">Drive Change</h2>
+          <h2 className="header-1 black delay-1">Drive Change</h2>
+          <p className="intro-copy black delay-2">
+          Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
+          </p>
           </Col>
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
+          
+          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
+              position: 'relative',
+          }}>
+  
+            <div className="work-page-image-wrapper">
+                <BGIMG7></BGIMG7>
+            </div>
+
+          </Col>
+          <Col xs={12} sm={4} md={4} lg={4} xl={4} xxl={4} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">What we did</p>
               <p className="scope-list">
@@ -42,36 +55,17 @@ const DriveChange = () => (
               </p>
             </div>
           </Col> 
-          <Col xs={6} sm={3} md={3} lg={3} xl={2} xxl={2} >
-            <div className="project-info copy-delay-3">
-              <p className="body small-title">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2021</li>
-                </ul>
-              </p>
+          <Col xs={12} sm={8} md={8} className="pb1">
+            <div className="project-info">
+              <p className="body">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
             </div>
           </Col> 
-          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
-              position: 'relative',
-          }}>
-  
-            <div className="work-page-image-wrapper">
-                <BGIMG7></BGIMG7>
-            </div>
-
-          </Col>
           <Col sm={6} className="delay-1" style={{
               marginBottom: '1rem',
           }}>
           <D2></D2>
           </Col> 
-          <Col sm={6} className="pb1">
-            <div className="project-info">
-              <p className="body">Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.</p>
-              <p className="body text-indent">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
-            </div>
-          </Col> 
+         
           <Col sm={12} className="delay-1" style={{
               marginBottom: '1rem',
           }}>
