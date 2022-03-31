@@ -21,7 +21,7 @@ const Rdp = () => (
         }} >
         <Col sm={6}>
           <h2 className="header-1 black delay-1">RDP</h2>
-            <p className="intro-copy black delay-2">
+            <p className="body black delay-2">
               RDP is an interior design and construction agency in Melbourne. 
             </p>
           </Col>

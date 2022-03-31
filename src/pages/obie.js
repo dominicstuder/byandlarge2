@@ -24,7 +24,7 @@ const Obie = () => (
         <Col sm={6}>
           <h2 className="header-1 black delay-1">Obie</h2>
           <div>
-          <p className="intro-copy black delay-2">
+          <p className="body black delay-2">
             Obie is a personal finance platform that allows people to have clarity over their money, by putting all their information into one place.          </p>
           </div>
           </Col>

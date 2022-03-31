@@ -27,7 +27,7 @@ const DriveChange = () => (
         }} >
           <Col sm={6}>
           <h2 className="header-1 black delay-1">Drive Change</h2>
-          <p className="intro-copy black delay-2">
+          <p className="body black delay-2">
           Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
           </p>
           </Col>

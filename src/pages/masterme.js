@@ -28,7 +28,7 @@ const masterme = () => (
         }} >
           <Col sm={6}>
           <h2 className="header-1 black delay-1">Master Me</h2>
-            <p className="intro-copy black delay-2">
+            <p className="body black delay-2">
               Master Me is a coaching and mentoring course that helps creative professionals to identify and activate purposeful careers and lifestyles that align with their unique strengths and vision.
             </p>
           </Col>

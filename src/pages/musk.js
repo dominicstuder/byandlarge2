@@ -30,7 +30,7 @@ const Musk = () => (
         }} >
           <Col sm={6}>
           <h2 className="header-1 black delay-1">Musk</h2>
-            <p className="intro-copy black delay-2">
+            <p className="body black delay-2">
               Musk is an artist residence, gallery and bed and breakfast in Daylesford, Voctoria. 
               The brand speaks to the art practice of the founder and connection to the land.
             </p>

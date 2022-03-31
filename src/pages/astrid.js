@@ -38,7 +38,7 @@ const Astrid = () => (
           <Col sm={12} md={6}>
           <h2 className="header-1 black delay-1">Astrid</h2>
           <div>
-          <p className="intro-copy black copy-delay-2">
+          <p className="body black copy-delay-2">
           Astrid is a unique, plant-based medicines dispensary in South Yarra, Melbourne. 
           The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
           </p>
