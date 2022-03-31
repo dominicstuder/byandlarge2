@@ -54,9 +54,15 @@ const IndexPage = () => {
                   <div className="video-wrapper delay-2" style={{
                         
                         }}>
+                           <AniLink
+                    to="/work"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >     
                     <video autoPlay loop muted className="background-video">
                             <source src={clip} type='video/mp4' />
                     </video>
+                    </AniLink>
                   </div>
                 </Col>
               </Row>

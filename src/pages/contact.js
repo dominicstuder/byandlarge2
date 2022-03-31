@@ -20,7 +20,7 @@ const Contact = () => (
           <Col sm={6}>
           <h2 className="header-1 black delay-1">Contact</h2>
           <p className="body delay-2" > Get in touch if you would like to talk about a potential project or work opportunities.</p>
-          <p className="body delay-3">mail@byandlarge.studio</p>
+          <p className="body delay-3"><a href="mailto:mail@byandlarge.studio">mail@byandlarge.studio</a></p>
           </Col>
         </Row>
       </Container>
