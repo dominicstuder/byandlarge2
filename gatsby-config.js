@@ -3,6 +3,7 @@ module.exports = {
     title: `By and Large Studio`,
     description: `A strategy, design and technology studio, specialising in transforming brands.`,
     author: `@gatsbyjs`,
+    image: `src/images/share-image.png`,
   },
   plugins: [
    

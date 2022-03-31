@@ -9,7 +9,7 @@ import { Container, Row, Col } from 'react-grid-system';
 
 const Contact = () => (
   <Layout>
-    <SEO title="Page Contact" />
+    <SEO title="Contact" />
     
     <Container fluid>
       <Row justify="start" style={{
