@@ -4,18 +4,15 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
-import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import BGIMG from "../components/backgroundimage1"
-import IMG from "../components/image"
 import D1 from "../components/d1-img"
 import D2 from "../components/d2-img"
 import D3 from "../components/d3-img"
 import D4 from "../components/d4-img"
 import D5 from "../components/d5-img"
-import Image4 from "../components/image4"
-import Image6 from "../components/image6"
 import BGIMG7 from "../components/backgroundimage7"
+import { setConfiguration } from 'react-grid-system';
+setConfiguration({ gutterWidth:'60'});
 
 const DriveChange = () => (
   <Layout>
@@ -23,17 +20,8 @@ const DriveChange = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '10rem',
         }} >
-          <Col sm={6}>
-          <h2 className="header-1 black delay-1">Drive Change</h2>
-          <p className="body black delay-2">
-          Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
-          </p>
-          </Col>
-          
-        
-          <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
+        <Col sm={12} className="delay-3 mt5 pb1" style={{
               position: 'relative',
           }}>
   
@@ -42,8 +30,22 @@ const DriveChange = () => (
             </div>
 
           </Col>
-          <Col xs={12} sm={4} md={4} lg={4} xl={4} xxl={4} >
-            <div className="project-info copy-delay-2">
+          <Col xs={12} sm={12}>
+            <h2 className="header-1 black delay-1">Drive Change</h2>
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+          <p className="body black delay-2">
+          Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
+          </p>
+          </Col>
+        
+          <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+            <div className="project-info">
+              <p className="body">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
+            </div>
+          </Col> 
+          <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+            <div className="project-info">
               <p className="body small-title">What we did</p>
               <p className="scope-list">
                 <ul>
@@ -56,11 +58,11 @@ const DriveChange = () => (
               </p>
             </div>
           </Col> 
-          <Col xs={12} sm={8} md={8} className="pb1">
-            <div className="project-info">
-              <p className="body">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
-            </div>
-          </Col> 
+          </Row>
+          <Row justify="end" style={{
+            marginTop: '3rem',
+        }}>
+
           <Col sm={6} className="delay-1" style={{
               marginBottom: '1rem',
           }}>
@@ -92,7 +94,7 @@ const DriveChange = () => (
         <Col sm={6} className="delay-1"  style={{
                 marginBottom: '1rem',
             }}>
-              
+           
                 <p className="body">
                 <AniLink
                     to="/work"
@@ -102,22 +104,23 @@ const DriveChange = () => (
                   Back to Our Work
                   </AniLink>
                 </p>  
-             
+  
+
         </Col>
         <Col sm={6} className="delay-1" style={{
                 marginBottom: '1rem',
             }}>
-                     
-              <p className="body">
-              <AniLink
-                    to="/musk"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >  
-              Next Project
-              </AniLink>
-              </p>
-          
+           
+                <p className="body">
+                <AniLink
+                      to="/musk"
+                      exit={{ length: 0.5 }}
+                      entry={{ delay: 0.5 }}
+                    >  
+                Next Project
+                </AniLink>
+                </p>
+    
         </Col>
       </Row>
     

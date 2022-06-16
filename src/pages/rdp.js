@@ -9,7 +9,8 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG4 from "../components/backgroundimage4"
 import RDP2 from "../components/rdp2-img"
 import RDP3 from "../components/rdp3-img"
-
+import { setConfiguration } from 'react-grid-system';
+setConfiguration({ gutterWidth:'60'});
 
 const Rdp = () => (
   <Layout>
@@ -17,20 +18,20 @@ const Rdp = () => (
     <Container fluid>
       <Row justify="start" style={{
             position: 'relative',
-            marginTop: '10rem',
+
         }} >
-        <Col sm={6}>
+        {/* <Col sm={6}>
           <h2 className="header-1 black delay-1">RDP</h2>
             <p className="body black delay-2">
               RDP is an interior design and construction agency in Melbourne. 
             </p>
           </Col>
           
-        
+         */}
           <Col sm={12} className="delay-3 pb1 mt5 sm-mt-2" style={{
               position: 'relative',
           }}>
-              <div className="work-page-image-wrapper">
+              <div className="work-page-image-wrapper delay-1">
               <BGIMG4 className="border-50-no-hover"></BGIMG4>
               </div>
           </Col> 

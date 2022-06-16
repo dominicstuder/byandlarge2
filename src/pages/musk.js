@@ -17,24 +17,18 @@ import MU8 from "../components/mu08-img"
 import MU9 from "../components/mu09-img"
 import MU10 from "../components/mu10-img"
 import MU11 from "../components/mu11-img"
-
+import { setConfiguration } from 'react-grid-system';
+setConfiguration({ gutterWidth:'60'});
 
 const Musk = () => (
   <Layout>
     <SEO title="Musk" />
-    <div style={{marginTop:'10em',}}>
+
     <Container fluid>
     <Row justify="start" style={{
             position: 'relative',
-            marginTop: '10rem',
         }} >
-          <Col sm={6}>
-          <h2 className="header-1 black delay-1">Musk</h2>
-            <p className="body black delay-2">
-              Musk is an artist residence, gallery and bed and breakfast in Daylesford, Voctoria. 
-              The brand speaks to the art practice of the founder and connection to the land.
-            </p>
-          </Col>
+
          
           <Col sm={12} className="delay-3 mt5 sm-mt-2 pb1" style={{
               position: 'relative',
@@ -43,6 +37,13 @@ const Musk = () => (
                <IMG className="border-50-no-hover"></IMG>
               </div>
               </Col> 
+              <Col sm={6}  className="pb3">
+                <h2 className="header-1 black delay-1">Musk</h2>
+                  <p className="body black delay-2">
+                    Musk is an artist residence, gallery and bed and breakfast in Daylesford, Voctoria. 
+                    The brand speaks to the art practice of the founder and connection to the land.
+                  </p>
+          </Col>
               {/* <Col xs={12} sm={4} md={4} lg={4} xl={4} xxl={4} >
             <div className="project-info copy-delay-2">
               <p className="body small-title">What we did</p>
@@ -127,7 +128,6 @@ const Musk = () => (
                 </Col>
               </Row>
     </Container>
-    </div>
 
   </Layout>
 )

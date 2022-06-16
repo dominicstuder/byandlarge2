@@ -1,11 +1,7 @@
-// exports.shouldUpdateScroll = () => {
-//     return false;
-//   };
 
-// const transitionDelay = 250
+import React from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
 
-// exports.shouldUpdateScroll = () => false
-
-// exports.onRouteUpdate = () =>
-//   window.setTimeout(() => window.scrollTo(0, 0), transitionDelay)
-
+export const wrapPageElement = ({ element, props }) => {
+  return <ParallaxProvider>{element}</ParallaxProvider>
+};

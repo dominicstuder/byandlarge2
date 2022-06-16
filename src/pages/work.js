@@ -14,81 +14,75 @@ import BGIMG8 from "../components/backgroundimage8"
 import BGIMG2 from "../components/backgroundimage2"
 import BGIMG4 from "../components/backgroundimage4"
 import ArrowWhite from "../assets/arrow-small-white.svg";
+import { setConfiguration } from 'react-grid-system';
+import { Parallax } from "react-scroll-parallax";
+import A17 from "../components/a17-img";
+
+setConfiguration({ gutterWidth:'60'});
 
 const Work = () => (
   <Layout>
     <Seo Title="Work" />
-    <Container fluid>
-        <Row justify="end" style={{
+    <Container fluid style={{
+            position: 'relative', marginTop: '5em',
+          }} className="section-2">
+              {/* <Row style={{paddingTop: '1em',
+                  position: 'relative'
+                }}>
+                <Col  md={12} lg={10} xl={6} xxl={5}  className="delay-2 copy-block"
+                >
+                  <h3 className="intro-copy">Our Work - By and Large develops, designs and delivers
+                        websites and creative campaigns that drive results,
+                        build awareness and win awards. Our work never
+                        brags, but it sure loves to speak for itself.
+                        </h3>
+                </Col>
+              </Row> */}
+        <Row justify="center" style={{
             position: 'relative',
             marginTop: '10rem',
           }}>
-             <Col sm={12} lg={12} xl={8} >
-             <h1  data-sal-duration="500"
-          data-sal="fade"
-          data-sal-easing="ease-in" 
-          className="intro-copy delay-2">Our Work<span className="small-number">6</span></h1>
-              </Col>
-          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-3"
-              data-sal-duration="500"
-              data-sal="slide-up"
-              data-sal-delay="100"
-              data-sal-easing="ease-in"
+          <Col sm={12} lg={6} xl={6} className="delay-1"
+                data-sal-duration="500"
+                data-sal="slide-up"
+                data-sal-delay="500"
+                data-sal-easing="ease-in"
           >
+            <Parallax y={[10, 10]} speed={10}>
               <AniLink
-                 to="/astrid"
-                 exit={{ length: 0.5 }}
-                 entry={{ delay: 0.5 }}
+                to="/astrid"
+                exit={{ length: 0.1 }}
+                entry={{ delay: 0.1 }}
               >
-            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                    data-sal-duration="500"
-                    data-sal="slide-up"
-                    data-sal-delay="100"
-                    data-sal-easing="ease-in"
-            >
-              <BGIMG className="border-50"></BGIMG>
-               
-            </div>
-            </AniLink>
-            <div className="project-wrapper">
-              <div className="title-wrapper"
-                    data-sal-duration="500"
-                    data-sal="slide-up"
-                    data-sal-delay="400"
-                    data-sal-easing="ease-in"
-              >
-                  <h2 className="header-2 hover-link">
-                  <AniLink
-                    to="/astrid"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-                    Astrid</AniLink></h2>
-                    <p className="body black delay-1">
-                    Strategy, brand identity and website for Australia's first female-led, plant-based medicine dispensary.
-                      </p>
-                  <Arrow className="arrow"></Arrow>
-                  </div>
-                  
-              </div>
-
+                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+                    <BGIMG className="border-50"></BGIMG>
+                </div>
+              </AniLink>
+              <div className="project-wrapper">
+                <div className="title-wrapper">
+                      <p className="body black delay-1">
+                      Astrid - Strategy, brand identity and website for Australia's first female-led, plant-based medicine dispensary.
+                        </p>
+                    <Arrow className="arrow"></Arrow>
+                    </div>
+                </div>
+            </Parallax>
           </Col>
-        <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
-            style={{
-              marginTop: '5em',
-            }}
-          >
-            
+          <Col sm={12} lg={4} xl={5}  className="delay-1"
+                data-sal-duration="500"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-in"
+              >
+          <Parallax y={[10, 10]} speed={50}>
+           
             <AniLink
                   to="/masterme"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                        data-sal-duration="500"
-                        data-sal="slide-up"
-                        data-sal-delay="100"
-                        data-sal-easing="ease-in"
+          
            >
             <BGIMG8 className="border-50"></BGIMG8>
                 {/* <div className="work-button"><a target="_blank" href="https://www.masterme.com.au/"><span className="link-text">View website</span></a>
@@ -100,28 +94,31 @@ const Work = () => (
  
                     >
                       <div className="title-wrapper"
-                                         data-sal-duration="500"
-                                         data-sal="slide-up"
-                                         data-sal-delay="100"
-                                         data-sal-easing="ease-in"
-                      >
-                      <h2 className="header-2 hover-link">
                      
-                         Master Me</h2>
+                      >
+                      {/* <h2 className="header-2 hover-link">
+                     
+                         Master Me</h2> */}
                          <p className="body black delay-1">
-                            Branding and website for a coaching course for creative professionals.
+                         Master Me - Branding and website for a coaching course for creative professionals.
                           </p>
                          <Arrow className="arrow"></Arrow>
                       
                       </div>
                 </div>
-          </Col>
+          </Parallax>
+        </Col>
+        </Row>
+        <Row justify="end" >
+        <Col sm={12} lg={4} xl={4}  className="delay-1"
+                        data-sal-duration="500"
+                        data-sal="slide-up"
+                        data-sal-delay="0"
+                        data-sal-easing="ease-in"
         
-          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
-            style={{
-              marginTop: '5em',
-            }}
-          >
+        >
+            <Parallax y={[-1000]} speed={10}>
+
               <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
@@ -129,10 +126,7 @@ const Work = () => (
                   >
            
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                        data-sal-duration="500"
-                        data-sal="slide-up"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-in"
+      
            >
             <BGIMG6 className="border-50"></BGIMG6>
        
@@ -141,36 +135,33 @@ const Work = () => (
                         
             <div className="project-wrapper">
                       <div className="title-wrapper"
-                              data-sal-duration="500"
-                              data-sal="slide-up"
-                              data-sal-delay="400"
-                              data-sal-easing="ease-in"
+         
                       >
-                      <h2 className="header-2 hover-link">
+                      {/* <h2 className="header-2 hover-link">
                       <AniLink
                      to="/obie"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-                         Obie    </AniLink></h2>
+                         Obie    </AniLink></h2> */}
                          <p className="body black delay-1">
-                           Brand identity and website for a new financial tracking platform. 
+                         Obie - Brand identity and website for a new financial tracking platform. 
                         </p>
                         <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
+                </Parallax>
           </Col>
-        
 
-          <Col sm={12} lg={12} xl={8} 
-          className="arrow-hover-wrapper delay-1"
-                    data-sal-duration="500"
-              data-sal="slide-up"
-              data-sal-delay="100"
-              data-sal-easing="ease-in"
-              style={{
-                marginTop: '5em',
-              }}
+
+          <Col sm={12} lg={6} xl={6}   className="delay-1"
+                  data-sal-duration="500"
+                  data-sal="slide-up"
+                  data-sal-delay="0"
+                  data-sal-easing="ease-in"
+          >
+            <Parallax y={[10, 10]} speed={70}
+ 
               >
                 
           <AniLink
@@ -179,10 +170,7 @@ const Work = () => (
                     entry={{ delay: 0.5 }}
                   >
             <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                         data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in"
+
             >
               <BGIMG7 className="border-50"></BGIMG7>
               {/* <div className="work-button"><AniLink
@@ -196,82 +184,81 @@ const Work = () => (
 
             <div className="project-wrapper">
                       <div className="title-wrapper"
-                                   data-sal-duration="500"
-                                   data-sal="slide-up"
-                                   data-sal-delay="400"
-                                   data-sal-easing="ease-in"
+   
                       >
-              <h2 className="header-2 hover-link">
+              {/* <h2 className="header-2 hover-link">
               <AniLink
                     to="/drive-change"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-                Drive Change</AniLink></h2>
+                Drive Change</AniLink></h2> */}
                         <p className="body black delay-1">
-                           Brand identity, website and campaign design for a patient advocacy national campaign. 
+                        Drive Change - Brand identity, website and campaign design for a patient advocacy national campaign. 
                         </p>
               <Arrow className="arrow"></Arrow>
               </div>
  
                 </div>
+              </Parallax>
           </Col>  
-          <Col sm={12} lg={12} xl={8}className="arrow-hover-wrapper delay-1"
-            style={{
-              marginTop: '5em',
-            }}
-            data-sal-duration="500"
-            data-sal="slide-up"
-            data-sal-delay="100"
-            data-sal-easing="ease-in"
-          >
-             <AniLink
-                    to="/musk"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-  
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                        data-sal-duration="500"
-                        data-sal="slide-up"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-in"
-           >
-            <BGIMG2 className="border-50"></BGIMG2>
-            </div>
-            </AniLink>
-                        
-            <div className="project-wrapper"
-                         data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in"
-            
-            >
-                      <div className="title-wrapper">
-                      <h2 className="header-2 hover-link">
-                      <AniLink
-                   to="/musk"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-         
-                         Musk </AniLink></h2>
-                         <p className="body black delay-1">
-                           Brand identity and website for gallery, artist residency and boutique hotel. 
-                        </p>
-                      </div>
+          </Row>
+          <Row justify="start">
+          <Col sm={12} lg={4} xl={5}  className="delay-1"
+                data-sal-duration="500"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-in"
+              >
+          <Parallax y={[10, 10]} speed={30}>
+        
+                <AniLink
+                        to="/musk"
+                        exit={{ length: 0.5 }}
+                        entry={{ delay: 0.5 }}
+                      >
+      
+              <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+                            data-sal-duration="500"
+                            data-sal="slide-up"
+                            data-sal-delay="400"
+                            data-sal-easing="ease-in"
+              >
+                <BGIMG2 className="border-50"></BGIMG2>
                 </div>
+                </AniLink>
+                            
+                <div className="project-wrapper"
+                            data-sal-duration="500"
+                            data-sal="slide-up"
+                            data-sal-delay="400"
+                            data-sal-easing="ease-in"
+                
+                >
+                          <div className="title-wrapper">
+                          {/* <h2 className="header-2 hover-link">
+                          <AniLink
+                      to="/musk"
+                        exit={{ length: 0.5 }}
+                        entry={{ delay: 0.5 }}
+                      >
+            
+                            Musk </AniLink></h2> */}
+                            <p className="body black delay-1">
+                              Musk - Brand identity and website for gallery, artist residency and boutique hotel. 
+                            </p>
+                          </div>
+                    </div>
+                    </Parallax>
           </Col>
-          <Col sm={12} lg={12} xl={8} className="arrow-hover-wrapper delay-1"
-            style={{
-              marginTop: '5em',
-            }}
-            data-sal-duration="500"
-            data-sal="slide-up"
-            data-sal-delay="100"
-            data-sal-easing="ease-in"
-          >
+          <Col sm={12} lg={5} xl={5}  className="delay-1"
+                data-sal-duration="500"
+                data-sal="slide-up"
+                data-sal-delay="0"
+                data-sal-easing="ease-in"
+              >
+            <Parallax y={[10, 10]} speed={10}>
+        
             
             <AniLink
                     to="/rdp"
@@ -295,19 +282,20 @@ const Work = () => (
                          data-sal-easing="ease-in"
             >
                       <div className="title-wrapper">
-                      <h2 className="header-2 hover-link">
+                      {/* <h2 className="header-2 hover-link">
                       <AniLink
                    to="/rdp"
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-                         RDP</AniLink></h2>
+                         </AniLink></h2> */}
                          <p className="body black delay-1">
-                           Brand identity and website design for a design and construction agency in Melbourne.
+                         RDP - Brand identity and website design for a design and construction agency in Melbourne.
                         </p>
                    
                       </div>
                 </div>
+                </Parallax>
           </Col>
         </Row>
       </Container>

@@ -8,7 +8,7 @@ if (typeof window !== `undefined`) {
         body.classList.remove("preloader_active");
         body.classList.remove("preloader_ready");
         body.classList.remove("loaded");
-      }, 7000);
+      }, 1000);
     }
   };
 }

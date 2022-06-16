@@ -27,6 +27,10 @@ import clip from '../assets/feature_7.mp4';
 import astridthumb from '../assets/astrid_thumb.mp4'; 
 import dcthumb from '../assets/dc_thumb2.mp4'; 
 // import Poster from '../assets/bg.png';  
+import { setConfiguration } from 'react-grid-system';
+setConfiguration({ gutterWidth:'60'});
+
+
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -36,17 +40,12 @@ const IndexPage = () => {
       <SEO title="Home" />
 
       <Container fluid className="video-container">
-            <Row justify="between" style={{
-                 marginTop: '10em',
+      <Row justify="middle" style={{
+                 marginTop: '4em',
                 }} className="video-section">
-                   <Col sm={12} md={12} lg={4} xl={4} xxl={4} style={{
-                      position: 'relative',
-              
-                    }}> <h1 
-                    className="intro-copy delay-1">A strategy, design and technology studio, specialising in transforming brands.</h1>
-                      </Col>
-                  <Col md={12} lg={8} xl={8} xxl={8}  style={{
-                    position: 'relative'
+                  <Col md={12} lg={12} xl={12} xxl={6}  style={{
+                    position: 'relative',
+                    marginTop: '5em',
                   }}
                   className="video-container">
           
@@ -61,12 +60,109 @@ const IndexPage = () => {
                   >     
                     <video autoPlay loop muted className="background-video">
                             <source src={clip} type='video/mp4' />
+                            {/* <source src={dcthumb} type='video/mp4' /> */}
                     </video>
                     </AniLink>
                   </div>
-                </Col>
-              </Row>
+      
+                 </Col>
+                </Row>
+                 
+             <Row justify="start" style={{
+                 marginTop: '10em',
+                }} className="video-section">
+                   <Col sm={12} md={6} lg={8} xl={8} xxl={6} style={{
+                      position: 'relative',
+              
+                    }}> <h1 
+                    className="header-3 delay-1 text-indent">By and Large is an independent, multidisciplinary design studio.<br></br>
+                    We create positive impact through creative and considered strategy, design, content creation and use of technology.</h1>
+                      </Col>
+                  </Row>
+                
           </Container>
+          <Container fluid className="section-3">
+              <Row style={{paddingTop: '1em',
+                  position: 'relative'
+                }}>
+                {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-4">
+                  <h3 className="small-body-copy">Capabilities</h3>
+                </Col> */}
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-5 copy-block pb3"
+
+              >
+                <div 
+                  data-sal="slide-up"
+                  data-sal-delay="100"
+                  data-sal-easing="ease"
+                  data-sal-duration="500"
+                >
+                  <h3 className="header-3">What we do</h3>
+                  </div>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4}
+               
+                >
+                      <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="100"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
+                  <ul className="services-list delay-5">
+                      <li>Strategy</li>
+                      <li>Brand Strategy</li>
+                      <li>UX Strategy</li>
+                      <li>Information Architecture</li>
+                      <li>Content Strategy</li>
+                      <li>Business Model Design</li>
+                      </ul>
+                      </div>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4} >
+                  <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="200"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
+                <ul className="services-list delay-5"
+      
+                >
+                      <li>Design</li>
+                      <li>Creative Direction</li>
+                      <li>UX/UI Design</li>
+                      <li>Prototyping</li>
+                      <li>Graphic Design</li>
+                      <li>Content Design</li>
+                      </ul>
+                      </div>
+                </Col>
+                <Col md={12} lg={4} xl={4} xxl={4} >
+                <div                   
+                      data-sal="slide-up"
+                        data-sal-delay="300"
+                        data-sal-easing="ease"
+                        data-sal-duration="500"
+                        >
+                <ul className="services-list delay-5">
+                      <li>Technology</li>
+                      <li>Front-end Development</li>
+                      <li>Ecommerce</li>
+                      <li>Content management systems</li>
+
+                      </ul>
+                      </div>
+                </Col>
+                <Col md={12} lg={12} xl={12} xxl={12} >
+                <div className="primary-button delay-1"><AniLink
+                          to="/contact"
+                          exit={{ length: 0.5 }}
+                          entry={{ delay: 0.5 }}
+                        ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact us</span></AniLink></div>
+                  </Col>
+            </Row>
+      </Container>
       {/* <Container fluid>
         <Row justify="between" style={{
             position: 'relative',
@@ -263,8 +359,8 @@ const IndexPage = () => {
               </div>
           </Col>
           </Row>
-        </Container>
-   */}
+        </Container> */}
+
     </Layout>
   )
 }
