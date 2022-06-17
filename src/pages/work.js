@@ -48,7 +48,7 @@ const Work = () => (
                 data-sal-delay="500"
                 data-sal-easing="ease-in"
           >
-            <Parallax y={[10, 10]} speed={10}>
+           <Parallax y={[0, -50]}>
               <AniLink
                 to="/astrid"
                 exit={{ length: 0.1 }}
@@ -74,8 +74,8 @@ const Work = () => (
                 data-sal-delay="0"
                 data-sal-easing="ease-in"
               >
-          <Parallax y={[10, 10]} speed={50}>
-           
+
+            <Parallax y={[0, -30]}>
             <AniLink
                   to="/masterme"
                     exit={{ length: 0.5 }}
@@ -89,7 +89,7 @@ const Work = () => (
                     </div> */}
             </div>
             </AniLink>
-                        
+                
             <div className="project-wrapper"                 
  
                     >
@@ -106,7 +106,7 @@ const Work = () => (
                       
                       </div>
                 </div>
-          </Parallax>
+          </Parallax>    
         </Col>
         </Row>
         <Row justify="end" >
@@ -117,8 +117,8 @@ const Work = () => (
                         data-sal-easing="ease-in"
         
         >
-            <Parallax y={[-1000]} speed={10}>
-
+       
+       <Parallax y={[0, -50]}>
               <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
@@ -150,7 +150,7 @@ const Work = () => (
                         <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
-                </Parallax>
+     </Parallax>
           </Col>
 
 
@@ -160,9 +160,7 @@ const Work = () => (
                   data-sal-delay="0"
                   data-sal-easing="ease-in"
           >
-            <Parallax y={[10, 10]} speed={70}
- 
-              >
+ <Parallax y={[0, -20]}>
                 
           <AniLink
                     to="/drive-change"
@@ -200,7 +198,7 @@ const Work = () => (
               </div>
  
                 </div>
-              </Parallax>
+  </Parallax>
           </Col>  
           </Row>
           <Row justify="start">
@@ -210,7 +208,7 @@ const Work = () => (
                 data-sal-delay="0"
                 data-sal-easing="ease-in"
               >
-          <Parallax y={[10, 10]} speed={30}>
+        <Parallax y={[0, -50]}>
         
                 <AniLink
                         to="/musk"
@@ -257,9 +255,7 @@ const Work = () => (
                 data-sal-delay="0"
                 data-sal-easing="ease-in"
               >
-            <Parallax y={[10, 10]} speed={10}>
-        
-            
+   <Parallax y={[0, -50]}>
             <AniLink
                     to="/rdp"
                     exit={{ length: 0.5 }}

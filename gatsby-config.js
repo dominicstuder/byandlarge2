@@ -6,7 +6,6 @@ module.exports = {
     image: `src/images/share-image.png`,
   },
   plugins: [
-   
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-react-router-scroll`,
