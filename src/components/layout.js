@@ -10,8 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from 'react-grid-system';
 import Header from "./header"
-import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./layout.css"
 import Arrow from "../assets/arrow.svg";
 // import { ParallaxProvider } from 'react-scroll-parallax';
@@ -99,7 +97,7 @@ const Layout = ({ children }) => {
             <Col xs={6} md={3}><div style={{
             
           }}className="small-copy">
-             <a target="_blank" href="https://www.instagram.com/studiobyandlarge/">
+             <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studiobyandlarge/">
                 Instagram 
               </a>
               <Arrow className="arrow"></Arrow>

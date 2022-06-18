@@ -3,20 +3,18 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Container, Row, Col } from 'react-grid-system';
-import Arrow from "../assets/arrow.svg";
+import { Container, Row, Col } from 'react-grid-system'
+import Arrow from "../assets/arrow.svg"
 import BGIMG from "../components/backgroundimage1"
-import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG6 from "../components/backgroundimage6"
 import BGIMG7 from "../components/backgroundimage7"
 import BGIMG8 from "../components/backgroundimage8"
 import BGIMG2 from "../components/backgroundimage2"
 import BGIMG4 from "../components/backgroundimage4"
-import ArrowWhite from "../assets/arrow-small-white.svg";
-import { setConfiguration } from 'react-grid-system';
+import BGIMG10 from "../components/backgroundimage10"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
-import A17 from "../components/a17-img";
 
 setConfiguration({ gutterWidth:'60'});
 
@@ -26,18 +24,6 @@ const Work = () => (
     <Container fluid style={{
             position: 'relative', marginTop: '5em',
           }} className="section-2">
-              {/* <Row style={{paddingTop: '1em',
-                  position: 'relative'
-                }}>
-                <Col  md={12} lg={10} xl={6} xxl={5}  className="delay-2 copy-block"
-                >
-                  <h3 className="intro-copy">Our Work - By and Large develops, designs and delivers
-                        websites and creative campaigns that drive results,
-                        build awareness and win awards. Our work never
-                        brags, but it sure loves to speak for itself.
-                        </h3>
-                </Col>
-              </Row> */}
         <Row justify="center" style={{
             position: 'relative',
             marginTop: '10rem',
@@ -81,12 +67,9 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-          
-           >
-            <BGIMG8 className="border-50"></BGIMG8>
-                {/* <div className="work-button"><a target="_blank" href="https://www.masterme.com.au/"><span className="link-text">View website</span></a>
-                    </div> */}
+           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+        
+            <BGIMG10 className="border-50"></BGIMG10>
             </div>
             </AniLink>
                 
@@ -125,9 +108,7 @@ const Work = () => (
                   entry={{ delay: 0.5 }}
                   >
            
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-      
-           >
+           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
             <BGIMG6 className="border-50"></BGIMG6>
        
             </div>
@@ -181,9 +162,7 @@ const Work = () => (
             </AniLink>
 
             <div className="project-wrapper">
-                      <div className="title-wrapper"
-   
-                      >
+                      <div className="title-wrapper">
               {/* <h2 className="header-2 hover-link">
               <AniLink
                     to="/drive-change"
@@ -234,14 +213,6 @@ const Work = () => (
                 
                 >
                           <div className="title-wrapper">
-                          {/* <h2 className="header-2 hover-link">
-                          <AniLink
-                      to="/musk"
-                        exit={{ length: 0.5 }}
-                        entry={{ delay: 0.5 }}
-                      >
-            
-                            Musk </AniLink></h2> */}
                             <p className="body black delay-1">
                               Musk - Brand identity and website for gallery, artist residency and boutique hotel. 
                             </p>
@@ -278,13 +249,7 @@ const Work = () => (
                          data-sal-easing="ease-in"
             >
                       <div className="title-wrapper">
-                      {/* <h2 className="header-2 hover-link">
-                      <AniLink
-                   to="/rdp"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-                         </AniLink></h2> */}
+                     
                          <p className="body black delay-1">
                          RDP - Brand identity and website design for a design and construction agency in Melbourne.
                         </p>

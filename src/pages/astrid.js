@@ -4,12 +4,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
-import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG from "../components/backgroundimage1"
-import IMG from "../components/image"
-import A1 from "../components/a1-img"
-import A2 from "../components/a2-img"
 import A3 from "../components/a3-img"
 import A4 from "../components/a4-img"
 import A5 from "../components/a5-img"
@@ -21,8 +17,6 @@ import A10 from "../components/a10-img";
 import A11 from "../components/a11-img";
 import A12 from "../components/a12-img";
 import A13 from "../components/a13-img";
-import A14 from "../components/a14-img";
-import A15 from "../components/a15-img";
 import A16 from "../components/a16-img";
 import A17 from "../components/a17-img";
 import { setConfiguration } from 'react-grid-system';

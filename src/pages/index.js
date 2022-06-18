@@ -1,38 +1,20 @@
 import React, { useState, useEffect} from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Waypoint } from 'react-waypoint';
-import BGIMG from "../components/backgroundimage1"
-import BGIMG2 from "../components/backgroundimage2"
-import BGIMG3 from "../components/backgroundimage3"
-import BGIMG4 from "../components/backgroundimage4"
-import BGIMG5 from "../components/backgroundimage5"
-import BGIMG6 from "../components/backgroundimage6"
-import BGIMG7 from "../components/backgroundimage7"
-import IMG4 from "../components/image4"
-// import IMG5 from "../components/image5"
-// import IMG6 from "../components/image6"
-
 import { Container, Row, Col } from 'react-grid-system';
 import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
-// import styled from 'styled-components';
-import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-// import posed from 'react-pose';
 import clip from '../assets/feature_7.mp4'; 
 import astridthumb from '../assets/astrid_thumb.mp4'; 
 import dcthumb from '../assets/dc_thumb2.mp4'; 
-// import Poster from '../assets/bg.png';  
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'60'});
 
 
 const IndexPage = () => {
-  const [open, setOpen] = useState(false);
   return (
     <Layout style={{
       backgroundColor: '#F2E4CC',

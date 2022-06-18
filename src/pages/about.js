@@ -3,12 +3,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import TransitionLink from "gatsby-plugin-transition-link"
-// import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const About = () => (
   <Layout>
-    <SEO title="Work" />
+    <SEO title="work" />
     <h1>About</h1>
     {/* <AniLink fade to="/">Home Page</AniLink> */}
   </Layout>
