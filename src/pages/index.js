@@ -50,10 +50,10 @@ const IndexPage = () => {
                  </Col>
                 </Row>
                  
-             <Row justify="center" style={{
+             <Row justify="start" style={{
                  marginTop: '10em',
                 }} className="home-page-intro">
-                  <Col sm={12} lg={4} xl={4} xxl={4} className="body">ABOUT</Col>
+                  <Col sm={12} lg={4} xl={4} xxl={4} className="body">About us</Col>
                    <Col sm={12} md={6} lg={8} xl={8} xxl={6} style={{
                       position: 'relative',
               
@@ -119,7 +119,7 @@ const IndexPage = () => {
                   data-sal-easing="ease"
                   data-sal-duration="500"
                 >
-                  <h3 className="body">WHAT WE DO</h3>
+                  <h3 className="body">What we do</h3>
                   </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4}
