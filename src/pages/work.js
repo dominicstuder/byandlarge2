@@ -119,7 +119,7 @@ const Work = () => (
        
         </Col>
         </Row>
-        <Row justify="center" >
+        {/* <Row justify="center" >
         <Col sm={12} lg={5} xl={5}  className="delay-1"
         
         >
@@ -158,7 +158,7 @@ const Work = () => (
         </div>
      </Parallax>
           </Col>
-          </Row>
+          </Row> */}
           <Row justify="end" >
         <Col sm={12} lg={5} xl={5}  className="delay-1"
                         data-sal-duration="500"
