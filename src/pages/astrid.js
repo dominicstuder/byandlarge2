@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import BGIMG from "../components/backgroundimage1"
+import BGIMG10 from "../components/backgroundimage10"
 import A3 from "../components/a3-img"
 import A4 from "../components/a4-img"
 import A5 from "../components/a5-img"
@@ -25,7 +25,7 @@ setConfiguration({ gutterWidth:'60'});
 const Astrid = () => (
   <Layout>
     <SEO title="Astrid" />
-    <Container fluid>
+    <Container fluid className="project">
       <Row justify="start" style={{
             position: 'relative',
         }} 
@@ -33,72 +33,45 @@ const Astrid = () => (
           <Col sm={12} className="delay-3 mt5 pb1" style={{
               position: 'relative',
           }}>
-              {/* <h2 className="header-1 black delay-1">Astrid</h2> */}
+     
              <div className="work-page-image-wrapper" 
                   data-sal-duration="500"
                     data-sal="slide-up"
                     data-sal-delay="400"
                     data-sal-easing="ease-in" >
-              <BGIMG className="border-50-no-hover"></BGIMG>
+              <BGIMG10 className="border-50-no-hover"></BGIMG10>
             </div>
             </Col>
-            <Col sm={12}>
-              <h2 className="header-1 black delay-1">Astrid</h2>
+          </Row>
+          <Row className="pt2">
+            <Col xs={12} sm={6}>
+              <h2 className="header-1 black delay-1">Astrid Dispensary</h2>
             </Col>
-            <Col sm={12} md={6} lg={4}>
-
-          
-          <p className="body black copy-delay-2 text-indent">
-          Astrid is a unique, plant-based medicines dispensary in South Yarra, Melbourne. 
-          The team at Astrid focus on providing a high level of care to their patients and empowering them through education and advocacy. 
-          </p>
-      
-          </Col>
-          {/* <Col xs={6} sm={3} md={3} lg={3} xl={3} xxl={3} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">Industry</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Health Care</li>
-                  <li>Medical Cannabis</li>
-                </ul>
+            <Col xs={12} sm={6}>
+              <h2 className="header-1 black project-date delay-1">2021</h2>
+            </Col>
+            </Row>
+            <Row className="pt2">
+            <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
+            <p className="hero-sentence black delay-2">
+            Astrid is a unique, plant-based medicines dispensary in South Yarra, Melbourne.</p>
+            </Col>
+            </Row>
+            <Row  className="pt6">
+            <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+            <div className="project-info">
+             <p className="body black text-indent delay-1">
+              We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
+              We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
               </p>
-              <p className="body small-title">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2021</li>
-                </ul>
+              <p className="body black text-indent delay-1 mb3">
+              From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
               </p>
             </div>
-          </Col>  */}
-          {/* <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={3} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">WHAT WE DID</p>
-              <p className="scope-list">
-                <ul>
-                  <li>Strategy</li>
-                  <li>Visual Identity</li>
-                  <li>Digital Design</li>
-                  <li>Website Development</li>
-                  <li>E-commerce</li>
-                  <li>Packaging and print</li>
-                  <li>Signage</li>
-                </ul>
-              </p>
-            </div>
-          </Col>  */}
-            <Col sm={12} md={6} lg={4}>
-          <p className="body black text-indent delay-1">
-          We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
-          We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
-          </p>
-          <p className="body black text-indent delay-1 mb3">
-          From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
-          </p>
-          </Col>
+          </Col> 
           <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
-            <div className="project-info copy-delay-2">
-              <p className="body small-title">WHAT WE DID</p>
+            <div className="project-info">
+              <p className="body small-title">What we did</p>
               <p className="scope-list">
                 <ul>
                   <li>Strategy</li>
@@ -112,16 +85,6 @@ const Astrid = () => (
               </p>
             </div>
           </Col> 
-          {/* <Col sm={2}>
-            <div className="project-info copy-delay-3">
-              <p className="body small-title">Year</p>
-              <p className="scope-list">
-                <ul>
-                  <li>2021</li>
-                </ul>
-              </p>
-            </div>
-          </Col>  */}
           </Row>
           <Row justify="end" style={{
             marginTop: '3rem',

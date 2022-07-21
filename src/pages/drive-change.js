@@ -16,8 +16,8 @@ setConfiguration({ gutterWidth:'60'});
 
 const DriveChange = () => (
   <Layout>
-    <SEO title="Drive Change" />
-    <Container fluid>
+    <SEO title="Drive Change"/>
+    <Container fluid className="project">
       <Row justify="start" style={{
             position: 'relative',
         }} >
@@ -30,17 +30,28 @@ const DriveChange = () => (
             </div>
 
           </Col>
-          <Col xs={12} sm={12}>
-            <h2 className="header-1 black delay-1">Drive Change</h2>
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
-          <p className="body black delay-2">
-          Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
-          </p>
-          </Col>
-        
-          <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+          </Row>
+          <Row className="pt2">
+            <Col xs={12} sm={6}>
+              <h2 className="header-1 black delay-1">Drive Change</h2>
+            </Col>
+            <Col xs={12} sm={6}>
+              <h2 className="header-1 black project-date delay-1">2021</h2>
+            </Col>
+            </Row>
+            <Row className="pt2">
+            <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
+            <p className="hero-sentence black delay-2">
+              A national movement to change outdated laws.</p>
+            </Col>
+            </Row>
+            <Row  className="pt6">
+            <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
             <div className="project-info">
+            <p className="body black delay-2">
+            Drive Change is a campaign formed by a collective of some of Australia’s leaders in the cannabis industry. The campaign's goal is to gather support to help change the current laws that are restricting patients' ability to use medicinal cannabis.
+            </p>
+         
               <p className="body">We helped by creating the Drive Change brand, campaign design and digital assets. The visual direction needed to build a sense of community while being forward looking and challenging current perceptions of what a cannabis campaign can be.</p>
             </div>
           </Col> 
@@ -62,17 +73,15 @@ const DriveChange = () => (
           <Row justify="end" style={{
             marginTop: '3rem',
         }}>
-
-          <Col sm={6} className="delay-1" style={{
-              marginBottom: '1rem',
-          }}>
-          <D2></D2>
-          </Col> 
-         
           <Col sm={12} className="delay-1" style={{
               marginBottom: '1rem',
           }}>
           <D3></D3>
+          </Col> 
+          <Col sm={12} className="delay-1" style={{
+              marginBottom: '1rem',
+          }}>
+          <D2></D2>
           </Col> 
           <Col sm={12} className="delay-1" style={{
               marginBottom: '1rem',

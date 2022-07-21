@@ -7,7 +7,7 @@ const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "mm_11.jpg" }) {
+        desktop: file(relativePath: { eq: "mm_12.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 3020) {
               ...GatsbyImageSharpFluid_withWebp

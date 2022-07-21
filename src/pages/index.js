@@ -22,10 +22,10 @@ const IndexPage = () => {
       <SEO title="Home" />
 
       <Container fluid className="video-container">
-      <Row justify="middle" style={{
+      <Row justify="start" style={{
                  marginTop: '4em',
                 }} className="video-section">
-                  <Col md={12} lg={12} xl={12} xxl={6}  style={{
+                  <Col md={12} lg={8} xl={8} xxl={6}  style={{
                     position: 'relative',
                     marginTop: '5em',
                   }}
@@ -50,15 +50,55 @@ const IndexPage = () => {
                  </Col>
                 </Row>
                  
-             <Row justify="start" style={{
+             <Row justify="center" style={{
                  marginTop: '10em',
-                }} className="video-section">
+                }} className="home-page-intro">
+                  <Col sm={12} lg={4} xl={4} xxl={4} className="body">ABOUT</Col>
                    <Col sm={12} md={6} lg={8} xl={8} xxl={6} style={{
                       position: 'relative',
               
                     }}> <h1 
-                    className="header-3 delay-1 text-indent">By and Large is an independent, multidisciplinary design studio.<br></br>
-                    We create positive impact through creative and considered strategy, design, content creation and use of technology.</h1>
+                    className="body delay-1"><div       
+                    data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">By and Large is an independent,
+                   multidisciplinary</div> 
+                   <div   data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">design studio. We create positive impact</div> 
+                     <div   data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">through creative and considered strategy,</div>
+                     <div   data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">
+                     design, content creation and use
+                    </div>
+                    <div   data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">
+                    of technology.
+                    </div>
+                    </h1>
+                    <h1 
+                    className="body delay-1"><div       
+                    data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    className="mt1 text-indent"
+                    >    Currently based in Newcastle, NSW. We work </div>
+                   <div   data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease"
+                    data-sal-duration="500">with clients around Australia and beyond.</div> 
+                  
+                    </h1>
                       </Col>
                   </Row>
                 
@@ -79,7 +119,7 @@ const IndexPage = () => {
                   data-sal-easing="ease"
                   data-sal-duration="500"
                 >
-                  <h3 className="header-3">What we do</h3>
+                  <h3 className="body">WHAT WE DO</h3>
                   </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4}
@@ -137,7 +177,7 @@ const IndexPage = () => {
                       </div>
                 </Col>
                 <Col md={12} lg={12} xl={12} xxl={12} >
-                <div className="primary-button delay-1"><AniLink
+                <div className="primary-button delay-1 mt5"><AniLink
                           to="/contact"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
@@ -292,6 +332,33 @@ const IndexPage = () => {
                           </div>
                      </div>
                   </AniLink>
+                  <AniLink
+                    to="/drive-change"
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  >     
+                    <div 
+                    data-sal="slide-up"
+                    data-sal-delay="200"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    >   
+                          <div className="item delay-2">
+                          <div className="video-wrapper-small" style={{
+                                
+                              }}>
+                            <video autoPlay loop muted className="background-video">
+                                    <source src={dcthumb} type='video/mp4' />
+                            </video>
+                          </div>
+                            <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
+                              position: 'relative'
+                              }}>
+                          <div className="inner">Great Forest Trail Marathon<Arrow className="arrow"></Arrow></div>
+                          </Col>
+                          </div>
+                     </div>
+                  </AniLink>
               
                   </Row>         
                   </div>
@@ -302,7 +369,7 @@ const IndexPage = () => {
                     data-sal-duration="500"
                     >   
                   <Col md={12} lg={12} xl={12} xxl={12} >
-                <div className="primary-button delay-1"><AniLink
+                <div className="primary-button delay-1 mt5"><AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
