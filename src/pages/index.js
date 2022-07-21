@@ -40,10 +40,10 @@ const IndexPage = () => {
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >     
-                    <video autoPlay loop muted className="background-video">
+                    {/* <video autoPlay loop muted className="background-video">
                             <source src={clip} type='video/mp4' />
-                            {/* <source src={dcthumb} type='video/mp4' /> */}
-                    </video>
+                    
+                    </video> */}
                     </AniLink>
                   </div>
       
