@@ -8,8 +8,8 @@ import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 // import clip from '../assets/feature_7.mp4'; 
-import astridthumb from '../assets/astrid_thumb.mp4'; 
-import dcthumb from '../assets/dc_thumb2.mp4'; 
+// import astridthumb from '../assets/astrid_thumb.mp4'; 
+// import dcthumb from '../assets/dc_thumb2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'60'});
 
@@ -291,9 +291,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            <video autoPlay loop muted className="background-video">
+                            {/* <video autoPlay loop muted className="background-video">
                                     <source src={astridthumb} type='video/mp4' />
-                            </video>
+                            </video> */}
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'
@@ -320,9 +320,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            <video autoPlay loop muted className="background-video">
+                            {/* <video autoPlay loop muted className="background-video">
                                     <source src={dcthumb} type='video/mp4' />
-                            </video>
+                            </video> */}
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'
@@ -347,9 +347,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            <video autoPlay loop muted className="background-video">
+                            {/* <video autoPlay loop muted className="background-video">
                                     <source src={dcthumb} type='video/mp4' />
-                            </video>
+                            </video> */}
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'
