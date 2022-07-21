@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import clip from '../assets/feature_7.mp4'; 
+// import clip from '../assets/feature_7.mp4'; 
 import astridthumb from '../assets/astrid_thumb.mp4'; 
 import dcthumb from '../assets/dc_thumb2.mp4'; 
 import { setConfiguration } from 'react-grid-system';

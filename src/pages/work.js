@@ -12,7 +12,7 @@ import BGIMG7 from "../components/backgroundimage7"
 import BGIMG2 from "../components/backgroundimage2"
 import BGIMG4 from "../components/backgroundimage4"
 import BGIMG10 from "../components/backgroundimage10"
-import GFTMHERO from "../components/gftmhero-img"
+// import GFTMHERO from "../components/gftmhero-img"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
